@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option 1 — Dark Canvas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  /* === OPTION 1: DARK CANVAS ===
+     Mood: Painterly, dramatic, faithful to the game's dark fantasy art.
+     Palette: Near-black with warm gold accents, aged parchment text.
+     Typography: Cormorant Garamond serif headings + Inter body.
+     Texture: Subtle grain overlay, gradient rules, brushstroke progress bars.
+  */
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:          #0c0a13;
+    --surface:     #16121f;
+    --surface-2:   #201a2d;
+    --surface-3:   #2a2340;
+    --gold:        #c9a96e;
+    --gold-dim:    #7a6140;
+    --violet:      #7b5ea7;
+    --text-1:      #f0e6d0;
+    --text-2:      #9b8fa8;
+    --text-3:      #5c5368;
+    --green:       #5a9e6f;
+    --blue:        #5b8db8;
+    --amber:       #d4824a;
+    --radius:      6px;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+    /* Subtle grain texture */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  }
+
+  /* ── HEADER ── */
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(180deg, #0c0a13 0%, rgba(12,10,19,0.95) 100%);
+    border-bottom: 1px solid var(--gold-dim);
+    padding: 0 16px;
+  }
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+  }
+  .app-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--gold);
+  }
+  .app-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--text-3);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .header-icons {
+    display: flex;
+    gap: 4px;
+  }
+  .icon-btn {
+    width: 36px; height: 36px;
+    border-radius: var(--radius);
+    border: 1px solid var(--gold-dim);
+    background: var(--surface-2);
+    color: var(--text-1);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; font-size: 16px;
+  }
+  .header-progress {
+    padding: 6px 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .overall-bar-track {
+    flex: 1;
+    height: 3px;
+    background: var(--surface-3);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .overall-bar-fill {
+    height: 100%;
+    width: 31%;
+    background: linear-gradient(90deg, var(--violet), var(--gold));
+    border-radius: 2px;
+  }
+  .overall-pct {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+    min-width: 36px;
+    text-align: right;
+  }
+
+  /* ── SCROLL AREA ── */
+  .scroll { max-width: 430px; margin: 0 auto; padding: 20px 16px 80px; }
+
+  /* ── OPTION LABEL ── */
+  .option-label {
+    background: var(--surface-2);
+    border: 1px solid var(--violet);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    margin-bottom: 24px;
+    font-size: 12px;
+    color: var(--text-2);
+  }
+  .option-label strong { color: var(--gold); font-size: 14px; display: block; margin-bottom: 4px; }
+
+  /* ── CATEGORY SECTION ── */
+  .category-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .category-rule-left {
+    width: 24px; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-dim));
+  }
+  .category-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--gold);
+    white-space: nowrap;
+  }
+  .category-rule-right {
+    flex: 1; height: 1px;
+    background: linear-gradient(90deg, var(--gold-dim), transparent);
+  }
+  .category-count {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+  }
+  .progress-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  .progress-track {
+    flex: 1; height: 5px;
+    background: var(--surface-3);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  .progress-fill {
+    height: 100%;
+    width: 18%;
+    background: linear-gradient(90deg, var(--violet) 0%, var(--gold) 100%);
+    border-radius: 3px;
+    position: relative;
+  }
+  /* Brushstroke effect on progress fill */
+  .progress-fill::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.15) 0%, transparent 60%);
+    border-radius: 3px;
+  }
+  .progress-pct {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    min-width: 34px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── CHECKLIST ITEMS ── */
+  .item {
+    background: var(--surface);
+    border: 1px solid #4a3a6a;
+    border-radius: var(--radius);
+    margin-bottom: 6px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .item.expanded { border-color: var(--violet); }
+
+  .item-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    min-height: 44px;
+  }
+
+  /* Toggle / checkbox */
+  .toggle {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid var(--text-3);
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px;
+  }
+  .toggle.collected { border-color: var(--green); background: rgba(90,158,111,0.15); color: var(--green); }
+  .toggle.lumina    { border-color: var(--blue);  background: rgba(91,141,184,0.15); color: var(--blue); }
+  /* Picto 3-state: show both states */
+  .toggle-group { display: flex; gap: 4px; flex-shrink: 0; }
+
+  .item-info { flex: 1; min-width: 0; }
+  .item-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .item-location {
+    font-size: 11px;
+    color: var(--text-2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 1px;
+  }
+  .item-badges {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  .badge {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .badge-miss  { background: rgba(212,130,74,0.2); color: var(--amber); border: 1px solid rgba(212,130,74,0.3); }
+  .badge-act   { background: rgba(212,130,74,0.2); color: var(--amber); border: 1px solid rgba(212,130,74,0.3); }
+  .btn-link {
+    width: 28px; height: 28px;
+    border-radius: var(--radius);
+    border: 1px solid var(--gold-dim);
+    background: transparent;
+    color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px;
+    flex-shrink: 0;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .expand-arrow {
+    font-size: 10px;
+    color: var(--text-3);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+  .item.expanded .expand-arrow { transform: rotate(180deg); }
+
+  /* Expanded card */
+  .item-detail {
+    display: none;
+    padding: 0 12px 14px;
+    border-top: 1px solid var(--surface-3);
+    margin-top: 0;
+  }
+  .item.expanded .item-detail { display: block; }
+  .detail-sep { height: 1px; background: var(--surface-3); margin: 10px 0; }
+  .detail-label { font-size: 10px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 3px; }
+  .detail-value { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+  .detail-value.highlight { color: var(--text-1); }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  .detail-rewards { margin-top: 10px; }
+  .reward-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--surface-2);
+    border: 1px solid var(--surface-3);
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-size: 11px;
+    color: var(--text-2);
+    margin: 3px 3px 0 0;
+  }
+  .reward-dot { width: 6px; height: 6px; border-radius: 50%; }
+  .reward-dot.collected { background: var(--green); }
+  .reward-dot.missing   { background: var(--text-3); }
+
+  .btn-ign {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+    padding: 7px 14px;
+    border-radius: var(--radius);
+    border: 1px solid var(--gold);
+    background: rgba(201,169,110,0.08);
+    color: var(--gold);
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  /* Missable warning */
+  .miss-warning {
+    background: rgba(212,130,74,0.1);
+    border: 1px solid rgba(212,130,74,0.25);
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 11px;
+    color: var(--amber);
+    margin-top: 10px;
+  }
+
+  /* ── SECOND CATEGORY (Pictos, showing 3-state) ── */
+  .section-gap { height: 32px; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-top">
+    <div>
+      <div class="app-title">Clair Obscur</div>
+      <div class="app-subtitle">Expedition 33 · Tracker</div>
+    </div>
+    <div class="header-icons">
+      <button class="icon-btn" title="Categories">⊞</button>
+      <button class="icon-btn" title="Filter">⚙</button>
+      <button class="icon-btn" title="Export">↓</button>
+    </div>
+  </div>
+  <div class="header-progress">
+    <div class="overall-bar-track"><div class="overall-bar-fill"></div></div>
+    <div class="overall-pct">31%</div>
+  </div>
+</header>
+
+<div class="scroll">
+
+  <!-- OPTION LABEL -->
+  <div class="option-label">
+    <strong>Option 1 — Dark Canvas</strong>
+    Painterly · Dramatic · Most faithful to the game's art direction. Serif headings, warm gold accents, grain texture, brushstroke progress bars. Feels like the game itself.
+  </div>
+
+  <!-- CATEGORY: Optional Bosses -->
+  <div class="category-header">
+    <div class="category-rule-left"></div>
+    <div class="category-title">Optional Bosses</div>
+    <div class="category-rule-right"></div>
+    <div class="category-count">8 / 48</div>
+  </div>
+  <div class="progress-row">
+    <div class="progress-track"><div class="progress-fill" style="width:18%"></div></div>
+    <div class="progress-pct">18%</div>
+  </div>
+
+  <!-- Item: collapsed, not completed -->
+  <div class="item" onclick="this.classList.toggle('expanded')">
+    <div class="item-row">
+      <div class="toggle">○</div>
+      <div class="item-info">
+        <div class="item-name">Grosse Tete</div>
+        <div class="item-location">The Continent</div>
+      </div>
+      <div class="item-badges">
+        <span class="badge badge-miss">⚠ Missable</span>
+      </div>
+      <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN Walkthrough">↗</a>
+      <div class="expand-arrow">▾</div>
+    </div>
+    <div class="item-detail">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-label">Location</div>
+          <div class="detail-value highlight">The Continent</div>
+        </div>
+        <div>
+          <div class="detail-label">Act</div>
+          <div class="detail-value highlight">Act 2–3</div>
+        </div>
+      </div>
+      <div class="detail-sep"></div>
+      <div class="detail-label">How to Find</div>
+      <div class="detail-value">Found near Coastal Cave / Flying Manor. Known for relentless slam attacks. Approach from the southeast path.</div>
+      <div class="detail-rewards">
+        <div class="detail-label">Rewards</div>
+        <span class="reward-item"><span class="reward-dot missing"></span>Warming Up Picto</span>
+        <span class="reward-item"><span class="reward-dot missing"></span>Resplendent Chroma Catalyst</span>
+      </div>
+      <div class="miss-warning">⚠ Missable — cannot be fought after leaving this area permanently.</div>
+      <a class="btn-ign" href="#" onclick="event.stopPropagation()">↗ IGN Walkthrough</a>
+    </div>
+  </div>
+
+  <!-- Item: collapsed, completed -->
+  <div class="item" onclick="this.classList.toggle('expanded')">
+    <div class="item-row">
+      <div class="toggle collected">✓</div>
+      <div class="item-info">
+        <div class="item-name">Chromatic Lancelier</div>
+        <div class="item-location">Spring Meadows</div>
+      </div>
+      <div class="item-badges"></div>
+      <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN Walkthrough">↗</a>
+      <div class="expand-arrow">▾</div>
+    </div>
+    <div class="item-detail">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-label">Location</div>
+          <div class="detail-value highlight">Spring Meadows</div>
+        </div>
+        <div>
+          <div class="detail-label">Act</div>
+          <div class="detail-value highlight">Act 1</div>
+        </div>
+      </div>
+      <div class="detail-sep"></div>
+      <div class="detail-label">How to Find</div>
+      <div class="detail-value">Walk up the winding hillside north of Grand Meadows. Turn right at the hanging rope — find the Chromatic Lancelier at the end of the path. Good target for the "Professional" (no-damage boss kill) achievement.</div>
+      <a class="btn-ign" href="#" onclick="event.stopPropagation()">↗ IGN Walkthrough</a>
+    </div>
+  </div>
+
+  <!-- Item: collapsed, with act badge -->
+  <div class="item" onclick="this.classList.toggle('expanded')">
+    <div class="item-row">
+      <div class="toggle">○</div>
+      <div class="item-info">
+        <div class="item-name">Alicia</div>
+        <div class="item-location">The Reacher</div>
+      </div>
+      <div class="item-badges">
+        <span class="badge badge-act">Act 3</span>
+        <span class="badge badge-miss">⚠ Missable</span>
+      </div>
+      <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN Walkthrough">↗</a>
+      <div class="expand-arrow">▾</div>
+    </div>
+    <div class="item-detail">
+      <div class="detail-label">How to Find</div>
+      <div class="detail-value">North of The Crows in The Reacher. Requires Maelle at Relationship Level 6 before this fight becomes available.</div>
+      <div class="detail-rewards" style="margin-top:10px">
+        <div class="detail-label">Rewards</div>
+        <span class="reward-item"><span class="reward-dot missing"></span>Painted Me Haircut</span>
+        <span class="reward-item"><span class="reward-dot missing"></span>Lithum Weapon</span>
+      </div>
+      <div class="miss-warning">⚠ Act 3 only — requires Maelle Relationship Lv 6.</div>
+      <a class="btn-ign" href="#" onclick="event.stopPropagation()">↗ IGN Walkthrough</a>
+    </div>
+  </div>
+
+  <!-- SECOND CATEGORY: Pictos (showing 3-state toggle) -->
+  <div class="section-gap"></div>
+  <div class="category-header">
+    <div class="category-rule-left"></div>
+    <div class="category-title">Pictos</div>
+    <div class="category-rule-right"></div>
+    <div class="category-count">42 / 193</div>
+  </div>
+  <div class="progress-row">
+    <div class="progress-track"><div class="progress-fill" style="width:22%"></div></div>
+    <div class="progress-pct">22%</div>
+  </div>
+
+  <!-- Picto: not collected -->
+  <div class="item" onclick="this.classList.toggle('expanded')">
+    <div class="item-row">
+      <div class="toggle-group">
+        <div class="toggle" title="Mark Collected">○</div>
+        <div class="toggle" title="Mark Lumina Unlocked" style="font-size:9px">L</div>
+      </div>
+      <div class="item-info">
+        <div class="item-name">Accelerating Heal</div>
+        <div class="item-location">The Continent</div>
+      </div>
+      <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN">↗</a>
+      <div class="expand-arrow">▾</div>
+    </div>
+    <div class="item-detail">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-label">Effect</div>
+          <div class="detail-value">Healing an ally also applies Rush for 1 turn</div>
+        </div>
+        <div>
+          <div class="detail-label">Lumina Cost</div>
+          <div class="detail-value highlight">5 points</div>
+        </div>
+      </div>
+      <div class="detail-sep"></div>
+      <div class="detail-label">How to Find</div>
+      <div class="detail-value">Abandoned expedition camp on an island northeast of Stone Wave Cliffs. Requires Esquie's swim ability.</div>
+      <a class="btn-ign" href="#" onclick="event.stopPropagation()">↗ IGN Reference</a>
+    </div>
+  </div>
+
+  <!-- Picto: collected (green) -->
+  <div class="item" onclick="this.classList.toggle('expanded')">
+    <div class="item-row">
+      <div class="toggle-group">
+        <div class="toggle collected" title="Collected">✓</div>
+        <div class="toggle" title="Mark Lumina Unlocked" style="font-size:9px; border-color: var(--text-3);">L</div>
+      </div>
+      <div class="item-info">
+        <div class="item-name">Aegis Revival</div>
+        <div class="item-location">Spring Meadows</div>
+      </div>
+      <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN">↗</a>
+      <div class="expand-arrow">▾</div>
+    </div>
+  </div>
+
+  <!-- Picto: collected + lumina (blue) -->
+  <div class="item" onclick="this.classList.toggle('expanded')">
+    <div class="item-row">
+      <div class="toggle-group">
+        <div class="toggle collected" title="Collected">✓</div>
+        <div class="toggle lumina" title="Lumina Unlocked">★</div>
+      </div>
+      <div class="item-info">
+        <div class="item-name">Anti-Blight</div>
+        <div class="item-location">The Continent / The Reacher</div>
+      </div>
+      <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN">↗</a>
+      <div class="expand-arrow">▾</div>
+    </div>
+  </div>
+
+  <!-- Picto: missable -->
+  <div class="item" onclick="this.classList.toggle('expanded')">
+    <div class="item-row">
+      <div class="toggle-group">
+        <div class="toggle" title="Mark Collected">○</div>
+        <div class="toggle" title="Mark Lumina Unlocked" style="font-size:9px">L</div>
+      </div>
+      <div class="item-info">
+        <div class="item-name">Auto Powerful</div>
+        <div class="item-location">Floating Cemetery</div>
+      </div>
+      <div class="item-badges">
+        <span class="badge badge-miss">⚠</span>
+      </div>
+      <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN">↗</a>
+      <div class="expand-arrow">▾</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

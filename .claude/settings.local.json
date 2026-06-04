@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:expedition33.wiki.fextralife.com)",
+      "WebFetch(domain:game8.co)",
+      "WebFetch(domain:www.powerpyx.com)",
+      "WebFetch(domain:gamerant.com)",
+      "WebFetch(domain:game-checklists.com)",
+      "Bash(python3 -c ' *)",
+      "WebFetch(domain:www.ign.com)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__javascript_tool"
+    ]
+  }
+}

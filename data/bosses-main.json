@@ -1,0 +1,205 @@
+{
+  "id": "bosses-main",
+  "name": "Main Bosses",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+  "items": [
+    {
+      "id": "bm-000",
+      "name": "Eveque",
+      "location": "Spring Meadows",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-001",
+      "name": "The Curator",
+      "location": "The Manor",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-002",
+      "name": "Goblu",
+      "location": "Flying Waters",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-003",
+      "name": "Ultimate Sakapatate",
+      "location": "Ancient Sanctuary",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-004",
+      "name": "Sciel",
+      "location": "Gestral Village",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-005",
+      "name": "Francois",
+      "location": "Esquie's Nest",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-006",
+      "name": "Lampmaster",
+      "location": "Stone Wave Cliffs",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-007",
+      "name": "Dualliste",
+      "location": "Forgotten Battlefield",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-008",
+      "name": "Monoco",
+      "location": "Monoco's Station",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-009",
+      "name": "Stalact",
+      "location": "Monoco's Station",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-010",
+      "name": "Jovial Moissonneuse",
+      "location": "Visages",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-011",
+      "name": "Seething Boucheclier",
+      "location": "Visages",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-012",
+      "name": "Sorrowful Chapelier",
+      "location": "Visages",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-013",
+      "name": "Visages",
+      "location": "Visages",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-014",
+      "name": "Mask Keeper",
+      "location": "Visages",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-015",
+      "name": "Tisseur",
+      "location": "Sirene",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-016",
+      "name": "Glissando",
+      "location": "Sirene",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-017",
+      "name": "Sirene",
+      "location": "Sirene",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-018",
+      "name": "Gargant",
+      "location": "Frozen Hearts",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-019",
+      "name": "The Paintress",
+      "location": "The Monolith",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-020",
+      "name": "Creation",
+      "location": "Lumiere",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    },
+    {
+      "id": "bm-021",
+      "name": "Renoir",
+      "location": "Stone Wave Cliffs",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough",
+      "completed": false
+    }
+  ]
+}

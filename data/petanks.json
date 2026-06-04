@@ -1,0 +1,124 @@
+{
+  "id": "petanks",
+  "name": "Petanks",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+  "items": [
+    {
+      "id": "pt-000",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "Near the expedition flag at the entrance, chase the Petank across the log bridge to the glowing plate on the other side of the stream",
+      "rewards": "- 5x Colour of Lumina - 5x Polished Chroma Catalyst - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-001",
+      "location": "Esquie's Nest",
+      "how_to_find": "From the entrance, go through the narrow tunnel and drop down from the left side of the bridge, approach from the left so the Petank runs through the cave on the right, the glowing plate is between two large rocks at the end",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-002",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "At the Old Farm checkpoint, look for the Petank beneath the first cabin on the right, approach from behind and guide it through the gates into a narrow alley where the glowing plate is located",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-003",
+      "location": "Endless Night Sanctuary",
+      "how_to_find": "From the Night Totem flag, head toward the exit past the Ultimate Sakapatate, instead of leaving, keep to the left to find a tunnel leading to a new area, follow the path to the Petank and guide it to the glowing plate",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-004",
+      "location": "Frozen Hearts",
+      "how_to_find": "Located to the left of an abandoned building next to a piano, before the expedition flag at Frozen Heart, chase the Petank northward until it reaches the glowing plate",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-005",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "From the Battlefield flag, move through the main area until you find the purple Petank, approach it from the right so it flees to its left, then circle around and approach from the 3 o’clock direction (as if coming from the right side of the map) to push it toward the far end of the area. Finally, approach from its left to guide it directly onto the glowing plate",
+      "rewards": "- 5x Colour of Lumina",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-006",
+      "location": "The Reacher",
+      "how_to_find": "In the same area with one of the Mansion’s doors, descend the spiral ramp to a lower floor, chase the Petank toward the cliff’s edge, clearing out the Nevrons along the way",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-007",
+      "location": "Isle of Eyes",
+      "how_to_find": "Climb the stairs and go under a mannequin with an eye on its chest, jump from the right side of the platform to drop into the area with the Petank. Guide it around the stone pillars to the glowing plate next to another mannequin",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-008",
+      "location": "Sirene",
+      "how_to_find": "After using a floating disc to reach a room with a large statue, enter the room behind the statue to find the red Petank. Approach from the left to make it run into the statue room, then into the room on the right where it can be cornered",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-009",
+      "location": "Sirene",
+      "how_to_find": "Located to the left of the Glissando boss area. Look among the floating rubble of one of the broken columns for handholds. After crossing, drop a light rope to reach the lower level with the Petank. Chase it until it stops at the base of the stairs, then guide it onto the glowing plate",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-010",
+      "location": "The Monolith",
+      "how_to_find": "From the Tainted Cliffs checkpoint, ascend the spiral staircase. Continue along the path until you reach a group of Cultists. The glowing green plate is located next to them. The Petank can be found in the open area beyond the Cultists",
+      "rewards": "- 5x Colour of Lumina - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-011",
+      "location": "The Continent",
+      "how_to_find": "A Chromatic Petank can be found on the overworld. To find it, head east from the central map area and look for a glowing chromatic aura in the distance. The Petank will appear with a colorful, radiant glow, making it easy to spot. To capture it, approach carefully without startling it. Follow the Petank as it moves through the area, and eventually, it will stop at a glowing circle",
+      "rewards": "- 5x Colour of Lumina",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "pt-012",
+      "location": "Flying Manor",
+      "how_to_find": "In the path to the Eveques bossfight, in the back corner, there should be a canvas near a ramp, the Petank should be visible from there",
+      "rewards": "- 5x Colour of Lumina - 5x Grandiose Chroma Catalyst - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    }
+  ]
+}

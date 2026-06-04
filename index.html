@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Clair Obscur: Expedition 33 — Tracker</title>
+  <meta name="description" content="Achievement and collectible tracker for Clair Obscur: Expedition 33">
+  <meta name="theme-color" content="#0c0a13">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── HEADER ──────────────────────────────────────────────── -->
+<header class="header" id="header">
+  <div class="header-top">
+    <div>
+      <div class="app-title">Clair Obscur</div>
+      <div class="app-subtitle">Expedition 33 · Tracker</div>
+    </div>
+    <div class="header-icons">
+      <button class="icon-btn" id="btn-categories" aria-label="Categories">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+          <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+        </svg>
+      </button>
+      <button class="icon-btn" id="btn-filter" aria-label="Filter">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/>
+        </svg>
+      </button>
+      <button class="icon-btn" id="btn-export" aria-label="Export progress">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="header-progress">
+    <div class="overall-bar-track">
+      <div class="overall-bar-fill" id="overall-fill" style="width:0%"></div>
+    </div>
+    <div class="overall-pct" id="overall-pct">0%</div>
+  </div>
+</header>
+
+<!-- ── FILTER PANEL ─────────────────────────────────────────── -->
+<div class="filter-panel" id="filter-panel">
+  <div class="filter-group">
+    <div class="filter-label">Status</div>
+    <div class="filter-pills">
+      <button class="pill active" data-filter="status" data-value="all">All</button>
+      <button class="pill" data-filter="status" data-value="remaining">Remaining</button>
+      <button class="pill" data-filter="status" data-value="done">Done</button>
+    </div>
+  </div>
+  <div class="filter-group">
+    <div class="filter-label">Show</div>
+    <div class="filter-pills">
+      <button class="pill active" data-filter="missable" data-value="all">All</button>
+      <button class="pill" data-filter="missable" data-value="only">⚠ Missable only</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── CATEGORY OVERLAY ──────────────────────────────────────── -->
+<div class="overlay" id="overlay" role="dialog" aria-label="Select category">
+  <div class="overlay-header">
+    <div class="overlay-title">Categories</div>
+    <button class="close-btn" id="btn-close-overlay" aria-label="Close">✕</button>
+  </div>
+  <div class="overlay-list" id="overlay-list">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<!-- ── MAIN CONTENT ──────────────────────────────────────────── -->
+<main class="main-scroll" id="main-scroll">
+  <!-- Populated by JS -->
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

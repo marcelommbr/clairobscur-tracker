@@ -1,0 +1,142 @@
+{
+  "id": "mimes",
+  "name": "Mimes",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+  "items": [
+    {
+      "id": "m-000",
+      "location": "Lumiere (Prologue, Missable)",
+      "how_to_find": "Near the docks where the Gommage takes place. When you approach Maellle and the kids, go right, and you'll see a stage where other residents are performing magic. From the stage, look to your right and you'll spot the Mime standing by the corner.",
+      "rewards": "- Lumiere Music Record",
+      "missable": true,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-001",
+      "location": "Spring Meadows",
+      "how_to_find": "From the Grand Meadow, head to the path on the left, at the edge of the cliff, look up to the next cliff ahead and grapple across, follow the path down to an arena to face a Mime",
+      "rewards": "- Baguette Outfit (Gustave)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-002",
+      "location": "Flying Waters",
+      "how_to_find": "Towards the end of the main path, where you will find a trail of corpses that will lead to a shadow of a gigantic, enemy with extra-long limbs, turn right and look for a path between the tall, kelp-looking plants, climb the platform to find the Mime in a secluded area",
+      "rewards": "- Short Haircut (Maelle)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-003",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "In the Sanctuary Maze section, follow the main path until you reach an area of a destroyed wooden structure, behind the structure, you can find a Mime",
+      "rewards": "- Baguette Outfit (Lune) - Baguette Haircut (Lune)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-004",
+      "location": "Esquie's Nest",
+      "how_to_find": "From Francois' Cave, go inside the cave, then turn right, and use the rope to go up one level, walk over to the edge, turn right and go down and you will see a Mime near the water",
+      "rewards": "- Baguette Outfit (Sciel)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-005",
+      "location": "Yellow Harvest",
+      "how_to_find": "From the Harvester's Hollow, head down to the right and pass the slope, go into the crawl space into the mountain to find the Mime there.",
+      "rewards": "- Braid Haircut (Maelle)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-006",
+      "location": "Frozen Hearts",
+      "how_to_find": "From the Iced Heart, go to the top section of this area, run up the train carts, then grapple to the top, go west to spot the merchant and investigate the area to find the Mime standing behind a pillar",
+      "rewards": "- Short Haircut (Lune)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-007",
+      "location": "Visages",
+      "how_to_find": "From the Joy Vale, hug the left-hand wall and make your way around the area until you see two enemies dancing around on a raised outcrop, jump up and hug the wall again and you’ll soon find the Mime hiding behind a tree",
+      "rewards": "- Baguette Outfit (Verso)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-008",
+      "location": "Sirene",
+      "how_to_find": "Progress through until you have been transported through a tunnel to reach an underground area, go straight ahead and grapple through the platforms, exit the archway and go straight ahead past a balcony to find the Mime in a small room.",
+      "rewards": "- Sirene Haircut (Lune)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-009",
+      "location": "Old Lumiere",
+      "how_to_find": "Look to the right after using the climbing anchors to ascend the wall on Right Street (Lune's path).",
+      "rewards": "- Braid Haircut (Sciel)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-010",
+      "location": "The Continent",
+      "how_to_find": "Northwest from Old Lumiere, swim with Esquie until you reach an island with red grass. There you will find two Mimes together",
+      "rewards": "- Voluminous Haircut (Lune) - Voluminous Haircut (Sciel)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-011",
+      "location": "Sunless Cliffs",
+      "how_to_find": "From the Chroma Portal, enter the portal and choose an Expeditioner to face the Mime. The selected Expeditioner will get it's Bald Haircut.",
+      "rewards": "- Picto: The One (First Time) - Bald Haircut (Verso) - Bald Haircut (Lune) - Bald Haircut (Maelle) - Bald Haircut (Sciel) - Bald Haircut (Monoco)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-012",
+      "location": "Flying Manor",
+      "how_to_find": "From the Central Plaza, take the elevator up then descend the nearby rope, in the area below, look for another rope between the rocks, this time going up, you’ll find yourself in the room with the Mime",
+      "rewards": "- Clea Haircut (Maelle)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-013",
+      "location": "The Reacher",
+      "how_to_find": "From the Ladder Area, cross the bridge and take the rope down on the far left to find the Mime",
+      "rewards": "- Baguette Outfit (Maelle) - Baguette Haircut (Maelle)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    },
+    {
+      "id": "m-014",
+      "location": "The Monolith",
+      "how_to_find": "From the Tainted Cliffs, go up the stairs and get across to the other cliff, follow the path all the way past the two forks in the path that splits to the right, keep going straight until you reach a fireplace-looking statue, head to the left alcove and take the rope down to encounter the Mime",
+      "rewards": "- Voluminous Haircut (Maelle)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "quests",
+  "name": "Quests",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+  "items": [
+    {
+      "id": "q-000",
+      "name": "A Uniform for Richard's Son",
+      "location": "Lumiere (Prologue, Missable)",
+      "how_to_complete": "- Quest given by a man wearing a red coat and cane, standing near the statue left of the Expedition recruitment stage before the Lumiere Flower Market - Continue with the story until you go to the Expedition Festival - Talk to Jules, a kid wearing a red outfit. He is located at the entrance of the dock where Maelle is",
+      "rewards": "- Crimson Uniform Outfit (Gustave)",
+      "missable": true,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Prologue:_A_Uniform_for_Richard%27s_Son",
+      "completed": false
+    },
+    {
+      "id": "q-001",
+      "name": "Blanche",
+      "location": "The Fountain (Missable)",
+      "how_to_complete": "- Quest mentioned at the top for visibility, even if has to be done later in the game. WARNING: Do not kill any friendly Nevron for the rewards - Complete every friendly Nevron side quest (marked as NEVRON in this list) and speak to Blanche to get your reward - If any friendly Nevron is killed or every other Nevron side quest hasn't been completed, instead a boss fight with Blanche will trigger - Untested if you can obtain the main rewards and then fight Blanche",
+      "rewards": "- 100x Colour of Lumina",
+      "missable": true,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Nevron_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-002",
+      "name": "Jar Nevron",
+      "location": "Spring Meadows",
+      "how_to_complete": "- From Abandoned Expeditionary Camp: Acquire Resin; which is located behind some crates in the area to the left - Return to the Jar Nevron and give the Resin - Shoot at the tip of its lamp to light it - Speak with them",
+      "rewards": "- Healing Tint Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-003",
+      "name": "Demineur Nevron",
+      "location": "Flying Waters",
+      "how_to_complete": "-  From Noco's Hut: Quest giver located at the crash site area of the Expedition 68's boat, go to the east, to an entrance similar to the Demineurs head - Aquire Intact Mine; from the quest giver, jump across the platforms and go to the right, jump across to another set of platforms and pick up the item - Return to the Demineur Nevron and give the Intact Mine",
+      "rewards": "- Deminerim (Level 3, Weapon for Lune) - 1x Chroma Catalyst",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-004",
+      "name": "Bourgeon Nevron",
+      "location": "The Small Bourgeon",
+      "how_to_complete": "- Quest giver located northwest to Flying Waters on the overworld map - Acquire Burgeon Skin from defeating a Bourgeon boss (please refer to the Boss section of the checklist for locations) - Give the item to the Nevron and wait (progress with the main story, another side quest or simply rest at a flag) - Come back later and talk to them to claim the rewards, additionally it can be attacked to fight the \"Grown Bourgeon\" Boss",
+      "rewards": "- 1x Colour of Lumina",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-005",
+      "name": "Karatom The Gestral",
+      "location": "Gestral Village (Missable)",
+      "how_to_complete": "- Do before entering Act II. In the Gestral Village, past the Gestral Bazaar, talk to a kid named Karatom - Acquire Mushroom; at Esquie's Nest. Pass through the guard, go right and jump down, go left from the Mime and pick up the item from the mushrooms - Return to the Gestral Village and give the item to the quest giver - Fight the Ultimate Sakapatate with Gustave and win",
+      "rewards": "- 3x Polished Chroma Catalyst",
+      "missable": true,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-006",
+      "name": "Ono-Puncho Challenge",
+      "location": "Gestral Village",
+      "how_to_complete": "- Quest giver located on an isolated path in Gestral Village, talk to a big pink gestral. - He will ask you to do 9999 damage on one attack. - This can be achieved by: buffing Maelle with Gustave, then a second party member use an Energy Tint on Maelle. Maelle has to have the Medallum weapon and the Roulette and Marking Shots pictos. Additionally, she can have both the Burning Shots and Critical Burn Pictos/Lumina. On Maelle's turn, shoot Ono-Puncho until it gets marked (or marked+burnt) and the cast Percee. You can get lucky and do this in 2 tries or do 20 times and not get it.",
+      "rewards": "- Sakapatate Outfit (Maelle)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-007",
+      "name": "Help Alexaundro",
+      "location": "Gestral Village",
+      "how_to_complete": "- Quest giver located near Karatom, talk to them to start the quest - Reach the kid in the column: head north toward the Arena, take an immediate right to march down the southeastern path, then take a slight left at the end of the eastern passage, use the rope to climb onto an overhead platform, take a few steps west and use the grapple point to clear the gap head north and use the handholds on the wall, mantle over the short wall, and with a running start, leap onto the column to reach Alexsoundro's patate - Talk to the kid and then talk to Alexaundro",
+      "rewards": "- Sakapatate Outfit (Lune)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-008",
+      "name": "The Fountain (Nevron)",
+      "location": "Red Woods",
+      "how_to_complete": "- Quest giver located west to the Ancient Sanctuary (needed for Blanche quest) - Interact with the fountain and pay 5k, 10k, 25k and 50k chroma (total of 90k chroma) - Talk to the nevron to acquire the rewards",
+      "rewards": "- Picto: Recovery",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-009",
+      "name": "Hexga Nevron",
+      "location": "Stone Wave Cliffs",
+      "how_to_complete": "- Quest giver located in the Old Farm, outside the Tide Caverns, talk to them and answer \"How did this happen?\" then probe more questions - Aquire 3 Rock Crystals from the Tide Cavern. Two are inside glowing rocks and the last one is obtained by defeating the Rocher Boss in the right section - Return where the Nevron was and give the Rock Crystals - Pick the rewards from where it was sitting",
+      "rewards": "- Picto: Auto Shell - 1x Recoat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-010",
+      "name": "Trobadour Nevron",
+      "location": "Stone Quarry",
+      "how_to_complete": "- Quest giver located northeast of the Forgotten Battlefield on the overworld map - Talk to them and accept their challenges (3) - Parry or dodge the red orbs, get hit by the green orbs - Talk again to claim the rewards",
+      "rewards": "- Picto: Healing Parry",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-011",
+      "name": "Grandis",
+      "location": "The Carousel",
+      "how_to_complete": "- Quest giver located northeast of Monoco's Station on the overworld map - Talk to them and accept their quest - Use the Paint Break ability to break the ice - Talk again to claim the rewards",
+      "rewards": "- French Bob Haircut (Maelle)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Nevron_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-012",
+      "name": "Portier Nevron",
+      "location": "Esoteric Ruins",
+      "how_to_complete": "- Quest giver located northwest to the main entrance of Old Lumiere on the overworld map - Talk to the blue orb - Aquire Wood Boards: go past the maze and pick the item on the collapsed building - Talk again to deliver the item and claim the rewards",
+      "rewards": "- Picto: Protecting Heal",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-013",
+      "name": "Danseuse Teacher (Nevron)",
+      "location": "Frozen Hearts",
+      "how_to_complete": "- From Glacial Falls: Go west and you should find a set of stairs on the left-hand side, follow the linear path until you reach a dead-end - Talk to the big Danseuse - Accept their challenge: parry all of their attacks - Talk again to claim the rewards",
+      "rewards": "- Danseuse Outfit (Lune)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-014",
+      "name": "Chalier Nevron",
+      "location": "Floating Cemetery",
+      "how_to_complete": "- Quest giver located northwest to Falling Leaves on the overworld map - Talk to the nevron and select a weapon - Head inside the building to fight them - Then chose to kill them and claim the final award",
+      "rewards": "- Picto: Longer Shell",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    },
+    {
+      "id": "q-015",
+      "name": "Fading Spirit",
+      "location": "Falling Leaves",
+      "how_to_complete": "- From Resinveil Grove: go to the right and talk to the Young Boy - Find the Lady of Sap in the same area: go back and descend a couple gold strings, go forward and talk to the larg upside down Lady of Sap - Talk again to the boy to open the gate - Defeat the boss of the area and talk again to the boy",
+      "rewards": "Opens the gate to an area with:",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests",
+      "completed": false
+    }
+  ]
+}

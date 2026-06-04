@@ -1,0 +1,178 @@
+{
+  "id": "paint-cages",
+  "name": "Paint Cages",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+  "items": [
+    {
+      "id": "pc-000",
+      "location": "Flying Waters",
+      "how_to_find": "Follow the main path, a tutorial will pop up for this Paint Cage",
+      "rewards": "Chroma Elixir Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-001",
+      "location": "Flying Waters",
+      "how_to_find": "Inside Coral Cave, before going to the path with lanterns on the ground, go down the ladder to find a dark area. Swing across to find a Cruler walking around the area. Defeat the three Crulers, and you will find a Paint Cage",
+      "rewards": "Revive Tint Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-002",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "Once you are in the area with a brick road, keep moving forward until you encounter a Robust Sakapatate with a Catapult Sakapatate fighting alongside it. Then, follow the path on the left to find the journal form the 63rd expedition. On the right side of the journal, you will find a Paint Cage on the ground above",
+      "rewards": "Chroma Elixir Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-003",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "Near the starting area, on the right is a rope to go higher up, and on the left is a structure to climb up, a Paint Cage should be there",
+      "rewards": "Delaram",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-004",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "In the farm, head down the main path to take on a group of enemies (a Hexga and 2 Rochers), behind the enemies is a path up to the left, and a path up to the right",
+      "rewards": "Duenum",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-005",
+      "location": "Stone Wave Cliffs Cave",
+      "how_to_find": "From the Entrance, head down the path, grapple across and cross the bridge. There is a crawl space to the right that you can go through, take the rope up to find a Paint Cage",
+      "rewards": "Chroma Elixir Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-006",
+      "location": "Old Lumiere",
+      "how_to_find": "Return to the Manor Gardens in Old Lumiere after fighting Renoir, make your way to the far lower right corner to find a new path. Take out the group of enemies consisting of three Gold Chavelier, toward the left, you can find the Paint Cage",
+      "rewards": "Redalim",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-007",
+      "location": "Frozen Hearts",
+      "how_to_find": "From the Glacial Falls, continue along the path to the right, take the rope up, and head to the end to grapple across to the cliff ahead. At the end of this path, there are broken tracks and wall structures on them. Climb up the structure to the right, turn around and grapple to the levitating train, activate the rope and take the rope down to an entrance to a tunnel. Enter the tunnel go towards the path on the right to exit the cave. Continue on the path to the left to find the Paint Cage",
+      "rewards": "Picto: Anti-Freeze",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-008",
+      "location": "Frozen Hearts",
+      "how_to_find": "From the Glacial Falls, continue along the path to the right, take the rope up, and head to the end to grapple across to the cliff ahead. At the end of this path, there are broken tracks and wall structures on them. Climb up the structure all the way up, go towards the left side of the field behind the trains to find the Paint Cage",
+      "rewards": "Revive Tint Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-009",
+      "location": "Sirene",
+      "how_to_find": "From the Dancing Classes, head down the path and turn left into the large archway. Turn left again and take the rope down then proceed straight ahead. Continue onwar and head down the stairs, turn left to find the Paint Cage",
+      "rewards": "Picto: Shield Affinity",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-010",
+      "location": "Flying Manor",
+      "how_to_find": "From the Central Plaza, head to the structure on the right before you get to the manor. Then grapple to the other side and go through the walkway. At the end of the walkway, use your grapple on the structure on the right side, then head inside the structure. Once you are at the balcony, you can drop through the broken railings to find a giant figure ahead. Immediately after dropping down, look to your right to find a Paint Spike. Then, on the left side, you can find a Paint Cage",
+      "rewards": "Picto: Energising Stun",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-011",
+      "location": "Flying Manor",
+      "how_to_find": "After defeating Dualliste, head to the right side of the area to find a floating platform that you can grapple across to. Defeat the Steel Chevalieres on the left side, then go through the structure to find a Paint Cage",
+      "rewards": "Picto: Poweful Revive",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-012",
+      "location": "Endless Night Sanctuary",
+      "how_to_find": "From the Night Totem, climb up the wall structures found on the left wall past the flag. This leads to a Paint Cage. Since it can't be seen very well from the first photo, the first Paint Lock can be found hidden behind some boxes on the alcove on the right upon climbing up the wall structures",
+      "rewards": "Grandiose Chroma Catalyst",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-013",
+      "location": "Esoteric Ruins",
+      "how_to_find": "From the Entrance climb up the wall structure to the left and take the rope up. Head down the path on the right to find a Paint Cage",
+      "rewards": "Chroma",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-014",
+      "location": "The Monolith",
+      "how_to_find": "From the Entrance inside The Monolith, head down the path past the waterfall. Once the screen becomes black and white, turn to the right and go through the large frame to the next area. There is another expedition flag, for now, turn left and take the rope down. On the second rope down, is where you will find the Paint Cage",
+      "rewards": "Revive Tint Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-015",
+      "location": "The Monolith",
+      "how_to_find": "From the Tainted Sanctuary, head down and on the first fork of the path, take the path on the left. On the second fork in the path, take the right path to a large area with a large broken tree in the middle. From the tree, take the path on the right, continue down the path on the right and go through the crawl space on the left. Finally, take either paths to reach the Paint Cage",
+      "rewards": "Picto: Random Defense",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-016",
+      "location": "The Monolith",
+      "how_to_find": "From the Tainted Heart, continue through the station and cross the narrow bridge. Head to the path on the left, just before reaching the boss, turn to the left path and grapple across. Make your way to the end to find the paint cage",
+      "rewards": "Picto: Empowering Parry",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-017",
+      "location": "Sirene",
+      "how_to_find": "Found within Tisseur's atelier. Climb the ledge on the left and follow the path to find the Paint Cage",
+      "rewards": "Picto: Revive Tint Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    },
+    {
+      "id": "pc-018",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "Move past the Fading Woman and take the right passage. Found in the room on the first left of the path",
+      "rewards": "Picto: Chroma Elixir Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "id": "journals",
+  "name": "Expedition Journals",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+  "items": [
+    {
+      "id": "j-000",
+      "name": "Fracture Survivor",
+      "location": "Old Lumiere",
+      "how_to_find": "From the Left Street, make your way down the path through the broken doorway then continue to the second open field. Take the path on the right and drop down inside the large broken pipe, use the Old Key on the gate and pick up the journal",
+      "missable": true,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-001",
+      "name": "Expedition 34",
+      "location": "The Crows",
+      "how_to_find": "Found to the right of the Entrance",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-002",
+      "name": "Expedition 35",
+      "location": "Falling Leaves",
+      "how_to_find": "Found next to the bridge leading to the Chromatic Ballet within the Resinveil Grove",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-003",
+      "name": "Expedition 36",
+      "location": "White Tree",
+      "how_to_find": "Found to the right at the base of the tree upon entering White Tree",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-004",
+      "name": "Expedition 37",
+      "location": "Gestral Beach",
+      "how_to_find": "Located east to The Sunless Cliffs, requieres Esquie's ability to fly",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-005",
+      "name": "Expedition 38",
+      "location": "Yellow Harvest",
+      "how_to_find": "Found by a few corpses surrounded by lit lamps on a cliffside to the right of the Harverster's Hollow section",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-006",
+      "name": "Expedition 39",
+      "location": "Visages",
+      "how_to_find": "In the Sadness Vale area, after picking up the Energy Tint Shard, head to the other path and climb up the ledge",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-007",
+      "name": "Expedition 40",
+      "location": "The Continent",
+      "how_to_find": "Exit Sirene and swim toward The Monolith, pick up the Journal in the upper left corner of the isle, next to the Merchant Granasori",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-008",
+      "name": "Expedition 41",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "In the Battlefield section, go to the trenches on the right side of the Fading Woman. On the left side, you can find a small area containing the journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-009",
+      "name": "Expedition 42",
+      "location": "Old Lumiere",
+      "how_to_find": "From the Manor Gardens, head to the upper right corner to find a new path. Follow it and take the rope down, pick up journal at the end of the path",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-010",
+      "name": "Expedition 43",
+      "location": "The Continent",
+      "how_to_find": "Found in an abandoned expedition camp, on an island northeast of the Coastal Cave",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-011",
+      "name": "Expedition 44",
+      "location": "Yellow Harvest",
+      "how_to_find": "From the Harvester's Hollow, continue ahead towards the path on the left. Past the slope on the right, you will find a corpse holding a lit lamp on the left with the Journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-012",
+      "name": "Expedition 45",
+      "location": "Crushing Cavern",
+      "how_to_find": "After defeating the Giant Sapling, head into the tunnel ahead until you reach the fork path. Take the left path and pick up Journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-013",
+      "name": "Expedition 46",
+      "location": "Sirene's Dress",
+      "how_to_find": "Found by some rubble across the arena where you fight the Chromatic Glissando",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-014",
+      "name": "Expedition 47",
+      "location": "The Continent",
+      "how_to_find": "Found beside a collapsed structure, near the merchant Carnovi",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-015",
+      "name": "Expedition 48",
+      "location": "Stone Quarry",
+      "how_to_find": "",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-016",
+      "name": "Expedition 49",
+      "location": "Falling Leaves",
+      "how_to_find": "Complete the Fading Spirit Quest to open the gate, continue up the path and make your way up to the cliff to find the journal by a set of broken stairs.",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-017",
+      "name": "Expedition 50",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "From the Paintress Shrine, head down the path on the right and cross the bridge. Take the path on the left and pick up the journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-018",
+      "name": "Expedition 51",
+      "location": "Frozen Hearts",
+      "how_to_find": "From the Icebound Train Station, cross the tracks and make your way up the hill. Once you reach the top where you see the end of a train, turn right into a crack in the wall to find journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-019",
+      "name": "Expedition 52",
+      "location": "Gestral Village",
+      "how_to_find": "Found on a narrow path near the Gestral Doctor",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-020",
+      "name": "Expedition 53",
+      "location": "The Small Bourgeon",
+      "how_to_find": "Found at the end of the path to the left of the Bourgeon",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-021",
+      "name": "Expedition 54",
+      "location": "Stone Wave Cliffs Cave",
+      "how_to_find": "Found on the right side of the Arena, where you fight the Chromatic Hexga",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-022",
+      "name": "Expedition 55",
+      "location": "Sirene",
+      "how_to_find": "From the Dancing Classes, continue down the path and up the stairs to the plaza filled with enemies. To the right, you can find the journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-023",
+      "name": "Expedition 56",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "From the Entrance, head down the path and through the broken airship, use your grappling hook to reach the other side. Head down the path and head down on the left path. Take out the enemy and pick up the journal at the base of the statue",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-024",
+      "name": "Expedition 57",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "In the Battlefield section, you can find an open area after passing through the Paint Cage. In the middle of the field, you can find the journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-025",
+      "name": "Expedition 58",
+      "location": "Old Lumiere",
+      "how_to_find": "Found within a cutscene when playing as Lune, Sciel, and Monoco past the Left Street",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-026",
+      "name": "Expedition 59",
+      "location": "Yellow Harvest",
+      "how_to_find": "From the Yellow Spire Wrecks, head left into a cave to find the journal by the structure in the middle",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-027",
+      "name": "Expedition 60",
+      "location": "Lumiere",
+      "how_to_find": "Found if you interact with the ledge on the right outside the opera house. Ask Esquie to bring an item to the surface, and you will obtain the journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-028",
+      "name": "Expedition 61",
+      "location": "The Reacher",
+      "how_to_find": "From the Foggy Area, cross the bridge and go straight ahead to the lit areas on the upper portion of the field. Proceed through the cave to find journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-029",
+      "name": "Expedition 62",
+      "location": "The Continent",
+      "how_to_find": "Found at a camp to the left of the beach behind Gestral Village",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-030",
+      "name": "Expedition 63",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "Found by a fork in the path in the Sanctuary Maze section near a Paint Cage",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-031",
+      "name": "Expedition 64",
+      "location": "The Continent",
+      "how_to_find": "Found on a camp along the path to the left of the entrance to The Meadows, you will need Esquie's swim ability to reach this area",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-032",
+      "name": "Expedition 65",
+      "location": "Monoco's Station",
+      "how_to_find": "After defeating the Stalact, head into the station past Monoco's Station flag. Cross the tracks at the end of the path and turn left to find the journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-033",
+      "name": "Expedition 66",
+      "location": "Esquie's Nest",
+      "how_to_find": "Found at a camp on the fork of the path after Esquie joins your party",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-034",
+      "name": "Expedition 67",
+      "location": "Sirene",
+      "how_to_find": "Found by a pile of boxes after being transported past the Crumbling Path flag",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-035",
+      "name": "Expedition 68",
+      "location": "Flying Waters",
+      "how_to_find": "Go through the main path in the Coral Cave, you can find the journal lying on the ground at the path with lanterns at the beginning",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-036",
+      "name": "Expedition 69",
+      "location": "Visages",
+      "how_to_find": "In the Joyful Vale section, you can find the journal behind enemies on the left path",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-037",
+      "name": "Expedition 70",
+      "location": "The Monolith",
+      "how_to_find": "From the Tainted Lumiere, head down to the main square and follow the path behind the statue. Grapple across the next area and continue making your way through the broken streets. At the fork of the road, head straight and go behind the flower stalls on the right. Take the right turn, grapple across through the floating islands, take out the enemies and get behind the building to pick up the journal",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-038",
+      "name": "Expedition 78",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "From the Entrance, head down the path and take the top up on the right. Once you reach the top, you can find the journal on the right",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-039",
+      "name": "Expedition 81",
+      "location": "Spring Meadows",
+      "how_to_find": "Picked up during a cutscene when Lune and Gustave find Jar for the first time",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-040",
+      "name": "Expedition 84",
+      "location": "The Fountain",
+      "how_to_find": "Requires Esquie's fly ability to reach the location. Can be found on the path to the right of the fountain",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-041",
+      "name": "Julie Search and Rescue",
+      "location": "The Continent",
+      "how_to_find": "Found beside a collapsed tent, west of the Forgotten Battlefield. To reach this area, you’ll need to progress the story far enough to Fly",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-042",
+      "name": "Simon",
+      "location": "The Abyss",
+      "how_to_find": "Found in the middle of the area after defeating Simon",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-043",
+      "name": "Aline",
+      "location": "The Manor",
+      "how_to_find": "Enter The Manor from the entrance in the Tainted Battlefield in The Monolith to reach the Garden, the journal can be found by the statue in the center",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-044",
+      "name": "Renoir",
+      "location": "The Manor",
+      "how_to_find": "Enter The Manor from the entrance in Old Lumiere, and exit the bathroom to a bedroom. The Journal can be found on the nightstand",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-045",
+      "name": "Unkown 1",
+      "location": "The Manor",
+      "how_to_find": "Found inside a bedroom in The Manor, which can be accessed from the Visages",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-046",
+      "name": "Unkown 2",
+      "location": "The Manor",
+      "how_to_find": "Found inside a room in The Manor, which can be accessed from The Reacher",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-047",
+      "name": "Unkown 3",
+      "location": "The Manor",
+      "how_to_find": "Place the Manor Family Canvas quest item on the empty frame in The Manor to unlock the Painting Room. There's an empty frame just by the stairs on the east wing of the manor, near the flag",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    },
+    {
+      "id": "j-048",
+      "name": "Verso",
+      "location": "The Continent",
+      "how_to_find": "Located just by the foot of a destroyed building west to Stone Quarry. Requires Esquie's swim ability and destroy coral reefs to reach it, or his Fly ability",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "id": "bosses-optional",
+  "name": "Optional Bosses",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+  "items": [
+    {
+      "id": "bo-000",
+      "name": "Alicia",
+      "location": "The Reacher",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Alicia_(The_Reacher)",
+      "completed": false
+    },
+    {
+      "id": "bo-001",
+      "name": "Benisseur",
+      "location": "Red Woods",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-002",
+      "name": "Bertard Big Hands",
+      "location": "Hidden Gestral Arena",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-003",
+      "name": "Bourgeon",
+      "location": "Flying Waters",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Bourgeon_(Flying_Waters)",
+      "completed": false
+    },
+    {
+      "id": "bo-004",
+      "name": "Blanche",
+      "location": "The Fountain",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-005",
+      "name": "Chromatic Abbest",
+      "location": "Abbest Cave",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Abbest_(Abbest_Cave)",
+      "completed": false
+    },
+    {
+      "id": "bo-006",
+      "name": "Chromatic Aberration",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-007",
+      "name": "Chromatic Ballet",
+      "location": "Falling Leaves",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-008",
+      "name": "Chromatic Benisseur",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Benisseur_(The_Continent)",
+      "completed": false
+    },
+    {
+      "id": "bo-009",
+      "name": "Chromatic Boucheclier",
+      "location": "Isle of Eyes",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-010",
+      "name": "Chromatic Bourgeon",
+      "location": "The Monolith",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-011",
+      "name": "Chromatic Braseleur",
+      "location": "The Reacher",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Braseleur_(The_Reacher)",
+      "completed": false
+    },
+    {
+      "id": "bo-012",
+      "name": "Chromatic Bruler",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Bruler_(The_Continent)",
+      "completed": false
+    },
+    {
+      "id": "bo-013",
+      "name": "Chromatic Catapult Sakapatate",
+      "location": "Dark Gestral Arena",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Catapult_Sakapatate_(Dark_Gestral_Arena)",
+      "completed": false
+    },
+    {
+      "id": "bo-014",
+      "name": "Chromatic Ceramic Chevalière",
+      "location": "Endless Tower",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-015",
+      "name": "Chromatic Chalier",
+      "location": "Sinister Cave",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-016",
+      "name": "Chromatic Chapelier",
+      "location": "The Crows",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-017",
+      "name": "Chromatic Clair Obscur",
+      "location": "The Monolith",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Clair_Obscur_(The_Monolith)",
+      "completed": false
+    },
+    {
+      "id": "bo-018",
+      "name": "Chromatic Creation",
+      "location": "Renoir's Drafts",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Creation_(Renoir%27s_Drafts)",
+      "completed": false
+    },
+    {
+      "id": "bo-019",
+      "name": "Chromatic Cruler",
+      "location": "Endless Night Sanctuary",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Cruler_(Endless_Night_Sanctuary)",
+      "completed": false
+    },
+    {
+      "id": "bo-020",
+      "name": "Chromatic Danseuse",
+      "location": "Old Lumiere",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Danseuse_(Old_Lumiere)",
+      "completed": false
+    },
+    {
+      "id": "bo-021",
+      "name": "Chromatic Demineur",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-022",
+      "name": "Chromatic Echassier",
+      "location": "Lumiere",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Echassier_(Lumiere)",
+      "completed": false
+    },
+    {
+      "id": "bo-023",
+      "name": "Chromatic Eveque",
+      "location": "Endless Tower",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-024",
+      "name": "Chromatic Gault",
+      "location": "Stone Wave Cliffs",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-025",
+      "name": "Chromatic Glaise",
+      "location": "Sky Island",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Glaise_(Sky_Island)",
+      "completed": false
+    },
+    {
+      "id": "bo-026",
+      "name": "Chromatic Glissando",
+      "location": "Sirene's Dress",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Glissando_(Sirene%27s_Dress)",
+      "completed": false
+    },
+    {
+      "id": "bo-027",
+      "name": "Chromatic Goblu",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Goblu_(The_Continent)",
+      "completed": false
+    },
+    {
+      "id": "bo-028",
+      "name": "Chromatic Gold Chevaliere",
+      "location": "Crimson Forest",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Gold_Chevaliere_(Crimson_Forest)",
+      "completed": false
+    },
+    {
+      "id": "bo-029",
+      "name": "Chromatic Greatsword Cultist",
+      "location": "Sirene",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-030",
+      "name": "Chromatic Hexga",
+      "location": "Stone Wave Cliffs Cave",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Hexga_(Stone_Wave_Cliffs_Cave)",
+      "completed": false
+    },
+    {
+      "id": "bo-031",
+      "name": "Chromatic Jar",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-032",
+      "name": "Chromatic Lancelier",
+      "location": "Spring Meadows",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Lancelier_(Spring_Meadows)",
+      "completed": false
+    },
+    {
+      "id": "bo-033",
+      "name": "Chromatic Luster",
+      "location": "Forgotten Battlefield",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Luster_(Forgotten_Battlefield)",
+      "completed": false
+    },
+    {
+      "id": "bo-034",
+      "name": "Chromatic Moissonneuse",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-035",
+      "name": "Chromatic Orphelin",
+      "location": "Yellow Harvest",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-036",
+      "name": "Chromatic Petank",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-037",
+      "name": "Chromatic Portier",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Portier_(The_Continent)",
+      "completed": false
+    },
+    {
+      "id": "bo-038",
+      "name": "Chromatic Ramasseur",
+      "location": "Visages",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-039",
+      "name": "Chromatic Ranger Sakapatate",
+      "location": "Dark Gestral Arena",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Ranger_Sakapatate_(Dark_Gestral_Arena)",
+      "completed": false
+    },
+    {
+      "id": "bo-040",
+      "name": "Chromatic Reaper Cultist",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-041",
+      "name": "Chromatic Robust Sakapatate",
+      "location": "Dark Gestral Arena",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Robust_Sakapatate_(Dark_Gestral_Arena)",
+      "completed": false
+    },
+    {
+      "id": "bo-042",
+      "name": "Chromatic Steel Chevaliere",
+      "location": "Endless Tower",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-043",
+      "name": "Chromatic Troubadour",
+      "location": "Flying Waters",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Chromatic_Troubadour_(Flying_Waters)",
+      "completed": false
+    },
+    {
+      "id": "bo-044",
+      "name": "Chromatic Veilleur",
+      "location": "Frozen Hearts",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-045",
+      "name": "Clair Obscur",
+      "location": "The Monolith",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-046",
+      "name": "Clea",
+      "location": "Flying Manor",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Clea_(Flying_Manor)",
+      "completed": false
+    },
+    {
+      "id": "bo-047",
+      "name": "Contorsionniste",
+      "location": "The Chosen Path",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-048",
+      "name": "Dominique Giant Feet",
+      "location": "Hidden Gestral Arena",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-049",
+      "name": "Flame Eveque",
+      "location": "Flying Manor",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Flame_Eveque_(Flying_Manor)",
+      "completed": false
+    },
+    {
+      "id": "bo-050",
+      "name": "Frost Eveque",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-051",
+      "name": "Giant Sappling",
+      "location": "Crushing Cavern",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-052",
+      "name": "Glaise",
+      "location": "Yellow Harvest",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Glaise_(Yellow_Harvest)",
+      "completed": false
+    },
+    {
+      "id": "bo-053",
+      "name": "Golgra",
+      "location": "Gestral Village",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-054",
+      "name": "Grosse Tete (Boss)",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-055",
+      "name": "Grown Bourgeon",
+      "location": "The Small Bourgeon",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-056",
+      "name": "Jar",
+      "location": "The Chosen Path",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-057",
+      "name": "Julien Tiny Head",
+      "location": "Hidden Gestral Arena",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-058",
+      "name": "Matthieu the Colossus",
+      "location": "Hidden Gestral Arena",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-059",
+      "name": "Rocher (Boss)",
+      "location": "Stone Wave Cliffs",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-060",
+      "name": "Scavenger",
+      "location": "Falling Leaves",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-061",
+      "name": "Serpenphare",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Serpenphare_(The_Continent)",
+      "completed": false
+    },
+    {
+      "id": "bo-062",
+      "name": "Sprong",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-063",
+      "name": "Simon",
+      "location": "The Abyss",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses",
+      "completed": false
+    },
+    {
+      "id": "bo-064",
+      "name": "Thunder Eveque",
+      "location": "The Continent",
+      "missable": false,
+      "act": null,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Thunder_Eveque_(The_Continent)",
+      "completed": false
+    }
+  ]
+}

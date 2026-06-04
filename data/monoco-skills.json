@@ -1,0 +1,467 @@
+{
+  "id": "monoco-skills",
+  "name": "Monoco Skills",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+  "items": [
+    {
+      "id": "ms-000",
+      "name": "Abbest Wind",
+      "character": "Monoco",
+      "description": "Does low single target damage. Plays a second turn. Agile mask: costs 0 AP",
+      "enemy_location": "Many places, an easy one is east of the Forgotten Battlefield, near the Boat Graveyard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-001",
+      "name": "Aberration Light",
+      "character": "Monoco",
+      "description": "Deals high Light damage to all enemies. 2 hits. Applies 4 Burn per hit. Agile Mask: Applies 2 more Burn per hit.",
+      "enemy_location": "Renoir's Drafts (requires Esquie Dive to enter) near Visages",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-002",
+      "name": "Ballet Charm",
+      "character": "Monoco",
+      "description": "Deals low single target Light damage. 1 hit. Applies Powerless to the target for 3 turns. Caster Mask: Increased damage.",
+      "enemy_location": "Siréne",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-003",
+      "name": "Benisseur Mortar",
+      "character": "Monoco",
+      "description": "Deals medium single target Ice damage. 3 hits. Change to Almighty Mask if target is Marked. Caster Mask: Increased damage.",
+      "enemy_location": "Siréne, The Chosen Path, Renoir's Drafts, Overworld on the east of Esquie's nest, across the water (Requires Fly)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-004",
+      "name": "Bouchelier Fortify",
+      "character": "Monoco",
+      "description": "Applies Shell to 1-3 allies for 3 turns. Heavy Mask: Also applies 1 Shield.",
+      "enemy_location": "Visages, Renoir's Drafts, Overworld northeast of Frozen Hearts across the water",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-005",
+      "name": "Braseleur Smash",
+      "character": "Monoco",
+      "description": "Deals medium single target Fire damage and applies 3 Burn. 2 hits. Balanced Mask: Increased damage.",
+      "enemy_location": "Frozen Hearts, Overworld west of Gestral beach (west of Monoco's Station)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-006",
+      "name": "Bruler Bash",
+      "character": "Monoco",
+      "description": "Deals medium single target Physical damage. 3 hits. Can Break. Caster Mask: Increased damage.",
+      "enemy_location": "Flying Waters, The Monolith, many Overworld places such as next to the Gestral Beach northeast of the Stone Wave Cliffs",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-007",
+      "name": "Chalier Combo",
+      "character": "Monoco",
+      "description": "Deals high single target Physical damage. 6 hits. Interrupted if failed. Balanced Mask: Increased damage.",
+      "enemy_location": "Available from the start",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-008",
+      "name": "Chapelier Slash",
+      "character": "Monoco",
+      "description": "Deals high Physical damage to all enemies. 3 hits. Applies Mark. Agile Mask: Increased damage.",
+      "enemy_location": "Visages, Overworld on the east of Esquie's nest, across the water (Requires Fly)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-009",
+      "name": "Chevaliere Ice",
+      "character": "Monoco",
+      "description": "Deals high Ice damage to all enemies. 3 hits. Applies Slow to the targets for 3 turns. Balanced Mask: Increased damage.",
+      "enemy_location": "Old Lumière",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-010",
+      "name": "Chevaliere Piercing",
+      "character": "Monoco",
+      "description": "Deals single target Physical damage through Shields. 6 hits. Damage increased for each Shield on the target. Agile Mask: Increased damage.",
+      "enemy_location": "Old Lumière",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-011",
+      "name": "Chevaliere Thrusts",
+      "character": "Monoco",
+      "description": "Deals high Physical damage to all enemies. 3 hits. Critical Hits deal double damage. Heavy Mask: Increased damage.",
+      "enemy_location": "Old Lumière",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-012",
+      "name": "Clair Enfeeble",
+      "character": "Monoco",
+      "description": "Deals medium Light damage to all enemies. 1 hit. Applies Powerless for 3 turns. Balanced Mask: Increased damage.",
+      "enemy_location": "The Monolith or alongside the Tainted Cliffs Mime",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-013",
+      "name": "Contorsionniste Blast",
+      "character": "Monoco",
+      "description": "Deals medium Physical damage to all enemies. 1 hit. Heals all allies by 10% Health for each enemy hit. Balanced Mask: Increased damage.",
+      "enemy_location": "Visages or Act III Lumière",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-014",
+      "name": "Creation Void",
+      "character": "Monoco",
+      "description": "Deals extreme Void damage to random targets. 3 hits. More damage if the same target is hit multiple times. Caster Mask: Increased damage.",
+      "enemy_location": "Miniboss in Renoir's Drafts (requires Esquie Dive to enter)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-015",
+      "name": "Cruler Barrier",
+      "character": "Monoco",
+      "description": "Applies 1-2 Shields to the target. Heavy Mask: Gives 2 AP to the target.",
+      "enemy_location": "Overworld, south of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-016",
+      "name": "Cultist Blood",
+      "character": "Monoco",
+      "description": "Deals medium Dark damage to all enemies. 3 hits. Sacrifices 90% Health to increase damage. Heavy Mask: Increased damage.",
+      "enemy_location": "Overworld, northwest of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-017",
+      "name": "Cultists Slashes",
+      "character": "Monoco",
+      "description": "Deals medium single target Dark damage. 3 hits. Deals more damage the less Health Monoco has. Agile Mask: Increased damage.",
+      "enemy_location": "Overworld, northwest of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-018",
+      "name": "Danseusse Waltz",
+      "character": "Monoco",
+      "description": "Deals high single target Fire damage. 3 hits. Deals more damage against Burning targets. Balanced Mask: Increased damage.",
+      "enemy_location": "Frozen Hearts",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-019",
+      "name": "Demineur Thunder",
+      "character": "Monoco",
+      "description": "Deals low single target Lightning damage. 1 hit. Deals extra Break damage. Caster Mask: Increased Break damage.",
+      "enemy_location": "Overworld, south of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-020",
+      "name": "Duallist Storm",
+      "character": "Monoco",
+      "description": "Deals extreme single target Physical damage. 4 hits. Can Break. Almighty Mask: Increased damage.",
+      "enemy_location": "Endless Tower (stage 11-1) or in Flying Manor",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-021",
+      "name": "Echassier Stabs",
+      "character": "Monoco",
+      "description": "Deals medium single target Physical damage. 2 hits. Second hit applies Mark to the target. Agile Mask: Increased damage.",
+      "enemy_location": "The Reacher, Renoir's Drafts, Overworld south of Frozen Hearts (requires Fly)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-022",
+      "name": "Eveque Spear",
+      "character": "Monoco",
+      "description": "Deals high single target Earth damage and applies Powerless for 3 turns. 1 hit. Heavy Mask: Increased damage.",
+      "enemy_location": "The Monolith, Endless Tower stage 9-1",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-023",
+      "name": "Gault Fury",
+      "character": "Monoco",
+      "description": "Deals low single target Physical damage. 4 hits. Applies Mark. Balanced Mask: Increased damage.",
+      "enemy_location": "Overworld, south of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-024",
+      "name": "Glaise Earthquakes",
+      "character": "Monoco",
+      "description": "Deals medium Earth damage to all enemies. 3 hits. Applies Powerful to self. Heavy Mask: Applies Powerful to all allies.",
+      "enemy_location": "Yellow Harvest (boss), Falling Leaves, Overworld south of Frozen Hearts (requires Fly)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-025",
+      "name": "Grosse Tete Whack",
+      "character": "Monoco",
+      "description": "Deals high single target Physical damage. 5 hits. Applies Defenceless for 3 turns. Heavy Mask: Increased damage.",
+      "enemy_location": "The Continent in front of Coastal Cave (missable) The Flying Manor (can respawn)",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-026",
+      "name": "Hexga Crush",
+      "character": "Monoco",
+      "description": "Deals medium single target Earth damage. 2 hits. Applies Defenceless to the target for 3 turns. Heavy Mask: Increases Defenceless duration to 5 turns.",
+      "enemy_location": "Stone wave Cliffs, many Overworld places such as next to the Gestral Beach northeast of the Stone Wave Cliffs",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-027",
+      "name": "Jar Lampstorm",
+      "character": "Monoco",
+      "description": "Deals medium Physical damage to all enemies. 4 hits. Heavy Mask: Increased damage.",
+      "enemy_location": "Overworld, south of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-028",
+      "name": "Lampmaster Light",
+      "character": "Monoco",
+      "description": "Deals high Light damage to all enemies. 1 hit. Increased damage at each cast. Almighty Mask: Increased damage.",
+      "enemy_location": "Flying Manor (miniboss) or Endless tower stage 11-2",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-029",
+      "name": "Lancelier Impale",
+      "character": "Monoco",
+      "description": "Deals low single target Ice damage. 1 hit. Slows the target for 3 turns. Agile Mask: Increased damage.",
+      "enemy_location": "Spring Meadows, The Monolith, Overworld, north of Spring Meadows",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-030",
+      "name": "Luster Slices",
+      "character": "Monoco",
+      "description": "Deals low single target Physical damage. 3 hits. Applies Rush to self for 3 turns. Agile Mask: Increased damage.",
+      "enemy_location": "Flying Waters, Overworld inbetween Flying Waters and Gestral Village",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-031",
+      "name": "Moissonneusse Vendage",
+      "character": "Monoco",
+      "description": "Deals High single target Physical damage. 3 hits. Can Break. Balanced Mask: Increased damage.",
+      "enemy_location": "Visages, Lumière (act III), Renoir's Drafts, Overworld on a beach directly west from Monoco's station near the edge of the map",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-032",
+      "name": "Obscur Sword",
+      "character": "Monoco",
+      "description": "Deals high single target Dark damage. 5 hits. Deals more damage against Powerless targets. Heavy Mask: Increased damage.",
+      "enemy_location": "The Monolith, Crimson Forest",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-033",
+      "name": "Orphelin Cheers",
+      "character": "Monoco",
+      "description": "Applies Powerful to 1-3 allies. Caster Mask: Also gives 3 AP to targets.",
+      "enemy_location": "Lumière (act III), Renoir's Drafts, The Reacher",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-034",
+      "name": "Perelin Heal",
+      "character": "Monoco",
+      "description": "Applies Regen to all allies. Caster Mask: Also Heals 40% Health.",
+      "enemy_location": "Overworld, northwest of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-035",
+      "name": "Portier Crash",
+      "character": "Monoco",
+      "description": "Deals high Physical damage to all enemies. 1 hit. Can Break. Heavy Mask: Increased damage.",
+      "enemy_location": "Overworld, inbetween Esoteric Ruins and Gestral Beach, west of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-036",
+      "name": "Potier Energy",
+      "character": "Monoco",
+      "description": "Gives 1-3 AP to all allies. Caster Mask: Gives 1 additional AP.",
+      "enemy_location": "Overworld east of the Forgotten Battlefield, near the Boat Graveyard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-037",
+      "name": "Ramasseur Bonk",
+      "character": "Monoco",
+      "description": "Deals low single target Dark damage. 1 hit. Can Break. Agile Mask: Fills 20% of the target's Break Bar.",
+      "enemy_location": "Forgotten Battlefield, The Monolith, Overworld, South of the Caroussel",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-038",
+      "name": "Rocher Hammering",
+      "character": "Monoco",
+      "description": "Deals medium single target Physical damage. 4 hits. Can Break. Heavy Mask: Increased damage.",
+      "enemy_location": "Stone wave Cliffs, many Overworld places such as a beach north of the Floating Cemetery, west of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-039",
+      "name": "Sakapatate Estoc",
+      "character": "Monoco",
+      "description": "Deals low single target Lightning damage. 1 hit. Deals more damage if the target is Stunned. Balanced Mask: Increased damage.",
+      "enemy_location": "Ancient Sanctuary in front of Gestral Village, The Monolith",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-040",
+      "name": "Sakapatate Explosion",
+      "character": "Monoco",
+      "description": "Deals medium Lightning damage to random enemies. 3 hits. Critical Hits trigger an additional hit. Caster Mask: Increased damage.",
+      "enemy_location": "Ancient Sanctuary in front of Gestral Village, The Monolith",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-041",
+      "name": "Sakapatate Fire",
+      "character": "Monoco",
+      "description": "Deals extreme Fire damage to all enemies. 3 hits. Apply 3 Burn per hit. Almighty Mask: Increased damage.",
+      "enemy_location": "The Monolith, Endless tower stage 7-3",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-042",
+      "name": "Sakapatate Slam",
+      "character": "Monoco",
+      "description": "Deals high Physical damage to all enemies. 1 hit. Increased damage to Marked targets. Heavy Mask: Increased damage.",
+      "enemy_location": "Ancient Sanctuary in front of Gestral Village, The Monolith",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-043",
+      "name": "Sapling Absorption",
+      "character": "Monoco",
+      "description": "Deals high Dark damage. 3 hits. Recovers 5% Health on hit. Caster Mask: Increased damage and double Heal",
+      "enemy_location": "Falling Leaves, many Overworld places such as a beach north of the Floating Cemetery, west of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-044",
+      "name": "Stalact Punches",
+      "character": "Monoco",
+      "description": "Deals medium single target Ice damage. 4 hits. High Break damage. Heavy Mask: Increased damage.",
+      "enemy_location": "Available from the start",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    },
+    {
+      "id": "ms-045",
+      "name": "Troubadour Trumpet",
+      "character": "Monoco",
+      "description": "Applies a random buff to 1-3 allies. Caster Mask: Applies a second random buff.",
+      "enemy_location": "Overworld, south of Monoco's Station",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco",
+      "completed": false
+    }
+  ]
+}

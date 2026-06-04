@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Option 3 — Modern Command</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* === OPTION 3: MODERN COMMAND ===
+     Mood: Sleek companion app. Still dark and game-themed, but prioritises
+     fast scanning and dense information on small screens. Each category has
+     its own accent color shown in the progress bar and section header strip.
+     No textures — clean geometry, rounded cards, color-coded badges.
+     Palette: True dark (near-neutral), one strong accent per category, white text.
+     Typography: Sora — geometric, clear at small sizes, slightly futuristic.
+  */
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:       #0e0e12;
+    --surface:  #16161c;
+    --surface-2:#1e1e27;
+    --surface-3:#28283a;
+    --border:   #2a2a3a;
+    --text-1:   #eeeef5;
+    --text-2:   #8888a8;
+    --text-3:   #44445a;
+    /* Category accent colors */
+    --cat-boss:    #c75b5b;
+    --cat-picto:   #5b8bc7;
+    --cat-quest:   #5bc78a;
+    /* State colors */
+    --green: #4caf7d;
+    --blue:  #5591cc;
+    --amber: #e0853a;
+    --radius: 10px;
+    --radius-sm: 6px;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(14,14,18,0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 16px;
+  }
+  .header-top {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 52px;
+  }
+  .app-title {
+    font-size: 16px; font-weight: 600; color: var(--text-1);
+    letter-spacing: -0.01em;
+  }
+  .app-title span { color: var(--text-2); font-weight: 300; }
+  .header-icons { display: flex; gap: 6px; }
+  .icon-btn {
+    width: 34px; height: 34px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--surface-2);
+    color: var(--text-2);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; font-size: 15px; transition: all 0.15s;
+  }
+  .icon-btn:hover { background: var(--surface-3); color: var(--text-1); }
+  .header-progress {
+    padding: 6px 0 10px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  /* Segmented overall bar — each segment = a category */
+  .seg-bar {
+    flex: 1; height: 4px;
+    background: var(--surface-3);
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex; gap: 1px;
+  }
+  .seg { height: 100%; border-radius: 1px; }
+  .overall-pct { font-size: 11px; color: var(--text-3); min-width: 30px; text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* ── SCROLL ── */
+  .scroll { max-width: 430px; margin: 0 auto; padding: 16px 16px 80px; }
+
+  /* ── OPTION LABEL ── */
+  .option-label {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    font-size: 12px; color: var(--text-2);
+  }
+  .option-label strong { color: var(--text-1); font-size: 14px; display: block; margin-bottom: 4px; }
+
+  /* ── CATEGORY SECTION ── */
+  .category-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  .category-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 14px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  /* Colored left strip */
+  .cat-strip {
+    width: 3px; height: 20px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .category-title { font-size: 14px; font-weight: 600; flex: 1; }
+  .category-count { font-size: 11px; color: var(--text-2); font-variant-numeric: tabular-nums; }
+  .progress-track {
+    height: 3px; background: var(--surface-3);
+    margin: 0 14px 0;
+    border-radius: 2px; overflow: hidden;
+  }
+  .progress-fill { height: 100%; border-radius: 2px; }
+  .progress-labels {
+    display: flex; justify-content: space-between;
+    padding: 4px 14px 10px;
+  }
+  .progress-labels span { font-size: 10px; color: var(--text-3); }
+
+  /* ── ITEMS ── */
+  .item {
+    border-top: 1px solid var(--border);
+    cursor: pointer; overflow: hidden;
+    transition: background 0.1s;
+  }
+  .item:hover { background: var(--surface-2); }
+  .item.expanded { background: var(--surface-2); }
+
+  .item-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px; min-height: 48px;
+  }
+
+  /* Checkbox */
+  .toggle {
+    width: 22px; height: 22px;
+    border-radius: 5px;
+    border: 1.5px solid var(--text-3);
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; transition: all 0.15s;
+  }
+  .toggle.collected { border-color: var(--green); background: rgba(76,175,125,0.15); color: var(--green); }
+  .toggle.lumina    { border-color: var(--blue);  background: rgba(85,145,204,0.15); color: var(--blue); }
+  .toggle-group { display: flex; gap: 3px; flex-shrink: 0; }
+  /* Pill-style picto toggles */
+  .picto-toggle {
+    display: flex; border-radius: 5px; overflow: hidden;
+    border: 1.5px solid var(--text-3); flex-shrink: 0;
+  }
+  .picto-half {
+    width: 22px; height: 22px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; cursor: pointer; color: var(--text-3);
+    transition: all 0.15s;
+  }
+  .picto-half + .picto-half { border-left: 1px solid var(--text-3); }
+  .picto-half.c { background: rgba(76,175,125,0.15); color: var(--green); }
+  .picto-half.l { background: rgba(85,145,204,0.15); color: var(--blue); }
+  .picto-half.c.active { background: rgba(76,175,125,0.25); }
+  .picto-half.l.active { background: rgba(85,145,204,0.25); }
+
+  .item-info { flex: 1; min-width: 0; }
+  .item-name { font-size: 13px; font-weight: 500; color: var(--text-1); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .item-location { font-size: 11px; color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+
+  .item-badges { display: flex; gap: 3px; flex-shrink: 0; align-items: center; }
+  .badge {
+    font-size: 9px; font-weight: 600; letter-spacing: 0.04em;
+    padding: 2px 6px; border-radius: 20px; text-transform: uppercase; white-space: nowrap;
+  }
+  .badge-miss { background: rgba(224,133,58,0.2); color: var(--amber); }
+  .badge-act  { background: rgba(91,139,199,0.2); color: var(--blue); }
+
+  .btn-link {
+    width: 28px; height: 28px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--surface-3);
+    color: var(--text-2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; flex-shrink: 0; cursor: pointer;
+    text-decoration: none; transition: all 0.15s;
+  }
+  .btn-link:hover { background: var(--surface-3); color: var(--text-1); }
+  .expand-arrow { font-size: 9px; color: var(--text-3); flex-shrink: 0; transition: transform 0.2s; }
+  .item.expanded .expand-arrow { transform: rotate(180deg); }
+
+  /* Expanded */
+  .item-detail {
+    display: none;
+    padding: 12px 14px 14px;
+    border-top: 1px solid var(--border);
+  }
+  .item.expanded .item-detail { display: block; }
+
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+  .detail-label { font-size: 10px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 3px; font-weight: 500; }
+  .detail-value { font-size: 12px; color: var(--text-2); line-height: 1.5; }
+  .detail-value.highlight { color: var(--text-1); font-weight: 500; }
+
+  .desc-block { margin-bottom: 12px; }
+  .desc-block .detail-value { font-size: 12px; }
+
+  .rewards-row { display: flex; flex-wrap: wrap; gap: 4px; }
+  .reward-chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    background: var(--surface-3); border-radius: 20px;
+    padding: 3px 9px; font-size: 11px; color: var(--text-2);
+  }
+  .rdot { width: 5px; height: 5px; border-radius: 50%; }
+  .rdot.c { background: var(--green); }
+  .rdot.x { background: var(--text-3); }
+
+  .miss-chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    background: rgba(224,133,58,0.1);
+    border: 1px solid rgba(224,133,58,0.25);
+    border-radius: var(--radius-sm); padding: 6px 10px;
+    font-size: 11px; color: var(--amber); width: 100%;
+    margin: 10px 0 0;
+  }
+
+  .btn-ign {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin-top: 12px; padding: 7px 14px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--surface-3); color: var(--text-1);
+    font-size: 12px; font-family: 'Sora', sans-serif;
+    cursor: pointer; text-decoration: none;
+    font-weight: 500; transition: all 0.15s;
+  }
+  .btn-ign:hover { background: var(--surface-2); border-color: var(--text-3); }
+
+  .section-gap { height: 0; }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-top">
+    <div class="app-title">Clair Obscur <span>· Tracker</span></div>
+    <div class="header-icons">
+      <button class="icon-btn">⊞</button>
+      <button class="icon-btn">⚙</button>
+      <button class="icon-btn">↓</button>
+    </div>
+  </div>
+  <div class="header-progress">
+    <div class="seg-bar">
+      <div class="seg" style="width:4%; background:var(--cat-boss)"></div>
+      <div class="seg" style="width:6%; background:var(--cat-picto)"></div>
+      <div class="seg" style="width:3%; background:var(--cat-quest)"></div>
+      <div class="seg" style="width:18%; background:var(--surface-3)"></div>
+    </div>
+    <div class="overall-pct">31%</div>
+  </div>
+</header>
+
+<div class="scroll">
+
+  <div class="option-label">
+    <strong>Option 3 — Modern Command</strong>
+    Sleek companion app · Each category has its own accent color · Rounded cards, pill badges, frosted header. Prioritises fast scanning on mobile. Less painterly, more functional — closer to a game guide app than art.
+  </div>
+
+  <!-- CATEGORY CARD: Optional Bosses -->
+  <div class="category-card">
+    <div class="category-header">
+      <div class="cat-strip" style="background:var(--cat-boss)"></div>
+      <div class="category-title">Optional Bosses</div>
+      <div class="category-count">8 / 48</div>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" style="width:18%; background:var(--cat-boss)"></div>
+    </div>
+    <div class="progress-labels"><span>18% complete</span><span>40 remaining</span></div>
+
+    <!-- item 1: not done -->
+    <div class="item" onclick="this.classList.toggle('expanded')">
+      <div class="item-row">
+        <div class="toggle">○</div>
+        <div class="item-info">
+          <div class="item-name">Grosse Tete</div>
+          <div class="item-location">The Continent</div>
+        </div>
+        <div class="item-badges">
+          <span class="badge badge-miss">⚠ Missable</span>
+        </div>
+        <a class="btn-link" href="#" onclick="event.stopPropagation()" title="IGN">↗</a>
+        <div class="expand-arrow">▾</div>
+      </div>
+      <div class="item-detail">
+        <div class="detail-grid">
+          <div>
+            <div class="detail-label">Location</div>
+            <div class="detail-value highlight">The Continent</div>
+          </div>
+          <div>
+            <div class="detail-label">Act</div>
+            <div class="detail-value highlight">Act 2–3</div>
+          </div>
+        </div>
+        <div class="desc-block">
+          <div class="detail-label">How to Find</div>
+          <div class="detail-value">Found near Coastal Cave / Flying Manor. Known for relentless slam attacks. Approach from the southeast path.</div>
+        </div>
+        <div class="detail-label">Rewards</div>
+        <div class="rewards-row" style="margin-top:4px">
+          <span class="reward-chip"><span class="rdot x"></span>Warming Up Picto</span>
+          <span class="reward-chip"><span class="rdot x"></span>Resplendent Chroma Catalyst</span>
+        </div>
+        <div class="miss-chip">⚠ Missable — cannot be fought after leaving this area permanently.</div>
+        <a class="btn-ign" href="#" onclick="event.stopPropagation()">↗ IGN Walkthrough</a>
+      </div>
+    </div>
+
+    <!-- item 2: done -->
+    <div class="item" onclick="this.classList.toggle('expanded')">
+      <div class="item-row">
+        <div class="toggle collected">✓</div>
+        <div class="item-info">
+          <div class="item-name">Chromatic Lancelier</div>
+          <div class="item-location">Spring Meadows</div>
+        </div>
+        <a class="btn-link" href="#" onclick="event.stopPropagation()">↗</a>
+        <div class="expand-arrow">▾</div>
+      </div>
+      <div class="item-detail">
+        <div class="desc-block">
+          <div class="detail-label">How to Find</div>
+          <div class="detail-value">Walk up the winding hillside north of Grand Meadows. Turn right at the hanging rope. Good target for the no-damage achievement.</div>
+        </div>
+        <a class="btn-ign" href="#" onclick="event.stopPropagation()">↗ IGN Walkthrough</a>
+      </div>
+    </div>
+
+    <!-- item 3: act-locked + missable -->
+    <div class="item" onclick="this.classList.toggle('expanded')">
+      <div class="item-row">
+        <div class="toggle">○</div>
+        <div class="item-info">
+          <div class="item-name">Alicia</div>
+          <div class="item-location">The Reacher</div>
+        </div>
+        <div class="item-badges">
+          <span class="badge badge-act">Act 3</span>
+          <span class="badge badge-miss">⚠</span>
+        </div>
+        <a class="btn-link" href="#" onclick="event.stopPropagation()">↗</a>
+        <div class="expand-arrow">▾</div>
+      </div>
+      <div class="item-detail">
+        <div class="desc-block">
+          <div class="detail-label">How to Find</div>
+          <div class="detail-value">North of The Crows. Requires Maelle at Relationship Level 6.</div>
+        </div>
+        <div class="detail-label">Rewards</div>
+        <div class="rewards-row" style="margin-top:4px">
+          <span class="reward-chip"><span class="rdot x"></span>Painted Me Haircut</span>
+          <span class="reward-chip"><span class="rdot x"></span>Lithum Weapon</span>
+        </div>
+        <div class="miss-chip">⚠ Act 3 only · Requires Maelle Relationship Lv 6.</div>
+        <a class="btn-ign" href="#" onclick="event.stopPropagation()">↗ IGN Walkthrough</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORY CARD: Pictos -->
+  <div class="category-card">
+    <div class="category-header">
+      <div class="cat-strip" style="background:var(--cat-picto)"></div>
+      <div class="category-title">Pictos</div>
+      <div class="category-count">42 / 193</div>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" style="width:22%; background:var(--cat-picto)"></div>
+    </div>
+    <div class="progress-labels"><span>22% complete</span><span>151 remaining</span></div>
+
+    <!-- Picto: not collected -->
+    <div class="item" onclick="this.classList.toggle('expanded')">
+      <div class="item-row">
+        <div class="picto-toggle">
+          <div class="picto-half c" title="Collected">✓</div>
+          <div class="picto-half l" title="Lumina">★</div>
+        </div>
+        <div class="item-info">
+          <div class="item-name">Accelerating Heal</div>
+          <div class="item-location">The Continent</div>
+        </div>
+        <a class="btn-link" href="#" onclick="event.stopPropagation()">↗</a>
+        <div class="expand-arrow">▾</div>
+      </div>
+      <div class="item-detail">
+        <div class="detail-grid">
+          <div>
+            <div class="detail-label">Effect</div>
+            <div class="detail-value">Healing an ally also applies Rush for 1 turn</div>
+          </div>
+          <div>
+            <div class="detail-label">Lumina Cost</div>
+            <div class="detail-value highlight">5 points</div>
+          </div>
+        </div>
+        <div class="desc-block">
+          <div class="detail-label">How to Find</div>
+          <div class="detail-value">Abandoned expedition camp on an island northeast of Stone Wave Cliffs. Requires Esquie's swim ability.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Picto: collected only -->
+    <div class="item" onclick="this.classList.toggle('expanded')">
+      <div class="item-row">
+        <div class="picto-toggle" style="border-color:var(--green)">
+          <div class="picto-half c active" title="Collected">✓</div>
+          <div class="picto-half l" title="Lumina" style="color:var(--text-3); border-color:var(--green)">★</div>
+        </div>
+        <div class="item-info">
+          <div class="item-name">Aegis Revival</div>
+          <div class="item-location">Spring Meadows</div>
+        </div>
+        <a class="btn-link" href="#" onclick="event.stopPropagation()">↗</a>
+        <div class="expand-arrow">▾</div>
+      </div>
+    </div>
+
+    <!-- Picto: collected + lumina -->
+    <div class="item" onclick="this.classList.toggle('expanded')">
+      <div class="item-row">
+        <div class="picto-toggle" style="border-color:var(--blue)">
+          <div class="picto-half c active" title="Collected" style="color:var(--green)">✓</div>
+          <div class="picto-half l active" title="Lumina" style="border-color:var(--blue)">★</div>
+        </div>
+        <div class="item-info">
+          <div class="item-name">Anti-Blight</div>
+          <div class="item-location">The Continent / The Reacher</div>
+        </div>
+        <a class="btn-link" href="#" onclick="event.stopPropagation()">↗</a>
+        <div class="expand-arrow">▾</div>
+      </div>
+    </div>
+
+    <!-- Picto: missable -->
+    <div class="item" onclick="this.classList.toggle('expanded')">
+      <div class="item-row">
+        <div class="picto-toggle">
+          <div class="picto-half c" title="Collected">✓</div>
+          <div class="picto-half l" title="Lumina">★</div>
+        </div>
+        <div class="item-info">
+          <div class="item-name">Auto Powerful</div>
+          <div class="item-location">Floating Cemetery</div>
+        </div>
+        <div class="item-badges">
+          <span class="badge badge-miss">⚠ Missable</span>
+        </div>
+        <a class="btn-link" href="#" onclick="event.stopPropagation()">↗</a>
+        <div class="expand-arrow">▾</div>
+      </div>
+    </div>
+
+  </div><!-- end pictos card -->
+
+</div>
+</body>
+</html>

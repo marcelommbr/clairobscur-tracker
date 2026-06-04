@@ -1,0 +1,304 @@
+{
+  "id": "tint-upgrades",
+  "name": "Tint Upgrades",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+  "items": [
+    {
+      "id": "tu-000",
+      "name": "Healing Tint Shard",
+      "location": "Spring Meadows",
+      "how_to_find": "Complete Jar Nevron's quest",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-001",
+      "name": "Healing Tint Shard",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "From Sanctuary Maze, go left at the fork and follow the path to reach an area with some blue statues. Then, follow the path beyond the blue statues and stay right at the fork that they encounter to enter an area with the top of a domed building and a Robust Sakapatate. Then exit that area through a path on the left, and then enter the alcove on their right to find a Healing Tint Shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-002",
+      "name": "Healing Tint Shard",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "Head left from the Paintress Shrine expedition flag to reach an alcove with the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-003",
+      "name": "Healing Tint Shard",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "From Main Gate, go left at the fork. Continue left to reach yet another fork and go left. Follow the path to its end, and climb the stairs on the right. At the top, defeat the three Nevrons and continue forward. The shard is on the ground to the left just before the wooden ramp",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-004",
+      "name": "Healing Tint Shard",
+      "location": "Visages",
+      "how_to_find": "From Joy Vale, ascend the ramp along the right side and enter the first corridor on the right to find this shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-005",
+      "name": "Healing Tint Shard",
+      "location": "Inside the Monolith",
+      "how_to_find": "From Tainted Hearts, go left after crossing the bridge that is beyond the Tainted Hearts expedition flag to enter an alcove with a very large Nevron. There are handholds to the right of that enemy that can be used to climb the wall, and the merchant at the top sells the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-006",
+      "name": "Shape of Health",
+      "location": "Flying Waters",
+      "how_to_find": "Defeat Goblu",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-007",
+      "name": "Shape of Health",
+      "location": "Sirene",
+      "how_to_find": "From Dancing Classes, follow the main path passing through the vertical room with fabric walkways and riding the lift that is beyond it. When the lift comes to a stop, look forward and to the right to find an entrance to the Manor. Inside the Manor, use Free Aim to break the mirror over the sink and pass through the wall to reach an area with this shape",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-008",
+      "name": "Energy Tint Shard",
+      "location": "Spring Meadows",
+      "how_to_find": "From the Meadow Corridor, follow the main path until you enter a building. Climb to the top and go right after ascending the gold thread to enter an area with the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-009",
+      "name": "Energy Tint Shard",
+      "location": "Flying Waters",
+      "how_to_find": "From Lumieran Street, go forward and right, there should be a Cruler guarding the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-010",
+      "name": "Energy Tint Shard",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "In the arena where you fight the Ultimate Sakapatate, here is a slightly elevated area where the shard can be found",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-011",
+      "name": "Energy Tint Shard",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "Follow the path to the right of the Paintress Shrine. The shard is on the ground just past the boat",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-012",
+      "name": "Energy Tint Shard",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "From Vanguard Point, descend the slanted cannon and look forward and to the right. There is a stack of crates in that position with the shard inside",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-013",
+      "name": "Energy Tint Shard",
+      "location": "Visages",
+      "how_to_find": "From Sadness Vale, enter the arena where the battle with the Sorrowful Chapelier occurs. Immediately upon entering the arena, turn 90 degrees to the right and walk forward to ascend a small slope. Follow the path at the top to reach a group of Nevrons that guard this shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-014",
+      "name": "Energy Tint Shard",
+      "location": "Sirene",
+      "how_to_find": "From Crumbling Path, go right to find the tint on the ground, just before a gold thread that can be descended",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-015",
+      "name": "Shape of Energy",
+      "location": "Gestral Village",
+      "how_to_find": "Enter the Manor via the door that is past the \"Turn Back\" sign in the Gestral Village. Once inside, interact with a pan on the wall and a candle holder on the table to open a hole in the floor. Fall through the hole and pass through the wall to enter a cellar. The shape is in the crates stacked to the right of the stairs",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-016",
+      "name": "Shape of Energy",
+      "location": "The Continent",
+      "how_to_find": "Enter the Manor via the door on the island south of Blades' Graveyard. Climb the spiral staircase and then jump across the platforms that extend from the walls",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-017",
+      "name": "Revive Tint Shard",
+      "location": "Spring Meadows",
+      "how_to_find": "From where you obtain the Resin, continue forward, following the path that runs along the left side of the slope, to reach this shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-018",
+      "name": "Revive Tint Shard",
+      "location": "Flying Waters",
+      "how_to_find": "From the Coral Cave, follow a lantern-lined path. There is a hole on the right side of that path, enter andfollow the path beyond the hole to reach a Paint Cage with the shard in it",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-019",
+      "name": "Revive Tint Shard",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "From Sanctuary Maze, go right at the fork and look for a small alcove on their right. There is a low gap in this alcove crawl through it and go left. Then follow the path to find an area with a mime. There is a wooden structure in the middle of that area, and there is a Revive Tint Shard inside",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-020",
+      "name": "Revive Tint Shard",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "From Flooded Building, descend through the structure and follow the path to enter yet another building. Climb to the top and turn around to face the building's exterior. Use the handholds to reach the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-021",
+      "name": "Revive Tint Shard",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "From Main Gate, move forward to reach a Nevron with a hammer. There is a ramp just left of that Nevron, and this tint is at the bottom",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-022",
+      "name": "Revive Tint Shard",
+      "location": "Old Lumiere",
+      "how_to_find": "From Entrance, buy the shard from the merchant to the right",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-023",
+      "name": "Revive Tint Shard",
+      "location": "Visages",
+      "how_to_find": "From Anger Vale, walk straight forward from the flag to reach a group of Nevrons that are slightly elevated. The shard is next to those Nevrons",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-024",
+      "name": "Revive Tint Shard",
+      "location": "Sirene",
+      "how_to_find": "In the boss room beyond the Sewing Atelier, look left to find some rubble that you can climb. The path at the top leads to a Paint Cage with the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-025",
+      "name": "Revive Tint Shard",
+      "location": "Inside the Monolith",
+      "how_to_find": "From Tainted Meadows, walk forward, sticking to the path on the right. Descend the gold thread at the end of the path and continue forward to reach a second gold thread. There is a Paint Cage at the bottom with the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-026",
+      "name": "Revive Tint Shard",
+      "location": "Frozen Hearts",
+      "how_to_find": "From Ice Heart, turn around and backtrack through the cavern. Upon emerging from the cave, hug the right side of the area and enter the first alcove on the right, which is home to a Paint Cage, open it to get the shard",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-027",
+      "name": "Shape of Life",
+      "location": "Stone Wave Cliffs",
+      "how_to_find": "Defeat the Lampmaster",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-028",
+      "name": "Shape of Life",
+      "location": "The Manor",
+      "how_to_find": "Climb the Manor's central staircase and head to the left side of the second floor. Look for a painting next to an illuminated lamp. Jump into the painting to access a room with the shape.",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-029",
+      "name": "Chroma Elixir Shard",
+      "location": "Flying Waters",
+      "how_to_find": "Follow the main path from the entrance to find a Paint Cage with the shard inside it",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-030",
+      "name": "Chroma Elixir Shard",
+      "location": "Ancient Sanctuary",
+      "how_to_find": "From Sanctuary Maze, follow the main path until you reach an area with a domed building and a Robust Sakapatate. There is a path on the far side of this area that leads to an alcove with the Paint Cage",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-031",
+      "name": "Chroma Elixir Shard",
+      "location": "Stone Wave Cliffs Cave",
+      "how_to_find": "After using the second grapple point and crossing the narrow bridge, go right, crawl through the tunnel, and ascend the gold thread to find a Paint Cage",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    },
+    {
+      "id": "tu-032",
+      "name": "Chroma Elixir Shard",
+      "location": "Forgotten Battlefield",
+      "how_to_find": "From Vanguard Point, descend the nearby cannon and follow the path forward to reach the Fading Woman. Then go right at the fork and look into the first alcove on their left to find a Paint Cage",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations",
+      "completed": false
+    }
+  ]
+}

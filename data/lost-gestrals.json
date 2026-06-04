@@ -1,0 +1,79 @@
+{
+  "id": "lost-gestrals",
+  "name": "Lost Gestrals",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+  "items": [
+    {
+      "id": "lg-000",
+      "location": "The Continent",
+      "how_to_find": "In front of Esquie's Nest",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-001",
+      "location": "The Continent",
+      "how_to_find": "As you approach the entrance to the Stone Wave Cliffs, they will see a path to their right that leads to a Bourgeon. There is a Lost Gestral in an alcove just beyond that enemy.",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-002",
+      "location": "The Continent",
+      "how_to_find": "There is a Lost Gestral just southeast of Monoco's Station, in the northeast of the area",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-003",
+      "location": "The Continent",
+      "how_to_find": "After unlocking the ability to swim, this Lost gestral can be found on the same island as White Tree, west of Yellow Harvest. The Gestral is on the south side of the island",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-004",
+      "location": "The Continent",
+      "how_to_find": "After unlocking the ability to swim through coral reefs, you can find this Lost Gestral on the beach above Coastal Cave",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-005",
+      "location": "The Continent",
+      "how_to_find": "There is a red island northwest of Old Lumiére. The gestal is hidden in the corner next to two Mimes. Swim is required for this one, but in order to reach this area of the map that should already be unlocked",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-006",
+      "location": "The Continent",
+      "how_to_find": "After unlocking the ability to Fly, head towards the endless tower. There is a single rock platform high in the air by the tower, and a Lost Gestral stands upon it.",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-007",
+      "location": "The Continent",
+      "how_to_find": "After unlocking the ability to Fly, head toward the left side of Visages or northeast of the Reacher. Esquie can land on some land in that area and the Lost Gestral is standing near its south end",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    },
+    {
+      "id": "lg-008",
+      "location": "The Continent",
+      "how_to_find": "After unlocking the ability to Fly, this Lost Gestral can be found in the red area southwest of Siréne, near the portal to the Endless Night Sanctuary",
+      "missable": false,
+      "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "bosses-main",
+    "name": "Main Bosses",
+    "icon": "shield",
+    "file": "bosses-main.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Walkthrough"
+  },
+  {
+    "id": "bosses-optional",
+    "name": "Optional Bosses",
+    "icon": "sword",
+    "file": "bosses-optional.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses"
+  },
+  {
+    "id": "endless-tower",
+    "name": "Endless Tower",
+    "icon": "layers",
+    "file": "endless-tower.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Endless_Tower"
+  },
+  {
+    "id": "journals",
+    "name": "Expedition Journals",
+    "icon": "book",
+    "file": "journals.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Expedition_Journal_Locations"
+  },
+  {
+    "id": "haircuts",
+    "name": "Haircuts",
+    "icon": "scissors",
+    "file": "haircuts.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Outfits_and_Haircuts_Guide:_All_Locations"
+  },
+  {
+    "id": "lost-gestrals",
+    "name": "Lost Gestrals",
+    "icon": "search",
+    "file": "lost-gestrals.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Sastro%27s_Lost_Gestral_Locations"
+  },
+  {
+    "id": "mimes",
+    "name": "Mimes",
+    "icon": "mask",
+    "file": "mimes.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Mime_Locations"
+  },
+  {
+    "id": "monoco-skills",
+    "name": "Monoco Skills",
+    "icon": "zap",
+    "file": "monoco-skills.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Monoco"
+  },
+  {
+    "id": "music-records",
+    "name": "Music Records",
+    "icon": "music",
+    "file": "music-records.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects"
+  },
+  {
+    "id": "outfits",
+    "name": "Outfits",
+    "icon": "shirt",
+    "file": "outfits.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Outfits_and_Haircuts_Guide:_All_Locations"
+  },
+  {
+    "id": "paint-cages",
+    "name": "Paint Cages",
+    "icon": "lock",
+    "file": "paint-cages.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Paint_Cage_Locations"
+  },
+  {
+    "id": "petanks",
+    "name": "Petanks",
+    "icon": "target",
+    "file": "petanks.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Optional_Bosses"
+  },
+  {
+    "id": "pictos",
+    "name": "Pictos",
+    "icon": "image",
+    "file": "pictos.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects"
+  },
+  {
+    "id": "quests",
+    "name": "Quests",
+    "icon": "map",
+    "file": "quests.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Side_Quests"
+  },
+  {
+    "id": "tint-upgrades",
+    "name": "Tint Upgrades",
+    "icon": "droplet",
+    "file": "tint-upgrades.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Tint_Shard_Locations"
+  },
+  {
+    "id": "weapons",
+    "name": "Weapons",
+    "icon": "crosshair",
+    "file": "weapons.json",
+    "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons"
+  }
+]

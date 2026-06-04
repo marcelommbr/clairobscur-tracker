@@ -1,0 +1,271 @@
+{
+  "id": "endless-tower",
+  "name": "Endless Tower",
+  "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Endless_Tower",
+  "items": [
+    {
+      "id": "et-s01-t1",
+      "stage": 1,
+      "trial": 1,
+      "enemies": "Gault, Luster, Ramasseur",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s01-t2",
+      "stage": 1,
+      "trial": 2,
+      "enemies": "Potier, Steel Chevaliere, Greatsword Cultist",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s01-t3",
+      "stage": 1,
+      "trial": 3,
+      "enemies": "Dualliste, Luster, Troubadour",
+      "rewards": "Picto: Greater Defenceless, Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s02-t1",
+      "stage": 2,
+      "trial": 1,
+      "enemies": "Demineur, Benisseur, Volester",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s02-t2",
+      "stage": 2,
+      "trial": 2,
+      "enemies": "Reaper Cultist, Ballet, Chapelier",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s02-t3",
+      "stage": 2,
+      "trial": 3,
+      "enemies": "Lampmaster, Potier, Echassier",
+      "rewards": "Picto: Energising Rush, Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s03-t1",
+      "stage": 3,
+      "trial": 1,
+      "enemies": "Gault, Hexga, Cruler",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s03-t2",
+      "stage": 3,
+      "trial": 2,
+      "enemies": "Chomatic Benisseur, Bouchelier, Clair",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s03-t3",
+      "stage": 3,
+      "trial": 3,
+      "enemies": "Chromatic Abbest, Goblu, Troubadour",
+      "rewards": "Clea Haircut (Lune), Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s04-t1",
+      "stage": 4,
+      "trial": 1,
+      "enemies": "Chromatic Orphelin, Ceramic Chevaliere, Cruler",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s04-t2",
+      "stage": 4,
+      "trial": 2,
+      "enemies": "Bourgeon, Jar, Rocher",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s04-t3",
+      "stage": 4,
+      "trial": 3,
+      "enemies": "Chromatic Echassier, Moissoneusse, Catapult Sakapatate",
+      "rewards": "Picto: Time Tint, Double Braid White Haircut (Maelle), Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s05-t1",
+      "stage": 5,
+      "trial": 1,
+      "enemies": "Chromatic Veilleur, Bruler, Orphelin",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s05-t2",
+      "stage": 5,
+      "trial": 2,
+      "enemies": "Chromatic Greatsword Cultist, Orphelin, Sapling",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s05-t3",
+      "stage": 5,
+      "trial": 3,
+      "enemies": "Chromatic Troubadour, Chromatic Aberration, Orphelin",
+      "rewards": "Picto: Charging Critical, Rebellious White Haircut (Lune), Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s06-t1",
+      "stage": 6,
+      "trial": 1,
+      "enemies": "Danseuses, Stalact, Portier",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s06-t2",
+      "stage": 6,
+      "trial": 2,
+      "enemies": "Chromatic Braseleur, Glaise, Pelerin",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s06-t3",
+      "stage": 6,
+      "trial": 3,
+      "enemies": "Gargant, Noir, Portier",
+      "rewards": "Picto: Critical Weakness, Messy Bun White Haircut (Sciel), Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s07-t1",
+      "stage": 7,
+      "trial": 1,
+      "enemies": "Flame Eveque, Danseuses, Pelerin",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s07-t2",
+      "stage": 7,
+      "trial": 2,
+      "enemies": "Chromatic Chevaliere, Chromatic Bruler, Aberration",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s07-t3",
+      "stage": 7,
+      "trial": 3,
+      "enemies": "Ultimate Sakapatate, Luster, Danseuses",
+      "rewards": "Picto: Fueling Break, Clea Haircut (Sciel), Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s08-t1",
+      "stage": 8,
+      "trial": 1,
+      "enemies": "Francois, Troubadour, Robust Sakapatate",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s08-t2",
+      "stage": 8,
+      "trial": 2,
+      "enemies": "Chromatic Lancelier, Chromatic Bouchelier, Chapelier",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s08-t3",
+      "stage": 8,
+      "trial": 3,
+      "enemies": "Ultimate Sakapatate, Chromatic Glaise, Obscur",
+      "rewards": "Picto: Empowering Tint, Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s09-t1",
+      "stage": 9,
+      "trial": 1,
+      "enemies": "Chromatic Eveque, Chromatic Ballet, Braseleur",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s09-t2",
+      "stage": 9,
+      "trial": 2,
+      "enemies": "Thunder Eveque, Chromatic Demineur, Stalact",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s09-t3",
+      "stage": 9,
+      "trial": 3,
+      "enemies": "Flame Eveque, Frost Eveque, Chromatic Danseuse",
+      "rewards": "Picto: Rush on Powerful, Expedition White Haircut (Verso), Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s10-t1",
+      "stage": 10,
+      "trial": 1,
+      "enemies": "Chromatic Portier, Chromatic Demineur, Clair",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s10-t2",
+      "stage": 10,
+      "trial": 2,
+      "enemies": "Chromatic Ceramic Chaveliere, Chromatic Steel Chevaliere, Chromatic Gold Chevaliere",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s10-t3",
+      "stage": 10,
+      "trial": 3,
+      "enemies": "Chromatic Chalier, Chromatic Jar, Obscur",
+      "rewards": "Picto: Greater Powerless, Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s11-t1",
+      "stage": 11,
+      "trial": 1,
+      "enemies": "Chromatic Moissoneusse, Dualliste, Mask Keeper",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s11-t2",
+      "stage": 11,
+      "trial": 2,
+      "enemies": "Lampmaster, Creation, Chromatic Clair Obscur",
+      "rewards": "Grandiose Chroma Catalyst, Colour of Lumina",
+      "completed": false
+    },
+    {
+      "id": "et-s11-t3",
+      "stage": 11,
+      "trial": 3,
+      "enemies": "Painted Love",
+      "rewards": "Clair Haircut (Verso), Perfect Chroma Catalyst, 5x Colour of Lumina",
+      "completed": false
+    }
+  ]
+}
