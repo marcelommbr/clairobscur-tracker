@@ -11,6 +11,7 @@
       "location": "The Continent",
       "how_to_find": "Can be found in an abandoned expedition camp on an island northeast  of the Stone Wave Cliffs. Needs Esquie's ability to swim",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -22,6 +23,7 @@
       "location": "Hidden Gestral Arena",
       "how_to_find": "Obtained upon winning your second fight against a Gestral fighter",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -33,6 +35,7 @@
       "location": "Flying Manor",
       "how_to_find": "Bought from Fusoka for 89650 Chroma after challenging him to a duel  and winning against him",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -44,6 +47,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant Anthonypo for 80040 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -55,6 +59,7 @@
       "location": "Spring Meadows  Renoir's Drafts",
       "how_to_find": "From the abandoned Expedition Camp, break through the Paint Spike to the  right of Jar. Head down the path and grapple across to the other cliff.  Defeat Grour the Merchant to unlock this item. Then it can be  purchased for 117240 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -66,6 +71,7 @@
       "location": "The Continent  The Reacher",
       "how_to_find": "Defeat the Chromatic Portier  Purchased from Eragol for 67350 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -77,6 +83,7 @@
       "location": "Frozen Hearts  Flying Manor",
       "how_to_find": "Defeat the Gargant  Defeat the Gargant",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -88,6 +95,7 @@
       "location": "Sirene",
       "how_to_find": "Defeat the Tisseur",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -99,6 +107,7 @@
       "location": "Frozen Hearts",
       "how_to_find": "Obtained from the Paint Cage in Glacial Falls past the Manor entrance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -110,6 +119,7 @@
       "location": "The Continent",
       "how_to_find": "Defeat the Chromatic Petank",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -121,6 +131,7 @@
       "location": "Stone Wave Cliffs  Painting Workshop",
       "how_to_find": "Defeat the Lampmaster  Defeat the Lampmaster",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -132,6 +143,7 @@
       "location": "Ancient Sanctuary",
       "how_to_find": "As you go through the cave where you need to crouch to enter in Sanctuary Maze, you can find a Catapult Sakapatate beside the loot beam containing the Attack Lifesteal",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -143,6 +155,7 @@
       "location": "Flying Waters",
       "how_to_find": "Found atop the giant anchor in Flying Waters, accessible via a climbable pillar behind the anchor",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -154,6 +167,7 @@
       "location": "Spring Meadows",
       "how_to_find": "Defeat the Chromatic Lancelier",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -165,6 +179,7 @@
       "location": "Flying Waters  Flying Manor  Renoir's Drafts",
       "how_to_find": "Defeat the Bourgeon  Defeat the Bourgeon near the Eveque bosses  Defeat Grour the Merchant to unlock this item. Then it can be purchased for 122125 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -176,6 +191,7 @@
       "location": "Visages",
       "how_to_find": "Defeat the Chromatic Ramasseur",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -187,6 +203,7 @@
       "location": "Lumiere (Act III)  Frozen Hearts",
       "how_to_find": "Defeat the Chromatic Echassier  Defeat the Danseuse Teacher",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -198,6 +215,7 @@
       "location": "Esquie's Nest  Renoir's Drafts",
       "how_to_find": "Defeat Francois  Defeat Grour the Merchant to unlock this item. Augmented First Strike can be purchased for 117240 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -209,6 +227,7 @@
       "location": "Yellow Harvest",
       "how_to_find": "Can be purchased from the Merchant Pinabby for 5320 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -220,6 +239,7 @@
       "location": "Floating Cementery",
       "how_to_find": "Complete Chalier Nevron's quest",
       "missable": true,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -231,6 +251,7 @@
       "location": "Sirene",
       "how_to_find": "After unlocking the platform at the end of the path from the Dancing Classes, head into the path on the right, and follow the ribbon on the right side going down to fight a Benisseur, you can pick up the picto on the side",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -242,6 +263,7 @@
       "location": "Old Lumiere",
       "how_to_find": "From the Left Street, head down and through the broken wall to an open field. Continue on the left path, then follow the right. Past the alley, continue down on the left. Continue going down the narrow road until you reach an open field. Go through the archway on the left, take out the enemies and pick up the picto",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -253,6 +275,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "Complete Hexga Nevron's quest",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -264,6 +287,7 @@
       "location": "The Chosen Path",
       "how_to_find": "Complete all the challenges to unlock the door in this location. You'll find this inside the locked room, next to a mirror",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -275,6 +299,7 @@
       "location": "Falling Leaves",
       "how_to_find": "Can be purchased from Persik for 48200 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -286,6 +311,7 @@
       "location": "Flying Manor",
       "how_to_find": "Bought from Fusoka for 81500 Chroma after challenging him to a duel and winning",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -297,6 +323,7 @@
       "location": "Ancient Sanctuary",
       "how_to_find": "Defeat the Ultimate Sakapatate",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -308,6 +335,7 @@
       "location": "The Monolith",
       "how_to_find": "Defeat the Clair Obscur in Tainted Lumiere",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -319,6 +347,7 @@
       "location": "The Continent",
       "how_to_find": "Southwest of Old Lumiere, behind a Bourgeon",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -330,6 +359,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "After the Entrance, go into the left jar structure to find this Pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -341,6 +371,7 @@
       "location": "The Continent",
       "how_to_find": "Defeat the Thunder Eveque east of Stone Wave Cliffs Cave",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -352,6 +383,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "After defeating the Gold Chevaliere, take the rope back up and follow the red flower path and stick to the path on the right. Hop across the pillars and pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -363,6 +395,7 @@
       "location": "The Continent",
       "how_to_find": "Found inside a Paint Spike in the small enclosed section to the west of Spring Meadows (needs Esquie's ability to fly)",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -374,6 +407,7 @@
       "location": "Frozen Hearts",
       "how_to_find": "From the Glacial Falls, continue along the path to the right, take the rope up, and head to the end to grapple across to the cliff ahead. At the end of this path, there are broken tracks and wall structures on them. Climb up the structure towards the right, turn around and grapple to the floating train. Take the rope down to pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -385,6 +419,7 @@
       "location": "Frozen Hearts",
       "how_to_find": "Found on top of a structure in the left side of the field in the first area of the Glacial Falls. Head up the slope on the left and hop across to the structure to pick it up",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -396,6 +431,7 @@
       "location": "Flying Manor",
       "how_to_find": "Defeat the Gargant",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -407,6 +443,7 @@
       "location": "Ancient Sanctuary",
       "how_to_find": "From the Entrance, run towards the large Gestral structure in the distance and follow the stream on the left, next to the main path will be slope leading down. Will be on a ledge after a short climb",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -418,6 +455,7 @@
       "location": "Spring Meadows  Monoco's Station  Sacred River",
       "how_to_find": "Found sitting on the cliff on the left upon exiting the short tunnel past the Abandoned Expedition Camp  Sold by the Grandis Merchant for 53901 Chroma  Fight and win the Gestral Merchant, then it can be bought for 43391 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -429,6 +467,7 @@
       "location": "Flying Manor",
       "how_to_find": "Found on a floating platform that can be reached by using the grappling hook. It's found in the area where you fight the Gargant and Lampmaster",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -440,6 +479,7 @@
       "location": "The Reacher",
       "how_to_find": "From the Mountain, proceed across and grapple to the mountain. Take the left path up and climb up the wall structures at the end of this path. Grapple across and continue to the right of the Fading Man. Grapple across 2 times and turn to the crawl space on the left. Go through the crawl space and drop down the wooden ledge and pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -451,6 +491,7 @@
       "location": "Renoir's Drafts",
       "how_to_find": "Found on the destroyed bridge behind Grour the merchant on the rooftop",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -462,6 +503,7 @@
       "location": "The Reacher",
       "how_to_find": "From the Mountain, proceed across and grapple to the mountain. Take the left path up and climb up the wall structures at the end of this path. Grapple across and continue to the right of the Fading Man. Grapple across and go straight ahead into the field. Take out the enemies and pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -473,6 +515,7 @@
       "location": "Endless Tower  Renoir's Drafts",
       "how_to_find": "Rewarded for completing Stage 5, Trial 3  Go behind Grour and follow the short path, jump across the platforms on the left to pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -484,6 +527,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant Anthonypo for 100050 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -495,6 +539,7 @@
       "location": "Lumiere (Act III)",
       "how_to_find": "As you go through the Central Plaza, you can find a Young Boy along the path. Go behind the tree in the middle of the area right before the Shattered Alley to find the pictos",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -506,6 +551,7 @@
       "location": "The Continent",
       "how_to_find": "Found on a small patch of land by the Gestral Beach south of Old Lumiere, near a Stalact",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -517,6 +563,7 @@
       "location": "The Reacher",
       "how_to_find": "Can be purchased from Eragol for 53880 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -528,6 +575,7 @@
       "location": "The Continent",
       "how_to_find": "Defeat Sprong southwest of Blades' Graveyard",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -539,6 +587,7 @@
       "location": "Spring Meadows",
       "how_to_find": "Defeat the Eveque",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -550,6 +599,7 @@
       "location": "Flying Manor",
       "how_to_find": "Defeat Clea",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -561,6 +611,7 @@
       "location": "Forgotten Battlefield",
       "how_to_find": "Defeat the Dualliste",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -572,6 +623,7 @@
       "location": "The Monolith",
       "how_to_find": "Defeat the Chromatic Clair Obscur in Monolith Peak after defeating the Paintress and returning",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -583,6 +635,7 @@
       "location": "Dark Gestral Arena",
       "how_to_find": "Win all three challenges to obtain this as a reward",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -594,6 +647,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "Dropped from the Hexga past the Entrance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -605,6 +659,7 @@
       "location": "Visages",
       "how_to_find": "In the Joyful Vale area, head up the ramp near the mask on the right side, then defeat the Boucheclier by the ledge. After the area is clear, proceed to the area on the right to find the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -616,6 +671,7 @@
       "location": "The Continent",
       "how_to_find": "Found inside a Paint Spike on a beach west of the Isle of the Eyes",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -627,6 +683,7 @@
       "location": "Spring Meadows  Endless Night Sanctuary",
       "how_to_find": "Found at the end of the path to the right, right after taking out the first wave of Lancelier enemies past the Meadows Corridor  Sold by the Gestral Merchant Anthonypo for 100050 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -638,6 +695,7 @@
       "location": "Gestral Village",
       "how_to_find": "Purchased from Jujubree for 5520 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -649,6 +707,7 @@
       "location": "Sacred River",
       "how_to_find": "Sold by the merchant for for 53880 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -660,6 +719,7 @@
       "location": "The Continent",
       "how_to_find": "Found in a camp surrounded by enemies in an alcove to the northwest of Falling Leaves",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -671,6 +731,7 @@
       "location": "Endless Tower",
       "how_to_find": "Rewarded for completing Stage 6, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -682,6 +743,7 @@
       "location": "The Continent",
       "how_to_find": "Found in front of the entrance to Dark Shores, in a cluster of crates you can break apart, containing the Picto",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -693,6 +755,7 @@
       "location": "Spring Meadows",
       "how_to_find": "Found on a ledge at the end of the path directly to the right upon exiting the short tunnel past the Abandoned Expedition Camp",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -704,6 +767,7 @@
       "location": "Yellow Harvest",
       "how_to_find": "From Harvester's Hollow, head down the path and go towards the slope on the right. To the right of that slope, you can pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -715,6 +779,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "After unlocking Esquie's swim ability, enter Stone Wave Cliffs and directly to the left, you can pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -726,6 +791,7 @@
       "location": "Spring Meadows",
       "how_to_find": "Obtained upon defeating the Portier inside the cave after Lune finds you",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -737,6 +803,7 @@
       "location": "Visages  Sacred River",
       "how_to_find": "In the Anger Vale area, you can find a cavern on the right side. Enter it, then follow the left path to find a Moissonneuse with two Bouchecliers. Defeat the enemies, then pick up the pictos beside the remains of a human  Sold by the merchant for for 89800 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -748,6 +815,7 @@
       "location": "Sirene",
       "how_to_find": "Can be purchased from Klaudiso for 42400 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -759,6 +827,7 @@
       "location": "The Reacher",
       "how_to_find": "From the Entrance, grapple across to the next tower, continue ahead, and grapple onto the next tower. Proceed ahead and take the rope down. From there, take the path on the right, defeat the Orphelin and pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -770,6 +839,7 @@
       "location": "Sirene",
       "how_to_find": "From the dancing classes flag, keep going straight and hug the left side. Should be a room with a light robe going down, go straight to pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -781,6 +851,7 @@
       "location": "The Continent",
       "how_to_find": "Found on the ground in a small patch of land northeast of Sirene",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -792,6 +863,7 @@
       "location": "Spring Meadows",
       "how_to_find": "After defeating Eveque, it is found on an exposes branch near the boss area and near the exit",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -803,6 +875,7 @@
       "location": "Flying Manor",
       "how_to_find": "Found in the area where you fight Goblu. When you enter, there's a chroma rope that you can zip to the lower section of the area. You'll see a Cruler enemy roaming around and blocking the path where the item is",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -814,6 +887,7 @@
       "location": "The Continent",
       "how_to_find": "A little north of the Endless Night Sanctuary in an abandoned camp in the top left corner. Right across from 3 enemies",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -825,6 +899,7 @@
       "location": "Hidden Gestral Arena",
       "how_to_find": "Defeat Julien Tiny Head",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -836,6 +911,7 @@
       "location": "Flying Manor",
       "how_to_find": "Can be bought from Fusoka for 97800 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -847,6 +923,7 @@
       "location": "Forgotten Battlefield  Endless Tower",
       "how_to_find": "From the Battlefield, head through the trenches on the right side of the Fading Woman, then follow the path on the right side. Climb the rope, and you will find the pictos across the wooden path  Rewarded for completing Stage 8, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -858,6 +935,7 @@
       "location": "Flying Manor",
       "how_to_find": "Lampmaster fight area, by the broken picture frame to the left",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -869,6 +947,7 @@
       "location": "Yellow Harvest  Renoir's Drafts  Painting Workshop",
       "how_to_find": "Defeat Glaise in the Yellow Spire Wrecks  Purchased from Gour the Merchant for 146550 Chroma  Defeat the Lampmaster",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -880,6 +959,7 @@
       "location": "Sirene",
       "how_to_find": "Can be purchased from Klaudiso for 37100 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -891,6 +971,7 @@
       "location": "Flying Waters",
       "how_to_find": "Found on the path on the left after defeating the Chromatic Troubadour",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -902,6 +983,7 @@
       "location": "Frrozen Hearts",
       "how_to_find": "Defeat the Chromatic Veilleur",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -913,6 +995,7 @@
       "location": "The Monolith",
       "how_to_find": "Unlocked from Mistra's secret wares by challenging him to a duel, it will be sold for 40800 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -924,6 +1007,7 @@
       "location": "Forgotten Battlefield  Monoco's Station",
       "how_to_find": "In the Fort Ruins section, head inside the structure to find a Chalier. Defeat it, then head to the ledge it was blocking to find the pictos  Sold by the Grandis Merchant for 58800 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -935,6 +1019,7 @@
       "location": "The Continent",
       "how_to_find": "Defeat the Frost Eveque east of Monoco's Station",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -946,6 +1031,7 @@
       "location": "The Continent",
       "how_to_find": "On the beach just below the Endless Tower",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -957,6 +1043,7 @@
       "location": "Ancient Sanctuary",
       "how_to_find": "Found on the left side of the starting area",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -968,6 +1055,7 @@
       "location": "Stone Wave Cliffs  Flying Manor",
       "how_to_find": "Follow the main path all the way to the destroyed airship. Go through the tunnel that was left by the remnants of the airship, then cross the platform to reach the other side. Stay on this path until you encounter a duo of a Greatsword Cultist and Reaper Cultist near the bridge. Defeat them to get the pictos  From the Central Plaza, go through the arch on the right and use the lift to get to the bottom level. Defeat the Greatsword Cultist standing on the structure on the left side of the area to receive the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -979,6 +1067,7 @@
       "location": "Forgotten Battlefield  Renoir's Drafts  Sacred River",
       "how_to_find": "Defeat the Chromatic Luster  Sold by the Gestral Merchant for 78575 Chroma  Can be purchased from Gour the Merchant for 170975 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -990,6 +1079,7 @@
       "location": "Lumiere (Act III)",
       "how_to_find": "At the Harbour section, once you get to the rooftop section, follow the path on the right until you reach the spot where you started in the Prologue. Inside the trellis area, you can find the pictos",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1001,6 +1091,7 @@
       "location": "Stone Wave Cliffs Cave",
       "how_to_find": "Defeat the Chromatic Hexga",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1012,6 +1103,7 @@
       "location": "Endless Tower",
       "how_to_find": "Rewarded for completing Stage 2, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1023,6 +1115,7 @@
       "location": "The Continent",
       "how_to_find": "Found in a paint spike in the area of the Chromatic Petank to the east of The Meadows",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1034,6 +1127,7 @@
       "location": "Flying Manor",
       "how_to_find": "Found on the left side of Goblu's arena",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1045,6 +1139,7 @@
       "location": "The Continent",
       "how_to_find": "Found on the right side of the beach behind the Gestral Village",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1056,6 +1151,7 @@
       "location": "Ancient Sanctuary",
       "how_to_find": "From the Sanctuary Maze, stay on the right path and go through the crouch hole. From there take the right path and go forward until you reach the end of the room with a Ranger Sakapatate. You will be able to climb the ledge on the left and find the picos at the end of the path",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1067,6 +1163,7 @@
       "location": "Esquie's Nest",
       "how_to_find": "After Esquie joins your party, cross the pillar and use your grappling hook to get across, head down the path until the very end to find this pictos on the edge of the ledge",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1078,6 +1175,7 @@
       "location": "Forgotten Battlefield",
       "how_to_find": "After fighting a Troubadour positioned near a door that cannot be interacted with, follow the nearby path to find a trench containing the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1089,6 +1187,7 @@
       "location": "Flying Manor",
       "how_to_find": "Obtained from a Paint Cage on the left side of the Eveque bosses' area",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1100,6 +1199,7 @@
       "location": "Sirene  Sacred River  Renoir's Drafts",
       "how_to_find": "Defeat Sirene  Sold by the Gestral Merchant for 89800 Chroma  Purchased from Grour the Merchant for 195400 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1111,6 +1211,7 @@
       "location": "The Continent",
       "how_to_find": "Defeat the Serpenphare",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1122,6 +1223,7 @@
       "location": "The Monolith",
       "how_to_find": "Found by a corpse next to a train near the Merchant Melosh in the Tainted Hearts",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1133,6 +1235,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "From the Flooded Buildings, head down the path and go through the building on the left. Head up and exit to the open area, and grapple to the cliffs to the right to find the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1144,6 +1247,7 @@
       "location": "Stone Wave Cliffs Cave",
       "how_to_find": "Found in the left side of the arena where the Chromatic Hexga is located",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1155,6 +1259,7 @@
       "location": "Flying Waters",
       "how_to_find": "Sold by Merchant Noco for 3600 Chroma",
       "missable": true,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1166,6 +1271,7 @@
       "location": "The Reacher",
       "how_to_find": "Can be purchased from Eragol for 53880 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1177,6 +1283,7 @@
       "location": "Lumiere (Act III)",
       "how_to_find": "Defeat the Creation in Lumiere's Garden",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1188,6 +1295,7 @@
       "location": "Abbest Cave",
       "how_to_find": "Defeat the Chromatic Abbest",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1199,6 +1307,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "Make your way through the broken airship past the Hexga, and make your way to the next section. Go through the field past the enemies and make your way up the shorter cliffs on the right. Defeat the group of enemies and pick up this pictos at the base of the statue behind them",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1210,6 +1319,7 @@
       "location": "The Continent  Endless Tower",
       "how_to_find": "Exit from the northern portal in Monoco's Station and then make your way up to the right then take the path on the left when you reach the fork in the path. In the next fork in the path, take the left path to reach the other portal to The Carousel, to the left, you can pick up the pictos  Rewarded after beating Stage 7, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1221,6 +1331,7 @@
       "location": "Lumiere (Act III)",
       "how_to_find": "Sold by Cribappa for 53200 Chroma",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1232,6 +1343,7 @@
       "location": "Visages  Sacred River",
       "how_to_find": "After reaching the Chromatic Ramasseur, look on the right, pick up the pictos near a figure with garlands  Sold by the Gestral Merchant for 67350 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1243,6 +1355,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "There is a small cave-like room where you'll find a dead expeditioner and this pictos, just near the Grandis NPC towards a dead end on the east side",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1254,6 +1367,7 @@
       "location": "Flying Manor",
       "how_to_find": "Sold by Fusoka for 97800 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1265,6 +1379,7 @@
       "location": "Lumiere (Act III)",
       "how_to_find": "In Lumiere's Garden, follow the path on the left to find a loot beam. Approach it, and two Aberrations will spawn; defeat them, then pick up the pictos",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1276,6 +1391,7 @@
       "location": "The Monolith  Endless Tower",
       "how_to_find": "Sold by Melosh the Merchant for 47600 Chroma  Rewarded for completing Stage 1, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1287,6 +1403,7 @@
       "location": "Sirene",
       "how_to_find": "Can be purchased from Klaudiso for 37100 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1298,6 +1415,7 @@
       "location": "Endless Tower",
       "how_to_find": "Rewarded for completing Stage 10, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1309,6 +1427,7 @@
       "location": "Monoco's Station",
       "how_to_find": "Sold by the Grandis Merchant for 85750 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1320,6 +1439,7 @@
       "location": "Sirene",
       "how_to_find": "After interacting with the second strange figure and taking the podium down, turn right at the path and head to the end to pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1331,6 +1451,7 @@
       "location": "Sky Island",
       "how_to_find": "Requires Esquie's fly ability to reach the location. Found on a broken set of stairs past the Chromatic Glaise",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1342,6 +1463,7 @@
       "location": "The Reacher",
       "how_to_find": "Found on the unreachable ledge in the Ladder Area. Players will need to take the hot air balloon from the Foggy Area located near Eragol the merchant",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1353,6 +1475,7 @@
       "location": "Old Lumiere",
       "how_to_find": "Can be purchased from the Merchant Mandelgo for 20400 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1364,6 +1487,7 @@
       "location": "Old Lumiere",
       "how_to_find": "After foghting Renoir, from the Manor Gardens, head to the lower right corner to find a new path. Go all the way to the end, and grapple across several cliffs until you grapple to a building on a cliff. Climb up the wall structures and pick up the pictos at the end of the path",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1375,6 +1499,7 @@
       "location": "Sirene",
       "how_to_find": "From the Crumbling Path, turn to the right and up the stairs. Go to the edge and take the rope down. Continue down this path and grapple across. Go through the crawl space to find the pictos by a corpse",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1386,6 +1511,7 @@
       "location": "Gestral Village",
       "how_to_find": "Can be purchased from Eesda for 9200 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1397,6 +1523,7 @@
       "location": "The Continent",
       "how_to_find": "Can be found at a camp behind the Bourgeon south east of Stone Wave Cliffs after defeating it",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1408,6 +1535,7 @@
       "location": "Visages",
       "how_to_find": "Can be purchased from Blooraga for 19200 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1419,6 +1547,7 @@
       "location": "Lumiere (Act III)",
       "how_to_find": "After exiting the Opera House, grapple across until you encounter an Aberration and a Ballet. Defeat the enemies, then pick up the pictos",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1430,6 +1559,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "From the Flooded Buildings, take the stairs down and head to the end of the path and use your grappling hook to the other side. Take the group of enemies, turn to the left, and you find a sword that's stuck in the ground. There you can pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1441,6 +1571,7 @@
       "location": "Visages",
       "how_to_find": "Defeat the Mask Keeper",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1452,6 +1583,7 @@
       "location": "Dark Shores",
       "how_to_find": "From the entrance, go straight until you find a group of Noirs at the end, defeat them and pic up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1463,6 +1595,7 @@
       "location": "Forgotten Battlefield",
       "how_to_find": "Sold by Kasumi for 9870 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1474,6 +1607,7 @@
       "location": "Hidden Gestral Arena",
       "how_to_find": "Can be obtained upon winning your first match against a Gestral fighter",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1485,6 +1619,7 @@
       "location": "Flying Manor  The Continent",
       "how_to_find": "Can be bought from Fusoka for 142625 Chroma  Defeat the Chromatic Aberration. Requieres Esquie's ability to fly to a mountain east of Spring Meadows",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1496,6 +1631,7 @@
       "location": "Old Lumiere",
       "how_to_find": "Can be purchased from the Merchant Mandelgo for 20400 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1507,6 +1643,7 @@
       "location": "The Continent",
       "how_to_find": "Requires Esquie's fly ability to reach the location. The pictos is located north of the Frost Eveque, which is east of Monoco's Station",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1518,6 +1655,7 @@
       "location": "Forgotten Battlefield  The Reacher  The Continent",
       "how_to_find": "Dropped by a Chalier positioned near a fork in the path at the start  From the Mountain, continue ahead and grapple across to the mountain. Take the path up on the right to find a little course to go through. Carefully make your way across to the other side and pick up the pictos  Dropped by a group of enemies consisting of a Rocher, a Bouchelier, and a Chalier at the yellow forest northeast of The Carousel",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1529,6 +1667,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant Anthonypo for 80040 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1540,6 +1679,7 @@
       "location": "Flying Waters",
       "how_to_find": "Found at the end of a path guarded by 2 Lusters, on the path to the left right after encountering the first solo Luster",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1551,6 +1691,7 @@
       "location": "The Monolith",
       "how_to_find": "Defeat the Paintress at the Monolith Peak",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1562,6 +1703,7 @@
       "location": "Flying Manor",
       "how_to_find": "In the area where the Eveque boss is, head up the stairs on the east side of the room, grapple across, and jump to reach the opposite end. You'll find the body of an expeditioner lying on the platform. The pictos is just beside the body",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1573,6 +1715,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "Defeat the Gold Chevaliere in the second lower level",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1584,6 +1727,7 @@
       "location": "Ancient Sanctuary",
       "how_to_find": "After destroying the Paint Spike in the Sanctuary Maze, head down to the Gestral Totem area. Behind the totem, you can find a narrow path; enter the path, then drop to the body of water on the right to find the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1595,6 +1739,7 @@
       "location": "Visages",
       "how_to_find": "In Anger Vale, head to the path on the left then go down the rope beyond the group of Bouchecliers. At the bottom, you can find the pictos near a Contorsionniste",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1606,6 +1751,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant Anthonypo for 80040 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1617,6 +1763,7 @@
       "location": "Flying Manor",
       "how_to_find": "Found in the path to Goblu, on top of a structure guarded by two Steel Chevalieres",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1628,6 +1775,7 @@
       "location": "The Continent  Flying Manor",
       "how_to_find": "Defeat the Chromatic Bruler by the beach behind the Gestral Village  Can be picked up after opening the Paint Cage in an area behind Dualliste reached by grappling",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1639,6 +1787,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant Anthonypo for 80040 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1650,6 +1799,7 @@
       "location": "Gestral Village",
       "how_to_find": "Can be found inside a room blocked by a Paint Spike across the Gestral Doctor",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1661,6 +1811,7 @@
       "location": "Sirene",
       "how_to_find": "After unlocking the platform at the end of the path from the Dancing Classes, head into the path on the right, and follow the ribbon on the right side going down to fight a Benisseur. Defeat it to obtain the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1672,6 +1823,7 @@
       "location": "Camp",
       "how_to_find": "Rewarded by Sastro for finding all 9 Lost Gestrals",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1683,6 +1835,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant Anthonypo for 100050 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1694,6 +1847,7 @@
       "location": "Sirene",
       "how_to_find": "Progress through Sirene until you have been transported through a tunnel to an underground area. Go up the path, past the Fading Man. Head right in the next area, all the way at the end, you can climb up a ledge and pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1705,6 +1859,7 @@
       "location": "The Reacher  Esoteric Ruins",
       "how_to_find": "Can be purchased from Eragol for 53880 Chroma  Complete the Portier Nevron quest",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1716,6 +1871,7 @@
       "location": "Hidden Gestral Arena",
       "how_to_find": "Obtained upon winning your third fight against a Gestral fighter",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1727,6 +1883,7 @@
       "location": "Flying Manor",
       "how_to_find": "Found by going full right after the first stairs at the start and going down between the three columns",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1738,6 +1895,7 @@
       "location": "The Reacher",
       "how_to_find": "From the Foggy Area, cross the bridges down to the field, before heading into the field, make a U-turn to the right. Cross the plank and pick up the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1749,6 +1907,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Defeat the Chromatic Cruler",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1760,6 +1919,7 @@
       "location": "The Monolith",
       "how_to_find": "From The Tainted Sanctuary Expedition Flag, go forward to the large open area with the Ultimate Sakapatate, go up to the slope to the left and under a crawlspace to an area with a Paint Cage, the pictos is found under this cage",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1771,6 +1931,7 @@
       "location": "Red Woods",
       "how_to_find": "Complete the fountain quest",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1782,6 +1943,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "From the Old Farm, proceed east down the slope until you reach flat ground. Some stacks of lumber will be to your left; continue forward, keeping the lumber to your immediate left, until you can go no further; destroy the paint spike. You'll gain access to an area with the optional boss Chromatic Gault. When entering this area, a path to your immediate right will lead to the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1793,6 +1955,7 @@
       "location": "Old Lumiere",
       "how_to_find": "Defeat the Chromatic Danseuse",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1804,6 +1967,7 @@
       "location": "Forgotten Battlefield  Sacred River",
       "how_to_find": "After defeating Dualliste, climb up the ropes to find a narrow path between rocks to find the pictos hidden behind trees  Sold by the Gestral Merchant for 67350 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1815,6 +1979,7 @@
       "location": "Flying Waters  Sacred Rivers",
       "how_to_find": "Found at the end of the path to the left past the Cruler after the Coral Cave  Sold by the Gestral Merchant for 53880 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1826,6 +1991,7 @@
       "location": "Gestral Village  Flying Manor",
       "how_to_find": "Can be found in the Gestral Casino near the arena. Interact with a door to talk to a Gestral Gambler; choose the dialogue option \"I don't care.\" to receive the pictos  Dropped by the Petank near the Eveque bosses",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1837,6 +2003,7 @@
       "location": "Endless Tower",
       "how_to_find": "Rewarded for completing Stage 9, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1848,6 +2015,7 @@
       "location": "The Monolith",
       "how_to_find": "Defeat Renoir",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1859,6 +2027,7 @@
       "location": "The Continent",
       "how_to_find": "Found by some broken crates on the southern part of the island northwest of the Red Woods",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1870,6 +2039,7 @@
       "location": "Endless Night Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant Anthonypo for 100050 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1881,6 +2051,7 @@
       "location": "Sirene  Sacred River",
       "how_to_find": "Break the Paint Cage  Sold by the Gestral Merchant for 78575 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1892,6 +2063,7 @@
       "location": "The Crows",
       "how_to_find": "Defeat the Chromatic Chapelier",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1903,6 +2075,7 @@
       "location": "The Continent",
       "how_to_find": "Requieres Esquie's ability to fly. Found on the ground under wooden crates near the Bourgeon southeast of Forgotten Battlefield",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1914,6 +2087,7 @@
       "location": "Lumiere (Act III)",
       "how_to_find": "Head up the stairs at the harbour and defeat the Aberration",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1925,6 +2099,7 @@
       "location": "Flying Manor",
       "how_to_find": "Bought from Fusoka for 97800 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1936,6 +2111,7 @@
       "location": "The Reacher",
       "how_to_find": "From the Mountain, proceed along the path ahead, and grapple across to the mountain. There will be a group of enemies that consists of 3 Echassier, defeat them to obtain the pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1947,6 +2123,7 @@
       "location": "Crushing Cavern  Sacred River",
       "how_to_find": "Defeat the Giant Sappling  Sold by the Gestral Merchant for 67350 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1958,6 +2135,7 @@
       "location": "Hidden Gestral Arena  Renoir's Drafts",
       "how_to_find": "Obtained upon winning your fourth fight against a Gestral fighter   Sold by Grour the Merchant for 97700 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1969,6 +2147,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "From the Paintress Shrine, go down the path on the right and cross the narrow stone bridge. Take the path on the right and go up the grassy path, and take another right to the hexagon cliff structures, pick up the pictos behind it",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1980,6 +2159,7 @@
       "location": "Falling Leaves",
       "how_to_find": "In the Resinveil Grove, found by a large tree stump",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -1991,6 +2171,7 @@
       "location": "Flying Waters",
       "how_to_find": "At the beginning of the area, head forwards to discover a shipwreck. Look for a small passage to the left of the ship's anchor.",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2002,6 +2183,7 @@
       "location": "Flying Waters",
       "how_to_find": "At the Coral Cave expedition flag, look for a small side area on the right.",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2013,6 +2195,7 @@
       "location": "The Monolith  Flying Manor",
       "how_to_find": "In the Tainted Waters area, find and fight the Chromatic Bourgeon  Bought from Fusoka for 122250 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2024,6 +2207,7 @@
       "location": "Sacred River  Ancient Sanctuary",
       "how_to_find": "Sold by the Gestral Merchant for 67350 Chroma  Near the boss room with the Ultimate Sakapatate, there is a small cave entrance you can crouch walk into. The pictos is hidden in that area.",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2035,6 +2219,7 @@
       "location": "Monoco's Station",
       "how_to_find": "Sold by the Grandis Merchant for 98000 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2046,6 +2231,7 @@
       "location": "Renoir's drafts",
       "how_to_find": "Sold by Grour the Merchant for 107471 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2057,6 +2243,7 @@
       "location": "Stone Wave Cliffs  The Reacher",
       "how_to_find": "Near the Old Farm, defeat the Chromatic Gault  Can be purchased from Eragol for 49391 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2068,6 +2255,7 @@
       "location": "Yellow Harvest",
       "how_to_find": "Defeat Pinabby to unlock this Pictos for purchasing",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2079,6 +2267,7 @@
       "location": "Sunless Cliffs",
       "how_to_find": "From the Chroma Portal, enter the portal and choose an Expeditioner to face the Mime. Only the first victory drops the Pictos",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2090,6 +2279,7 @@
       "location": "Endless Night Sanctuary  Endless Tower",
       "how_to_find": "Near Anthonypo after clearing out the enemies in the area  Rewarded for completing Stage 4, Trial 3",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2101,6 +2291,7 @@
       "location": "Flying Waters  Endless Night Sanctuary",
       "how_to_find": "Found in the Coral Cave area near the central waterfall  Sold by the Gestral Merchant Anthonypo for 80040 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2112,6 +2303,7 @@
       "location": "Overworld",
       "how_to_find": "Dropped by Grosse Tete in front of Coastal Cave",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },
@@ -2123,6 +2315,7 @@
       "location": "The Monotlith",
       "how_to_find": "From the Tainted Cliffs, make your way up and grapple across to the cliffs ahead to find this near a broken airship",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     }

@@ -14,6 +14,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: 50% increased damage on Rank D. No damage increase on other ranks Level 20: On Rank D, recover 20% Health with Base Attack",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -28,6 +29,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: Kill self on battle start",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -42,6 +44,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Perfection is now based on current Health. Gain 1 Rank every 20% missing Health Level 10: 20% increased Light damage with Skills Level 20: +1 AP on Rank Up",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -56,6 +59,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: Start battle at Rank S, but can't be Healed or gain Shields Level 10: 20% increased damage for each consecutive turn without taking damage. Stacks 5 times Level 20: Apply Rush on Rank S",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -70,6 +74,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: Light damage can Burn on Critical hits Level 20: Increase Burn damage by 50% per Rank, up to 300% on Rank S",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -84,6 +89,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Switch to Rank S on Break. Base Attack can Break Level 20: Triggers a lightning strike on Critical hits",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -98,6 +104,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Base Attack applies 2 Burn stack per Rank Level 20: Increase Burn damage by 50% per Rank, up to 300% on Rank S",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -112,6 +119,7 @@
       "scaling": "Defense",
       "passives": "Luck Level 4: Don't lose Rank when taking damage from Powerless enemies",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -126,6 +134,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: No Perfection loss on damage taken. Perfection is instead lost on being Healed Level 10: Gain 2 AP on Counterattack Level 20: Gain 1 Rank on Counterattack",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -140,6 +149,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: Base attack gives 1 Perfection per Burn on target Level 10: While Powerful, 20% chance to Burn on hit Level 20: +1 AP on Rank Up",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -154,6 +164,7 @@
       "scaling": "Luck",
       "passives": "Vitality Level 4: Start battle on Rank B, but 50% Health Level 10: Recover 15% Health on Base Attack Level 20: Apply Powerful on Rank B",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -168,6 +179,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Casting a Light Skill increases damage of next Physical Skill cast by 50% and vice versa Level 10: 20% increased Physical damage with Skills Level 20: Dealing Light damage with a Skill recovers 3% Health",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -182,6 +194,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: Gain 1 Rank on Counterattack Level 10: 50% increased Counterattack damage Level 20: Gain 2 AP on Counterattack",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -196,6 +209,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: Play again after a Base Attack Level 20: Base Attack gives 4 Perfection",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -210,6 +224,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: When hit, lose 1 Perfection instead of 1 rank",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -224,6 +239,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Convert Light damage Skills to Physical damage Level 10: 20% increased Physical damage with Skills Level 20: -1 AP cost for Physical Skills",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -238,6 +254,7 @@
       "scaling": "Luck",
       "passives": "Defense Level 4: +1 Perfection on Critical hit Level 10: Self-Heal by 2% Health on dealing a Critical hit Level 20: Counterattack is always a Critical hit",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -252,6 +269,7 @@
       "scaling": "Vitality",
       "passives": "Agility Level 4: Rank can't be lower than C",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -266,6 +284,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: Base Attack consumes all Shields to deal 100% increased damage per Shield Level 10: +1 Shield on Counterattack Level 20: Base Attack gives 4 Perfection",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -280,6 +299,7 @@
       "scaling": "Vitality",
       "passives": "- Level 4: - Level 10: - Level 20: -",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -294,6 +314,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: Double Perfection gained on Free Aim shots Level 10: Free Aim shots break 2 Shields Level 20: 50% increased Free Aim damage",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -308,6 +329,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: Can't lose Perfection. No damage increase from Rank",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -322,6 +344,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: +1 to all Perfection gain but can't reach Rank S Level 10: Base Attack gives 4 Perfection Level 20: 20% increased Light damage with Skills",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -336,6 +359,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: An ethereal Sword deals Light damage on any damage dealt with Skills Level 10: 20% chance to apply Burn on dealing Light damage Level 20: Can't die if at least Rank A",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -350,6 +374,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Bonus damage from Perfection applies to all allies at half value. It no longer applies to Verso Level 10: Perfection gained is increased by 1 while Powerful Level 20: Support Skills cost 1 less AP",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -364,6 +389,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: Gain 1 Rank on applying Mark Level 10: Mark an enemy on Base Attack Level 20: Apply Powerless on Marking an enemy.",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -378,6 +404,7 @@
       "scaling": "Vitality",
       "passives": "- Level 4: - Level 10: - Level 20: -",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -392,6 +419,7 @@
       "scaling": "Luck",
       "passives": "Defense Level 4: Base Attack applies 2 Burn per Fire Stain Level 10: Generate one Fire Stain at the beginning of each turn Level 20: 30% increased Burn damage per Fire Stain",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -406,6 +434,7 @@
       "scaling": "Defense",
       "passives": "Vitality Level 4: Kill self on battle start",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -420,6 +449,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: Healing Skills cost 1 less AP Level 20: Replay instantly on consuming Stains with a Healing Skill",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -434,6 +464,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Consuming Stains increases damage by 20%. Stacks 5 times. Resets if no stains consumed Level 20: +1 AP when Stains are consumed",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -448,6 +479,7 @@
       "scaling": "Luck",
       "passives": "Vitality Level 4: 30% increased Critical Chance per Ice Stain Level 20: 20% increased Fire damage with Skills",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -462,6 +494,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: 30% increased Break damage per Earth Stain Level 10: Gain 9 AP on Breaking an enemy Level 20: Generate one Earth Stain at the beginning of each turn",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -476,6 +509,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: 100% Critical Chance when 4 Stains are simultaneously active Level 10: 20% increased damage for each consecutive turn without taking damage. Stacks 5 times Level 20: Critical hits apply Burn",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -490,6 +524,7 @@
       "scaling": "Vitality",
       "passives": "Agility Level 4: 50% chance to generate a Light Stain when consuming Stains Level 10: +1 AP on consuming a Light Stain Level 20: 20% increased damage with Skills per active Light Stain",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -504,6 +539,7 @@
       "scaling": "Defense",
       "passives": "Vitality Level 4: Ice Skills cost 1 less AP",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -518,6 +554,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: Lightning Skills cost 1 less AP Level 20: Start battle with 1 Fire Stain",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -532,6 +569,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: Consuming an Earth Stain applies 1 Shield to self Level 20: Base Attack generates an Earth Stain",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -546,6 +584,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Casting a Skill increases the Skill damage of all other elements by 20%. Resets when casting a Skill of a previous element Level 20: +1 AP when Stains are consumed",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -560,6 +599,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Fire Skills cost 1 less AP",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -574,6 +614,7 @@
       "scaling": "Vitality",
       "passives": "Luck Level 4: 50% chance to generate a Dark Stain when consuming Stains. Deal 50% more damage with Skills per active Dark Stain Level 10: +1 AP on consuming a Light Stain Level 20: Base Attacks can consume one Dark Stain to deal 200% more damage",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -588,6 +629,7 @@
       "scaling": "Vitality",
       "passives": "Luck Level 4: - Level 10: - Level 20: -",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -602,6 +644,7 @@
       "scaling": "Luck",
       "passives": "Vitality Level 4: Earth Skills cost 1 less AP Level 10: 20% increased Earth damage with Skills Level 20: Start battle with 1 Lightning Stain",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -616,6 +659,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Healing Skills generate one additional 1 Light stain Level 20: Base Attack generates a Light Stain",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -630,6 +674,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: Healing Skills generate one additional Light stain Level 10: Generate one Ice Stain at the beginning of each turn Level 20: Replay instantly on consuming Stains with a Healing Skill",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -644,6 +689,7 @@
       "scaling": "Defense",
       "passives": "Luck Level 4: Using a Gradient Attack generates 1 additional Light Stain",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -658,6 +704,7 @@
       "scaling": "Vitality",
       "passives": "Agility Level 4: 50% chance to generate a Dark Stain when consuming Stains. Deal 50% more damage with  Skills per active Dark Stain Level 10: Base Attacks can consume one Dark Stain to deal 200% more damage Level 20: With 4 active Dark Stains, any Skill can consume them to deal 300% more damage",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -672,6 +719,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Freeze self when falling below 30% health. Prevent the next damage while Frozen Level 20: Gain 2 Ice Stains and 3 AP when Frozen",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -686,6 +734,7 @@
       "scaling": "Vitality",
       "passives": "Luck Level 4: Generate a random Stain on Free Aim shot",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -700,6 +749,7 @@
       "scaling": "Defense",
       "passives": "Vitality Level 4: Free Aim Shots deal damage to an additional random target",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -714,6 +764,7 @@
       "scaling": "Luck",
       "passives": "Defense Level 4: Kill self on battle start",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -728,6 +779,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: Steal Shields removed by hitting enemies Level 10: Switch to Virtuose Stance on breaking any shield Level 20: Hitting a Marked enemy breaks all its shields.",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -742,6 +794,7 @@
       "scaling": "Defense",
       "passives": "Luck Level 4: Double Gradient Generation while in Defensive Stance Level 20: +5% Gradient Charge on Parry",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -756,6 +809,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: Critical Hits apply Burn Level 20: 100% Critical Change while Stanceless",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -770,6 +824,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: On Defensive Stance, gain 1 Shield per Parry. Lose all Shields on turn start Level 10: 20% increased Light damage with Skills Level 20: 50% increased Counter damage per shield",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -784,6 +839,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: On turn start, if Stanceless, switch to Defensive Stance Level 10: Fire skills cost 1 less AP Level 20: +1 Shield on switching to Offensive Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -798,6 +854,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Critical Hits with skills give +2 AP. Once per turn Level 10: 20% increased Lightning damage with Skills Level 20: +50% Critical Chance while in Offensive Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -812,6 +869,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: Self Heal 2% of max Health on dealing a Critical Hit Level 10: +50% Critical Chance while in Defensive Stance Level 20: If Stanceless, Base Attack switches to Defensive Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -826,6 +884,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: In Defensive Stance, gaining AP also gives 1 AP to allies",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -840,6 +899,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: In Offensive Stance, double the amount of Burn applied Level 10: 50% increased Burn damage Level 20: Base Attack propagates Burn",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -854,6 +914,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: Allies recover 20% Health on switching to Virtuose Stance Level 10: Gain Shell when switching out of Virtuose Stance Level 20: Cleanse self status effects when switching to Virtuose Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -868,6 +929,7 @@
       "scaling": "Defense",
       "passives": "Luck Level 4: Switch to Virtuose Stance on Counterattack Level 20: 50% increased Counter damage per shield",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -882,6 +944,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: In Virtuose Stance, hitting a Marked enemy doesn't remove Mark Level 10: Switch to Virtuose Stance on Counterattack Level 20: Gain Shell when switching out of Virtuose Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -896,6 +959,7 @@
       "scaling": "Vitality",
       "passives": "- Level 4: - Level 10: - Level 20: -",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -910,6 +974,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: Start combat in Virtuose Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -924,6 +989,7 @@
       "scaling": "Vitality",
       "passives": "Luck Level 4: Allies recover 20% Health on switching to Virtuose Stance Level 10: Applies Shell when Health is above 80% Level 20: Switch to Virtuose Stance when Health falls below 50%",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -938,6 +1004,7 @@
       "scaling": "Luck",
       "passives": "Defense Level 4: On turn start, if Stanceless, switch to Defensive Stance Level 10: In Defensive Stance, double Break damage Level 20: Support skills cost 1 less AP",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -952,6 +1019,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: +1 Shield when switching to Offensive Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -966,6 +1034,7 @@
       "scaling": "Vitality",
       "passives": "Agility Level 4: Switch to Virtuose Stance on breaking any Shield",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -980,6 +1049,7 @@
       "scaling": "Defense",
       "passives": "Luck Level 4: Apply Burn on self on turn start. 10% increased damage for each self Burn stack.",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -994,6 +1064,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: In Defensive Stance, double Break damage Level 10: Gain 9 AP on Breaking an Enemy Level 20: Breaking an enemy deals 3 high instances of Earth damage",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1008,6 +1079,7 @@
       "scaling": "Luck",
       "passives": "Vitality Level 4: If Stanceless, Base Attack switches to Offensive Stance Level 10: Counterattacks apply Defenseless Level 20: +50% Critical Chance while in Offensive Stance",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1022,6 +1094,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: +1 AP on Stance switch Level 10: If Stanceless, Base Attack switches to Defensive Stance Level 20: Recover 5% Health on Stance switch",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1036,6 +1109,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: Applying Shell also Applies 1 Shield",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1050,6 +1124,7 @@
       "scaling": "Vitality",
       "passives": "Luck Level 4: Free Aim shots can consume 1 Foretell to deal 100% more damage Level 10: Base Attack applies 3 Foretell Level 20: During Twilight, Free Aim shots deal double damage",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1064,6 +1139,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: Kill self on battle start",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1078,6 +1154,7 @@
       "scaling": "Luck",
       "passives": "Defense Level 4: While having at least 1 active Moon charge, Moon Skills are always Critical hits, but damage  taken is doubled Level 10: 25% increased damage per Moon charge Level 20: Base Attack gives 1 Moon charge",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1092,6 +1169,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Consuming Foretell applies 2 Burn on target per Sun Charge Level 20: Sun Skills give one more charge",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1106,6 +1184,7 @@
       "scaling": "Luck",
       "passives": "Defense Level 4: 100% Critical Chance during Twilight Level 10: Apply 1 Foretell on Critical hit Level 20: 20% increased damage for each consecutive turn without taking damage. Stacks 5 times",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1120,6 +1199,7 @@
       "scaling": "Luck",
       "passives": "Vitality Level 4: Sun Skills always apply 10 Foretell, but all damage taken is doubled",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1134,6 +1214,7 @@
       "scaling": "Defense",
       "passives": "Luck Level 4: Curse self on battle start. Deal 50% more damage while Cursed Level 20: Play again when entering Twilight state",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1148,6 +1229,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: +1 AP per Moon charge on turn start Level 10: Base Attack gives 1 Moon charge Level 20: During Twilight, Base Attack consumes all AP. Base Attack applies 1 Foretell and deals 50%  increased damage per AP consumed",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1162,6 +1244,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: While having at least 1 active Sun charge, apply one Burn stack per hit taken Level 10: Counterattacks apply 1 Burn per active Sun charge Level 20: Base attack can consume 1 Sun charge to apply 5 Foretell",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1176,6 +1259,7 @@
       "scaling": "Defense",
       "passives": "Agility Level 4: During Twilight, every time Foretell is applied, it also affects another random enemy Level 20: 20% increased Fire damage with Skills",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1190,6 +1274,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: On Twilight Start, apply Mark to all enemies Level 10: Hitting a Marked enemy during Twilight doesn't remove Mark Level 20: Apply 3 Foretell on applying Mark",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1204,6 +1289,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: Free Aim shots can consume a Sun charge to apply 5 Fortell and consume a Moon charge  to deal 400% more damage Level 10: Consuming a Sun or Moon charge gives 1 AP Level 20: Base Attack gives 1 Moon charge",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1218,6 +1304,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: During Moon, all allies have Greater Rush. During Sun, all enemies have Greater Slow Level 10: During Twilight, all allies have Greater Rush and all enemies have Greater Slow Level 20: +3 AP on applying a Buff or Debuff. Once per turn",
       "missable": false,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1232,6 +1319,7 @@
       "scaling": "Vitality",
       "passives": "Agility Level 4: Killing an enemy with Foretell applies its Foretell to another random enemy Level 10: Apply Mark on consuming Foretell Level 20: 20% increased Dark damage with Skills",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1246,6 +1334,7 @@
       "scaling": "Vitality",
       "passives": "Agility Level 4: On Twilight Start, deal damage to all enemies based on the amount of charges Level 10: On Twilight Start, apply 2 Foretell per charge to all enemies Level 20: Double Sun and Moon charge generation",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1260,6 +1349,7 @@
       "scaling": "Luck",
       "passives": "Vitality Level 4: Sun skills have increased damage for each Foretell on the target. No Moon charges from skills Level 10: With at least 1 active Sun charge, gain one additional AP per Foretell consumed Level 20: Base attack can consume 1 Sun charge to apply 5 Foretell",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1274,6 +1364,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: During Twilight, all damage dealt is converted to Dark damage Level 10: 20% increased Dark damage with Skills Level 20: Apply Shell during Moon, Powerful during Sun, and Rush during Twilight",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1288,6 +1379,7 @@
       "scaling": "Luck",
       "passives": "Vitality Level 4: Can consume 1 Moon charge on turn start to recover 20% of each ally's Health Level 20: Moon Skills give one more charge",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1302,6 +1394,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Recover 5% Health per Foretell applied Level 10: Healing Skills cost 1 less AP Level 20: 30% increased Heal efficiency per Moon charge. Base Attack gives 1 Moon charge",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1316,6 +1409,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: On turn start, gain 1 Shield if at least 1 Sun charge is active Level 20: +2 Sun charges on Counterattack",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1330,6 +1424,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: - Level 10: - Level 20: -",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1344,6 +1439,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Extend Twilight by one turn using a Moon Skill and +50% damage using a Sun Skill Level 10: Twilight duration is increased by 1 Level 20: Play again when entering Twilight state",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1358,6 +1454,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Kill self on battle start",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1372,6 +1469,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Reverse Bestial Wheel Order",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1386,6 +1484,7 @@
       "scaling": "Luck",
       "passives": "Agility Level 4: Start battle in Agile Mask Level 10: Agile Mask applies Rush for 3 turns Level 20: +50% Critical Chance while in Agile Mask",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1400,6 +1499,7 @@
       "scaling": "Vitality",
       "passives": "Agility Level 4: Replay instantly when in Almighty Mask Level 10: +3 AP when in Almighty Mask Level 20: Revive instantly with full Health if dead while in Almighty Mask. Once per Battle",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1414,6 +1514,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Start battle in Caster Mask Level 10: Caster Mask applies Regen for 3 turns Level 20: Skills cost 1 less AP while in Caster Mask",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1428,6 +1529,7 @@
       "scaling": "Luck",
       "passives": "Defense Level 4: Free Aim shots spin the Bestial Wheel to a random value Level 10: Free Aim shots deal 100% more damage with all Masks except Almighty Level 20: 100% Critical Chance while in Almighty Mask",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1442,6 +1544,7 @@
       "scaling": "Vitality",
       "passives": "Defense Level 4: Start battle in Heavy Mask Level 10: Heavy Mask applies Shell for 3 turns Level 20: +1 AP per hit taken",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1456,6 +1559,7 @@
       "scaling": "Agility",
       "passives": "Defense Level 4: Start battle in Almighty Mask Level 20: Break damage is doubled while in Almighty Mask",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1470,6 +1574,7 @@
       "scaling": "Agility",
       "passives": "Luck Level 4: Start battle in Balanced Mask Level 10: Balanced Mask applies Powerful for 3 turns Level 20: Critical hits deal 30% more damage while in Balanced Mask",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1484,6 +1589,7 @@
       "scaling": "Agility",
       "passives": "Vitality Level 4: Parries increase the Bestial Wheel by 1. Taking damage resets the Bestial Wheel Level 20: +1 AP on Mask change",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1498,6 +1604,7 @@
       "scaling": "Luck",
       "passives": "Might Level 4: 30% increased damage per Upgraded Skill used. Resets upon using a non-Upgraded Skil Level 20: Using an Upgraded Skill gives 1 AP to all other allies",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     },
@@ -1512,6 +1619,7 @@
       "scaling": "Vitality",
       "passives": "Luck Level 4: Switch to Almighty Mask on Breaking an enemy Level 10: Almighty Mask gives 2 AP to all allies Level 20: 50% increased Break damage",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/How_to_Upgrade_Your_Weapons",
       "completed": false
     }

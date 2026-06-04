@@ -9,6 +9,7 @@
       "location": "The Manor",
       "how_to_find": "Enter the Manor door through the Falling Leaves location to transport yourself to Alicia's study. The Manor door can be found in the lower area of the Falling Leaves, in the cavern where the Lady of Sap is",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -18,6 +19,7 @@
       "location": "Boat Graveyard",
       "how_to_find": "Requires Esquie to acquire a new ability that can destroy the coral reefs",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -27,6 +29,7 @@
       "location": "White Sands",
       "how_to_find": "Found at the dead end of this location, next to a rowboat. Requires Esquie's fly ability to reach the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -36,6 +39,7 @@
       "location": "Lost Woods",
       "how_to_find": "Clear out the Yellow Harvest location to reach the other exit where you can find the entrance to the Lost Woods.",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -45,6 +49,7 @@
       "location": "The Continent",
       "how_to_find": "Can be purchased from Citrelo for 1000 Chroma. Requires Esquie's fly ability to reach the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -54,6 +59,7 @@
       "location": "Endless Tower",
       "how_to_find": "Complete all 11 Stages which is a total of 33 challenges. Requires Esquie's Fly ability to reach the entrance of the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -63,6 +69,7 @@
       "location": "The Manor",
       "how_to_find": "The entrance for this room is located in Frozen Hearts",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -72,6 +79,7 @@
       "location": "Renoir's Drafts",
       "how_to_find": "Requires Esquie's swim underwater ability to reach the location. From the Entrance Expedition Flag, head down the path and take the path directly to the left of the slope you came from. Grapple to the building, head down the path and pick up the Music Record on the right side of the field",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -81,6 +89,7 @@
       "location": "The Manor",
       "how_to_find": "Requires Esquie's fly ability to reach the entrance from The Continent. It is east to The Meadows, before the Chromatic Benisseur",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -90,6 +99,7 @@
       "location": "The Continent",
       "how_to_find": "Purchased from the Gestral Merchant Blabary for 1000 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -99,6 +109,7 @@
       "location": "Stone Wave Cliffs",
       "how_to_find": "Return to the area where you fought the main boss and where the cutscene took place. You'll find it in the ground by the edge of the cliff",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -108,6 +119,7 @@
       "location": "White Tree",
       "how_to_find": "Progress the story to acquire the swim ability for Esquie and to reach the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -117,6 +129,7 @@
       "location": "The Manor",
       "how_to_find": "Enter the Manor through The Monolith entrance from the Tainted Battledfields, it can be found to the left upon entering",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -126,6 +139,7 @@
       "location": "The Carousel",
       "how_to_find": "As you approach the Carousel from the Expedition flag, take a path to the left. The record is at the end",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -135,6 +149,7 @@
       "location": "Camp",
       "how_to_find": "Progress the story in Act II. After defeating an axon, in the Camp. Choose \"Check up on the others\". You'll acquire this record after the cutscene",
       "missable": true,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -144,6 +159,7 @@
       "location": "Ancient Gestral Village",
       "how_to_find": "Requires Esquie to destroy the rock obstacles blocking the path to the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -153,6 +169,7 @@
       "location": "The Continent",
       "how_to_find": "Can be purchased from Rubiju for 1000 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -162,6 +179,7 @@
       "location": "The Continent",
       "how_to_find": "Can be purchased from Strabami for 5000 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -171,6 +189,7 @@
       "location": "Lumiere (Missable) The Continent",
       "how_to_find": "Acquired as a drop by defeating the Mime enemy located in Lumiere during the Prologue section of the game. Or, if you missed it, buy it from the merchant near the entrance to the Isle of the Eyes.",
       "missable": true,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -180,6 +199,7 @@
       "location": "Camp",
       "how_to_find": "Reach Relationship Level 6 with Lune and complete her side quest",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -189,6 +209,7 @@
       "location": "Camp",
       "how_to_find": "Reach Relationship Level 6 with Monoco and complete his side quest",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -198,6 +219,7 @@
       "location": "Sinister Caves",
       "how_to_find": "Found next to the remains of an expedition. Climb to the top section of the cave, and then go east to find an opening on the ground that you can jump to drop onto a platform where the dead expeditioner and the music record is",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -207,6 +229,7 @@
       "location": "The Manor",
       "how_to_find": "Trigger the four switches in the dining room, and then investigate the fireplace to find this music record",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -216,6 +239,7 @@
       "location": "Camp",
       "how_to_find": "Automatically unlocked and added to the list of music records upon defeating the final boss of the main campaign in Act III",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -225,6 +249,7 @@
       "location": "The Meadows",
       "how_to_find": "Progress the story to acquire the swim ability for Esquie and to reach the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -234,6 +259,7 @@
       "location": "The Manor",
       "how_to_find": "Enter The Manor from Old Lumiere, and pick up the record on the sink directly to the right upon entering",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -243,6 +269,7 @@
       "location": "Blades' Graveyard",
       "how_to_find": "Progress the story to acquire the swim ability for Esquie and to reach the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -252,6 +279,7 @@
       "location": "Flying Casino",
       "how_to_find": "Can be found on the right side behind the casino",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -261,6 +289,7 @@
       "location": "The Continent",
       "how_to_find": "Can be purchased from Rederi for 1000 Chroma",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -270,6 +299,7 @@
       "location": "Camp",
       "how_to_find": "Reach Relationship Level 6 with Sciel. Progress the story around Act III and choose to spend time with her back at camp",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -279,6 +309,7 @@
       "location": "Twilight Quarry",
       "how_to_find": "Requires Esquie to destroy the rock obstacles blocking the path to the location",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -288,6 +319,7 @@
       "location": "Falling Leaves",
       "how_to_find": "Defeat the Scavenger boss and return to the Young Boy. Speak to him to acquire this record",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
@@ -297,6 +329,7 @@
       "location": "The Manor",
       "how_to_find": "Access The Manor through the door inside a cavern in the Anger Vale section of Visages. In the room, the record is besides the baby grand piano",
       "missable": false,
+      "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     }

@@ -725,7 +725,7 @@
       "location": "Lumiere (Act III, Missable)",
       "how_to_find": "Choose the Verso ending",
       "missable": true,
-      "act": null,
+      "act": 3,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Outfits_and_Haircuts_Guide:_All_Locations",
       "completed": false
     },

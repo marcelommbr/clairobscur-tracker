@@ -82,6 +82,23 @@ QUEST_IGN = {
     "Grandis": f"{BASE_IGN}/All_Nevron_Quests",
 }
 
+def extract_act(name_str, location_str, how_str=""):
+    """Return act number if item is explicitly restricted to a specific act.
+    Only matches parenthetical act markers in location/name like '(Act III)'
+    to avoid false positives from narrative text like 'before entering Act II'.
+    """
+    import re
+    # Only check location and name — not how_to_find (too many false positives)
+    structured = f"{name_str} {location_str}"
+    # Must appear in parentheses: (Act III), (Act 3), (Act III, Missable), etc.
+    m = re.search(r'\(\s*act\s*(iii|3)\b', structured, re.IGNORECASE)
+    if m: return 3
+    m = re.search(r'\(\s*act\s*(ii|2)\b', structured, re.IGNORECASE)
+    if m: return 2
+    m = re.search(r'\(\s*act\s*(i|1)\b', structured, re.IGNORECASE)
+    if m: return 1
+    return None
+
 def slug(text, prefix, idx):
     return f"{prefix}-{idx:03d}"
 
@@ -186,7 +203,7 @@ def convert_bosses():
                 "location": loc_m,
                 "rewards": get_boss_rewards(name_m),
                 "missable": is_missable(name_m, loc_m),
-                "act": None,
+                "act": extract_act(name_m, loc_m),
                 "ign_url": IGN_CATEGORY_URLS["bosses-main"],
                 "completed": False,
             })
@@ -205,7 +222,7 @@ def convert_bosses():
                 "location": loc_o,
                 "rewards": get_boss_rewards(name_o),
                 "missable": name_o in missable_bosses or is_missable(name_o, loc_o),
-                "act": None,
+                "act": extract_act(name_o, loc_o),
                 "ign_url": ign,
                 "completed": False,
             })
@@ -259,7 +276,7 @@ def convert_journals():
                 "location": current_location or "",
                 "how_to_find": " ".join(current_how).strip(),
                 "missable": missable,
-                "act": None,
+                "act": extract_act(current_name, current_location or "", " ".join(current_how)),
                 "ign_url": IGN_CATEGORY_URLS["journals"],
                 "completed": current_completed,
             })
@@ -311,7 +328,7 @@ def convert_haircuts():
                 "location": loc,
                 "how_to_find": how,
                 "missable": is_missable(name, loc),
-                "act": None,
+                "act": extract_act(name, loc, how),
                 "ign_url": IGN_CATEGORY_URLS["haircuts"],
                 "completed": comp,
             })
@@ -428,6 +445,7 @@ def convert_music_records():
                 "location": loc,
                 "how_to_find": how,
                 "missable": is_missable(name, loc) or display_name in MISSABLE_RECORDS,
+                "act": extract_act(name, loc, how),
                 "ign_url": IGN_CATEGORY_URLS["music-records"],
                 "completed": comp,
             }
@@ -463,7 +481,7 @@ def convert_outfits():
                 "location": loc,
                 "how_to_find": how,
                 "missable": is_missable(name, loc),
-                "act": None,
+                "act": extract_act(name, loc, how),
                 "ign_url": IGN_CATEGORY_URLS["outfits"],
                 "completed": comp,
             })
@@ -576,6 +594,7 @@ def convert_pictos():
                 "location": location,
                 "how_to_find": how,
                 "missable": display_name in MISSABLE_PICTOS or is_missable(name, location),
+                "act": extract_act(name, location, how),
                 "ign_url": IGN_CATEGORY_URLS["pictos"],
                 "state": state,
             })
@@ -609,7 +628,8 @@ def convert_quests():
                 "location": loc,
                 "how_to_complete": how,
                 "rewards": rewards,
-                "missable": is_missable(loc),
+                "missable": is_missable(name, loc),
+                "act": extract_act(name, loc, how),
                 "ign_url": ign,
                 "completed": comp,
             }
@@ -709,7 +729,8 @@ def convert_weapons():
                 "max_damage": max_dmg,
                 "scaling": scaling,
                 "passives": passives,
-                "missable": is_missable(loc),
+                "missable": is_missable(name, loc),
+                "act": extract_act(name, loc, how),
                 "ign_url": IGN_CATEGORY_URLS["weapons"],
                 "completed": comp,
             }
