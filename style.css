@@ -22,7 +22,7 @@
   --blue:      #5b8db8;
   --amber:     #d4824a;
   --radius:    6px;
-  --header-h:  88px; /* header height for scroll offset */
+  --header-h:  96px; /* header height for scroll offset */
 }
 
 /* ── BASE ──────────────────────────────────────────────────── */
@@ -53,7 +53,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 52px;
+  height: 56px;
 }
 
 .app-title {
@@ -80,8 +80,8 @@ body {
 }
 
 .icon-btn {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius);
   border: 1px solid var(--gold-dim);
   background: var(--surface-2);
@@ -376,8 +376,8 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 12px;
-  min-height: 44px;
+  padding: 11px 12px;
+  min-height: 50px;
 }
 
 /* Standard toggle (checkbox) */
@@ -473,11 +473,12 @@ body {
 .btn-ign-sm svg { width: 13px; height: 13px; }
 
 .expand-arrow {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--text-3);
   flex-shrink: 0;
   transition: transform 0.2s;
   pointer-events: none;
+  padding: 8px 4px;
 }
 .item.expanded .expand-arrow { transform: rotate(180deg); }
 
