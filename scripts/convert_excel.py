@@ -82,20 +82,71 @@ QUEST_IGN = {
     "Grandis": f"{BASE_IGN}/All_Nevron_Quests",
 }
 
-MISSABLE_KEYWORDS = ["missable", "Missable"]
-
 def slug(text, prefix, idx):
     return f"{prefix}-{idx:03d}"
 
-def is_missable(location_str):
-    if not isinstance(location_str, str):
-        return False
-    return "missable" in location_str.lower()
+def is_missable(name_str, location_str=""):
+    """Check name AND location for missable indicator."""
+    combined = f"{name_str} {location_str}".lower()
+    return "missable" in combined
+
+def clean_name(val):
+    """Strip text, also remove trailing (Missable) / (missable) from names."""
+    if pd.isna(val):
+        return ""
+    s = str(val).strip().replace("\n", " ").replace("\\n", " ")
+    # Remove "(Missable)" variants from display name
+    import re
+    s = re.sub(r'\s*\(missable\)', '', s, flags=re.IGNORECASE).strip()
+    return s
 
 def clean(val):
     if pd.isna(val):
         return ""
     return str(val).strip().replace("\n", " ").replace("\\n", " ")
+
+# ── BOSS REWARDS LOOKUP ───────────────────────────────────────
+# Source: CHECKLISTS.md research + IGN/PowerPyx guides
+BOSS_REWARDS = {
+    # Named/Secret bosses
+    "Alicia":           "Painted Me Haircut, Lithum Weapon, Resplendent Chroma Catalysts",
+    "Clea":             "Clea's Life Pictos, Perfect Chroma Catalyst, Grandiose Chroma Catalysts",
+    "Simon":            "Simoso Weapon, Perfect Chroma Catalysts, 50× Colour of Lumina",
+    "Grosse Tete":      "Warming Up Pictos, Resplendent Chroma Catalyst",
+    "Sprong":           "Cheater Pictos, Grandiose Chroma Catalysts",
+    "Serpenphare":      "Energy Master Pictos, Perfect Chroma Catalyst, Grandiose Chroma Catalyst",
+    "Golgra":           "EXP, rare items",
+    "Painted Love":     "Resplendent Chroma Catalysts, Colour of Lumina",
+    # Chromatic bosses (general pattern)
+    "_chromatic":       "Resplendent Chroma Catalyst, Colour of Lumina",
+    # Gestral Arena bosses
+    "Chromatic Catapult Sakapatate": "Resplendent Chroma Catalyst, Colour of Lumina",
+    "Chromatic Ranger Sakapatate":   "Resplendent Chroma Catalyst, Colour of Lumina",
+    "Chromatic Robust Sakapatate":   "Resplendent Chroma Catalyst, Colour of Lumina",
+    # World bosses / Elemental Eveques
+    "Thunder Eveque":   "Grandiose Chroma Catalysts, Colour of Lumina",
+    "Flame Eveque":     "Grandiose Chroma Catalysts, Colour of Lumina",
+    # Other notable
+    "Glaise":           "Resplendent Chroma Catalyst, Colour of Lumina",
+    "Grown Bourgeon":   "Colour of Lumina, Chroma Catalysts",
+}
+
+def get_boss_rewards(name):
+    """Return rewards string for a boss by name."""
+    # Exact match first
+    if name in BOSS_REWARDS:
+        return BOSS_REWARDS[name]
+    # Partial match for named bosses (e.g. "Grosse Tete (The Continent)")
+    for key, val in BOSS_REWARDS.items():
+        if key.startswith('_'):
+            continue
+        if key.lower() in name.lower():
+            return val
+    # Chromatic bosses fallback
+    if "chromatic" in name.lower():
+        return BOSS_REWARDS["_chromatic"]
+    # Generic fallback for all bosses
+    return "EXP, Chroma Catalysts, Colour of Lumina"
 
 def save(filename, data):
     path = os.path.join(OUT, filename)
@@ -126,31 +177,34 @@ def convert_bosses():
         if i < 2: continue  # skip header rows
 
         # Main boss: col1=name, col2=location, col3=completed
-        name_m = clean(row[1])
+        name_m = clean_name(row[1])
         loc_m  = clean(row[2])
         if name_m and name_m not in ("Main Bosses", "Location", "Completed?"):
             main_items.append({
                 "id": slug("bm", "bm", len(main_items)),
                 "name": name_m,
                 "location": loc_m,
-                "missable": False,
+                "rewards": get_boss_rewards(name_m),
+                "missable": is_missable(name_m, loc_m),
                 "act": None,
                 "ign_url": IGN_CATEGORY_URLS["bosses-main"],
                 "completed": False,
             })
 
         # Optional boss: col5=name, col6=location, col7=completed
-        name_o = clean(row[5])
+        name_o = clean_name(row[5])
         loc_o  = clean(row[6])
         if name_o and name_o not in ("Optional Bosses", "Location", "Completed?"):
-            # Try to find a per-item IGN url
             full_name = f"{name_o} ({loc_o})" if loc_o else name_o
             ign = BOSS_IGN.get(full_name) or BOSS_IGN.get(name_o) or IGN_CATEGORY_URLS["bosses-optional"]
+            # Mark known missable secret bosses
+            missable_bosses = {"Alicia", "Clea", "Simon"}
             opt_items.append({
                 "id": slug("bo", "bo", len(opt_items)),
                 "name": name_o,
                 "location": loc_o,
-                "missable": False,
+                "rewards": get_boss_rewards(name_o),
+                "missable": name_o in missable_bosses or is_missable(name_o, loc_o),
                 "act": None,
                 "ign_url": ign,
                 "completed": False,
@@ -249,13 +303,14 @@ def convert_haircuts():
             continue
 
         if name and name not in ("Haircut", "Location", "How to Find") and current_character:
+            display_name = clean_name(name)
             items.append({
                 "id": slug("h", "h", len(items)),
-                "name": name,
+                "name": display_name,
                 "character": current_character,
                 "location": loc,
                 "how_to_find": how,
-                "missable": is_missable(loc),
+                "missable": is_missable(name, loc),
                 "act": None,
                 "ign_url": IGN_CATEGORY_URLS["haircuts"],
                 "completed": comp,
@@ -366,12 +421,13 @@ def convert_music_records():
 
         if name and name not in ("Music Record", "Location", "How to Find"):
             flush()
+            display_name = clean_name(name)
             current = {
                 "id": slug("mr", "mr", len(items)),
-                "name": name,
+                "name": display_name,
                 "location": loc,
                 "how_to_find": how,
-                "missable": name in MISSABLE_RECORDS,
+                "missable": is_missable(name, loc) or display_name in MISSABLE_RECORDS,
                 "ign_url": IGN_CATEGORY_URLS["music-records"],
                 "completed": comp,
             }
@@ -399,13 +455,14 @@ def convert_outfits():
             continue
 
         if name and name not in ("Outfit", "Location", "How to Find") and current_character:
+            display_name = clean_name(name)
             items.append({
                 "id": slug("o", "o", len(items)),
-                "name": name,
+                "name": display_name,
                 "character": current_character,
                 "location": loc,
                 "how_to_find": how,
-                "missable": is_missable(loc),
+                "missable": is_missable(name, loc),
                 "act": None,
                 "ign_url": IGN_CATEGORY_URLS["outfits"],
                 "completed": comp,
@@ -503,7 +560,7 @@ def convert_pictos():
         lumina    = str(lumina_raw).strip().lower() == "true" if not pd.isna(lumina_raw) else False
 
         if name and name not in ("Picto", "Effect", "Lumina cost"):
-            # Determine picto state
+            display_name = clean_name(name)
             if lumina:
                 state = "lumina"
             elif collected:
@@ -511,18 +568,16 @@ def convert_pictos():
             else:
                 state = "none"
 
-            # Per-item IGN url if available
-            ign = f"{BASE_IGN}/{name.replace(' ', '_')}"  # attempt; fallback to category
             items.append({
                 "id": slug("p", "p", len(items)),
-                "name": name,
+                "name": display_name,
                 "effect": effect,
                 "lumina_cost": lumina_cost,
                 "location": location,
                 "how_to_find": how,
-                "missable": name in MISSABLE_PICTOS,
+                "missable": display_name in MISSABLE_PICTOS or is_missable(name, location),
                 "ign_url": IGN_CATEGORY_URLS["pictos"],
-                "state": state,   # "none" | "collected" | "lumina"
+                "state": state,
             })
 
     save("pictos.json", {"id": "pictos", "name": "Pictos", "ign_url": IGN_CATEGORY_URLS["pictos"], "items": items})

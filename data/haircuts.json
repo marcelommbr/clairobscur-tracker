@@ -324,11 +324,11 @@
     },
     {
       "id": "h-029",
-      "name": "Gestral White (Missable)",
+      "name": "Gestral White",
       "character": "Maelle",
       "location": "Dark Gestral Arena",
       "how_to_find": "Complete all three challenges and win against Golgra to acquire this as a reward (don't let her beat you!)",
-      "missable": false,
+      "missable": true,
       "act": null,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/Outfits_and_Haircuts_Guide:_All_Locations",
       "completed": false

@@ -1149,12 +1149,12 @@
     },
     {
       "id": "p-104",
-      "name": "Exposing Attack (Missable)",
+      "name": "Exposing Attack",
       "effect": "Attributes: Speed, Crit Rate. Base Attack applies Defenceless for 1 turn",
       "lumina_cost": "10",
       "location": "Flying Waters",
       "how_to_find": "Sold by Merchant Noco for 3600 Chroma",
-      "missable": false,
+      "missable": true,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "state": "none"
     },

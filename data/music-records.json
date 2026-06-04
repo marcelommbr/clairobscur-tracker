@@ -131,10 +131,10 @@
     },
     {
       "id": "mr-014",
-      "name": "Lettre à Maelle (Missable)",
+      "name": "Lettre à Maelle",
       "location": "Camp",
       "how_to_find": "Progress the story in Act II. After defeating an axon, in the Camp. Choose \"Check up on the others\". You'll acquire this record after the cutscene",
-      "missable": false,
+      "missable": true,
       "ign_url": "https://www.ign.com/wikis/clair-obscur-expedition-33/All_Pictos_List_and_Effects",
       "completed": false
     },
