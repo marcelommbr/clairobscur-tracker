@@ -25,6 +25,28 @@ const ICONS = {
 
 const CHAR_CATEGORIES = new Set(['haircuts', 'outfits', 'weapons', 'monoco-skills']);
 
+// ── CROSS-REFERENCE INDEX ─────────────────────────────────────
+// Maps lowercase picto name → picto id, built lazily after pictos load
+const pictoIndex = {}; // { "warming up": "p-042", ... }
+
+function buildPictoIndex(pictoItems) {
+  pictoItems.forEach(it => {
+    pictoIndex[it.name.toLowerCase()] = it.id;
+  });
+}
+
+// Extract a Picto name from a reward string segment
+// e.g. "Warming Up Pictos" → "warming up"
+// e.g. "Clea's Life" → "clea's life"
+function extractPictoName(rewardSegment) {
+  return rewardSegment
+    .replace(/\s*pictos?\s*$/i, '')   // strip trailing "Pictos" or "Picto"
+    .replace(/\s*\(.*\)$/, '')        // strip trailing parenthetical
+    .replace(/\s*×\d+$/, '')          // strip "×3" etc.
+    .trim()
+    .toLowerCase();
+}
+
 // Background image per category
 const CAT_IMAGES = {
   'bosses-main':     'assets/images/bg_img_clairobscur_mainbosses.jpg',
@@ -86,6 +108,8 @@ async function loadCategoryData(id) {
   if (!cat) return null;
   const res = await fetch(`data/${cat.file}`);
   dataCache[id] = await res.json();
+  // Build picto index when pictos are loaded
+  if (id === PICTO_ID) buildPictoIndex(dataCache[id].items);
   return dataCache[id];
 }
 
@@ -257,9 +281,33 @@ function missBlock(item) {
 }
 function rewardsHtml(rewardsStr) {
   if (!rewardsStr) return '';
-  const parts = rewardsStr.split(/[-\n]/).map(s => s.trim()).filter(Boolean);
+  const parts = rewardsStr.split(/,(?![^(]*\))/).map(s => s.trim()).filter(Boolean);
   if (!parts.length) return '';
-  return `<div class="rewards-row">${parts.map(r => `<span class="reward-chip"><span class="rdot todo"></span>${esc(r)}</span>`).join('')}</div>`;
+
+  const chips = parts.map(r => {
+    // Check if this reward is a Picto we track
+    const isPictoReward = /pictos?/i.test(r) || pictoIndex[extractPictoName(r)];
+    const pictoKey = extractPictoName(r);
+    const pictoId  = pictoIndex[pictoKey];
+
+    if (pictoId) {
+      const pictoState = getPictoState(pictoId);
+      const collected  = pictoState !== 'none';
+      const dotClass   = collected ? 'done' : 'todo';
+      const indicator  = collected ? '✓' : '○';
+      // Clickable chip → navigate to pictos category
+      return `<span class="reward-chip reward-chip-xref ${collected ? 'xref-done' : ''}"
+        data-xref-picto="${pictoId}"
+        title="${collected ? 'Picto collected' : 'Picto not yet collected'}"
+        onclick="event.stopPropagation(); navigateTo('pictos')">
+        <span class="rdot ${dotClass}"></span>${esc(r)}<span class="xref-badge">${indicator}</span>
+      </span>`;
+    }
+
+    return `<span class="reward-chip"><span class="rdot todo"></span>${esc(r)}</span>`;
+  });
+
+  return `<div class="rewards-row">${chips.join('')}</div>`;
 }
 
 // ── ITEM RENDERERS ─────────────────────────────────────────────
@@ -606,6 +654,8 @@ function refreshPictoItem(el, item) {
 // ── BOOT ──────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
   await loadCategories();
+  // Preload pictos so cross-reference index is ready for all reward chips
+  await loadCategoryData(PICTO_ID);
 
   // Back button
   document.getElementById('btn-back').addEventListener('click', goHome);

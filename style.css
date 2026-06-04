@@ -586,6 +586,22 @@ body {
   font-size: 11px;
   color: var(--text-2);
 }
+.reward-chip-xref {
+  border-color: var(--border);
+  cursor: pointer;
+}
+.reward-chip-xref.xref-done {
+  border-color: var(--green);
+  background: rgba(90,158,111,0.08);
+  color: var(--text-1);
+}
+.xref-badge {
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 2px;
+  color: var(--text-3);
+}
+.reward-chip-xref.xref-done .xref-badge { color: var(--green); }
 .rdot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 .rdot.done { background: var(--green); }
 .rdot.todo { background: var(--text-3); }
