@@ -1,9 +1,8 @@
 /* ============================================================
-   Clair Obscur: Expedition 33 — Tracker
-   app.js — State, data loading, rendering
+   Clair Obscur: Expedition 33 — Tracker  |  app.js
    ============================================================ */
 
-// ── ICONS (inline SVG strings) ──────────────────────────────
+// ── ICONS ────────────────────────────────────────────────────
 const ICONS = {
   shield:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
   sword:     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5"/><line x1="13" y1="19" x2="19" y2="13"/><line x1="16" y1="16" x2="20" y2="20"/><line x1="19" y1="21" x2="21" y2="19"/></svg>`,
@@ -24,12 +23,29 @@ const ICONS = {
   extlink:   `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`,
 };
 
-// Categories that group items by character
 const CHAR_CATEGORIES = new Set(['haircuts', 'outfits', 'weapons', 'monoco-skills']);
 
-// Picto category id
-const PICTO_ID = 'pictos';
-const TOWER_ID = 'endless-tower';
+// Background image per category
+const CAT_IMAGES = {
+  'bosses-main':     'assets/images/bg_img_clairobscur_mainbosses.jpg',
+  'bosses-optional': 'assets/images/bg_img_clairobscur_optionalbosses.jpg',
+  'endless-tower':   'assets/images/bg_img_clairobscur_endlesstower.jpg',
+  'journals':        'assets/images/bg_img_clairobscur_journals.jpg',
+  'haircuts':        'assets/images/bg_img_clairobscur_haircuts.jpg',
+  'lost-gestrals':   'assets/images/bg_img_clairobscur_gestrals.jpg',
+  'mimes':           'assets/images/bg_img_clairobscur_mimes.jpg',
+  'monoco-skills':   'assets/images/bg_img_clairobscur_monocoskills.jpg',
+  'music-records':   'assets/images/bg_img_clairobscur_music.jpg',
+  'outfits':         'assets/images/bg_img_clairobscur_outfits.jpg',
+  'paint-cages':     'assets/images/bg_img_clairobscur_paintcages.jpg',
+  'petanks':         'assets/images/bg_img_clairobscur_petanks.jpg',
+  'pictos':          'assets/images/bg_img_clairobscur_pictos.jpg',
+  'quests':          'assets/images/bg_img_clairobscur_quests.jpg',
+  'tint-upgrades':   'assets/images/bg_img_clairobscur_tintupgrades.jpg',
+  'weapons':         'assets/images/bg_img_clairobscur_weapons.jpg',
+};
+const PICTO_ID  = 'pictos';
+const TOWER_ID  = 'endless-tower';
 
 // ── STATE ────────────────────────────────────────────────────
 const STATE_KEY = 'co33-tracker-v1';
@@ -37,7 +53,6 @@ const STATE_KEY = 'co33-tracker-v1';
 function defaultState() {
   return { version: 1, completed: {}, pictos: {}, filters: { status: 'all', missable: 'all' } };
 }
-
 function loadState() {
   try {
     const raw = localStorage.getItem(STATE_KEY);
@@ -45,36 +60,19 @@ function loadState() {
   } catch {}
   return defaultState();
 }
-
-function saveState() {
-  localStorage.setItem(STATE_KEY, JSON.stringify(state));
-}
+function saveState() { localStorage.setItem(STATE_KEY, JSON.stringify(state)); }
 
 let state = loadState();
 
-function isCompleted(id) {
-  return !!state.completed[id];
-}
-
+function isCompleted(id) { return !!state.completed[id]; }
 function toggleItem(id) {
   state.completed[id] = !state.completed[id];
   if (!state.completed[id]) delete state.completed[id];
   saveState();
 }
+function getPictoState(id) { return state.pictos[id] || 'none'; }
 
-function getPictoState(id) {
-  return state.pictos[id] || 'none';
-}
-
-function cyclePicto(id) {
-  const cur = getPictoState(id);
-  if (cur === 'none')      state.pictos[id] = 'collected';
-  else if (cur === 'collected') state.pictos[id] = 'lumina';
-  else                     delete state.pictos[id];
-  saveState();
-}
-
-// ── DATA CACHE ───────────────────────────────────────────────
+// ── DATA ─────────────────────────────────────────────────────
 let categories = [];
 const dataCache = {};
 
@@ -82,15 +80,13 @@ async function loadCategories() {
   const res = await fetch('data/categories.json');
   categories = await res.json();
 }
-
 async function loadCategoryData(id) {
   if (dataCache[id]) return dataCache[id];
   const cat = categories.find(c => c.id === id);
   if (!cat) return null;
   const res = await fetch(`data/${cat.file}`);
-  const data = await res.json();
-  dataCache[id] = data;
-  return data;
+  dataCache[id] = await res.json();
+  return dataCache[id];
 }
 
 // ── PROGRESS ─────────────────────────────────────────────────
@@ -100,7 +96,6 @@ function computeProgress(catId, items) {
     return { done, total: items.length, pct: items.length ? Math.round(done / items.length * 100) : 0 };
   }
   if (catId === TOWER_ID) {
-    // Group by stage and count completed stages
     const stages = [...new Set(items.map(it => it.stage))];
     const done = stages.filter(s => items.filter(it => it.stage === s).every(it => isCompleted(it.id))).length;
     return { done, total: stages.length, pct: stages.length ? Math.round(done / stages.length * 100) : 0 };
@@ -120,108 +115,138 @@ async function computeOverallProgress() {
   return { done: totalDone, total: totalAll, pct: totalAll ? Math.round(totalDone / totalAll * 100) : 0 };
 }
 
-// ── HEADER PROGRESS ──────────────────────────────────────────
-async function updateHeaderProgress() {
-  const p = await computeOverallProgress();
-  document.getElementById('overall-fill').style.width = `${p.pct}%`;
-  document.getElementById('overall-pct').textContent = `${p.pct}%`;
-}
+// ── HOME VIEW ─────────────────────────────────────────────────
+async function renderHome() {
+  // Overall progress
+  const overall = await computeOverallProgress();
+  document.getElementById('home-overall-fill').style.width = `${overall.pct}%`;
+  document.getElementById('home-overall-pct').textContent  = `${overall.pct}%`;
+  document.getElementById('home-overall-label').textContent = `${overall.done} / ${overall.total} completed`;
 
-// ── FILTERS ──────────────────────────────────────────────────
-function itemPassesFilter(item, catId) {
-  const { status, missable } = state.filters;
-  if (missable === 'only' && !item.missable) return false;
-  if (status === 'done') {
-    if (catId === PICTO_ID) return getPictoState(item.id) !== 'none';
-    return isCompleted(item.id);
-  }
-  if (status === 'remaining') {
-    if (catId === PICTO_ID) return getPictoState(item.id) === 'none';
-    return !isCompleted(item.id);
-  }
-  return true;
-}
-
-// ── OVERLAY ──────────────────────────────────────────────────
-async function renderOverlay() {
-  const list = document.getElementById('overlay-list');
-  list.innerHTML = '';
-
-  // "All" button
-  const allBtn = document.createElement('div');
-  allBtn.className = 'overlay-all-btn';
-  allBtn.innerHTML = `<span class="overlay-all-name">Show All</span><span style="color:var(--gold);font-size:12px">↓</span>`;
-  allBtn.onclick = () => { closeOverlay(); scrollToTop(); };
-  list.appendChild(allBtn);
+  // Category cards
+  const container = document.getElementById('home-categories');
+  container.innerHTML = '';
 
   for (const cat of categories) {
-    const data = await loadCategoryData(cat.id);
+    const data  = await loadCategoryData(cat.id);
     const items = data ? data.items : [];
-    const p = computeProgress(cat.id, items);
+    const p     = computeProgress(cat.id, items);
 
-    const row = document.createElement('div');
-    row.className = 'cat-row';
-    row.innerHTML = `
-      <div class="cat-row-icon">${ICONS[cat.icon] || ICONS.map}</div>
-      <div class="cat-row-info">
-        <div class="cat-row-name">${cat.name}</div>
-        <div class="cat-row-progress">
-          <div class="cat-mini-track"><div class="cat-mini-fill" style="width:${p.pct}%"></div></div>
-          <span class="cat-row-pct">${p.done}/${p.total}</span>
+    const card = document.createElement('div');
+    card.className = 'home-cat-card';
+    card.innerHTML = `
+      <div class="home-cat-icon">${ICONS[cat.icon] || ICONS.map}</div>
+      <div class="home-cat-info">
+        <div class="home-cat-name">${esc(cat.name)}</div>
+        <div class="home-cat-bar-row">
+          <div class="home-cat-track">
+            <div class="home-cat-fill" style="width:${p.pct}%"></div>
+          </div>
+          <span class="home-cat-count">${p.done} / ${p.total}</span>
         </div>
-      </div>`;
-    row.onclick = () => { closeOverlay(); scrollToCategory(cat.id); };
-    list.appendChild(row);
+      </div>
+      <div class="home-cat-arrow">›</div>`;
+    card.addEventListener('click', () => navigateTo(cat.id));
+    container.appendChild(card);
   }
 }
 
-function openOverlay() {
-  renderOverlay();
-  document.getElementById('overlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
+// ── ROUTER ───────────────────────────────────────────────────
+function navigateTo(catId) {
+  window.location.hash = catId ? `#${catId}` : '';
 }
-function closeOverlay() {
-  document.getElementById('overlay').classList.remove('open');
-  document.body.style.overflow = '';
+
+function goHome() {
+  window.location.hash = '';
 }
-function scrollToTop() { window.scrollTo({ top: 0, behavior: 'smooth' }); }
-function scrollToCategory(id) {
-  const el = document.getElementById(`section-${id}`);
-  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+async function route() {
+  const hash = window.location.hash.replace('#', '');
+  const isCategory = hash && categories.find(c => c.id === hash);
+
+  document.getElementById('view-home').classList.toggle('hidden', !!isCategory);
+  document.getElementById('view-category').classList.toggle('hidden', !isCategory);
+
+  if (isCategory) {
+    await showCategoryView(hash);
+  } else {
+    await renderHome();
+  }
+}
+
+// ── CATEGORY VIEW ─────────────────────────────────────────────
+async function showCategoryView(catId) {
+  const cat  = categories.find(c => c.id === catId);
+  const data = await loadCategoryData(catId);
+  if (!cat || !data) return;
+
+  // Update header title
+  document.getElementById('cat-header-title').textContent = cat.name;
+
+  const scroll = document.getElementById('cat-scroll');
+  scroll.innerHTML = '';
+  scroll.scrollTop = 0;
+
+  // Insert category hero image if available
+  const imgPath = CAT_IMAGES[catId];
+  if (imgPath) {
+    const hero = document.createElement('div');
+    hero.className = 'cat-hero';
+    hero.style.backgroundImage = `url('${imgPath}')`;
+    hero.innerHTML = '<div class="cat-hero-overlay"></div>';
+    scroll.appendChild(hero);
+  }
+
+  // Render section
+  const section = await renderSection(cat);
+  if (section) scroll.appendChild(section);
+
+  // Re-apply filters
+  applyFilters(section, catId);
+}
+
+function updateCategoryProgress(catId) {
+  const section = document.querySelector('.category-section');
+  if (!section) return;
+  const data = dataCache[catId];
+  if (!data) return;
+  const p = computeProgress(catId, data.items);
+  const fill = section.querySelector('.progress-fill');
+  const pct  = section.querySelector('.progress-pct');
+  const cnt  = section.querySelector('.cat-count');
+  if (fill) fill.style.width = `${p.pct}%`;
+  if (pct)  pct.textContent = `${p.pct}%`;
+  if (cnt)  cnt.textContent = `${p.done} / ${p.total}`;
 }
 
 // ── EXPORT ───────────────────────────────────────────────────
 function exportProgress() {
   const date = new Date().toISOString().slice(0, 10);
   const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
   a.href = url; a.download = `clairobscur-progress-${date}.json`; a.click();
   URL.revokeObjectURL(url);
 }
 
-// ── RENDERING HELPERS ─────────────────────────────────────────
+// ── HELPERS ───────────────────────────────────────────────────
 function esc(str) {
   return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
-
 function ignBtn(url, label = 'IGN Walkthrough') {
   if (!url) return '';
   return `<a class="btn-ign" href="${esc(url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${ICONS.extlink} ${label}</a>`;
 }
-
 function ignSmBtn(url) {
   if (!url) return '';
-  return `<a class="btn-ign-sm" href="${esc(url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" aria-label="IGN Walkthrough">${ICONS.extlink}</a>`;
+  return `<a class="btn-ign-sm" href="${esc(url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" aria-label="IGN">${ICONS.extlink}</a>`;
 }
-
 function badges(item) {
   let out = '';
   if (item.missable) out += `<span class="badge badge-warn">⚠ Missable</span>`;
   if (item.act)      out += `<span class="badge badge-warn">Act ${item.act}</span>`;
   return out ? `<div class="item-badges">${out}</div>` : '';
 }
-
 function missBlock(item) {
   if (!item.missable && !item.act) return '';
   let msg = '';
@@ -230,29 +255,25 @@ function missBlock(item) {
   else if (item.act)             msg = `⚠ Only available in Act ${item.act}.`;
   return `<div class="miss-block">${msg}</div>`;
 }
-
 function rewardsHtml(rewardsStr) {
   if (!rewardsStr) return '';
   const parts = rewardsStr.split(/[-\n]/).map(s => s.trim()).filter(Boolean);
   if (!parts.length) return '';
-  const chips = parts.map(r => `<span class="reward-chip"><span class="rdot todo"></span>${esc(r)}</span>`).join('');
-  return `<div class="rewards-row">${chips}</div>`;
+  return `<div class="rewards-row">${parts.map(r => `<span class="reward-chip"><span class="rdot todo"></span>${esc(r)}</span>`).join('')}</div>`;
 }
 
-// ── ITEM RENDERERS ────────────────────────────────────────────
-
+// ── ITEM RENDERERS ─────────────────────────────────────────────
 function renderStandardItem(item, catId) {
   const done = isCompleted(item.id);
-  const el = document.createElement('div');
+  const el   = document.createElement('div');
   el.className = `item${done ? ' completed' : ''}`;
-  el.dataset.id = item.id;
+  el.dataset.id  = item.id;
   el.dataset.cat = catId;
 
-  // Build detail fields
   let detailFields = '';
   const gridParts = [];
-  if (item.location) gridParts.push(`<div><div class="detail-label">Location</div><div class="detail-value hi">${esc(item.location)}</div></div>`);
-  if (item.act)      gridParts.push(`<div><div class="detail-label">Act</div><div class="detail-value hi">Act ${item.act}</div></div>`);
+  if (item.location)    gridParts.push(`<div><div class="detail-label">Location</div><div class="detail-value hi">${esc(item.location)}</div></div>`);
+  if (item.act)         gridParts.push(`<div><div class="detail-label">Act</div><div class="detail-value hi">Act ${item.act}</div></div>`);
   if (item.damage_type) gridParts.push(`<div><div class="detail-label">Damage Type</div><div class="detail-value hi">${esc(item.damage_type)}</div></div>`);
   if (item.max_damage)  gridParts.push(`<div><div class="detail-label">Max Damage</div><div class="detail-value hi">${esc(item.max_damage)}</div></div>`);
   if (item.scaling)     gridParts.push(`<div><div class="detail-label">Scaling</div><div class="detail-value hi">${esc(item.scaling)}</div></div>`);
@@ -263,19 +284,11 @@ function renderStandardItem(item, catId) {
     const label = item.enemy_location ? 'Enemy Location' : (item.how_to_complete ? 'How to Complete' : 'How to Find');
     detailFields += `<div class="detail-sep"></div><div class="detail-label">${label}</div><div class="detail-value">${esc(howField)}</div>`;
   }
-  if (item.description && item.enemy_location) {
-    detailFields += `<div class="detail-sep"></div><div class="detail-label">Description</div><div class="detail-value">${esc(item.description)}</div>`;
-  }
-  if (item.passives) {
-    detailFields += `<div class="detail-sep"></div><div class="detail-label">Passives</div><div class="detail-value">${esc(item.passives)}</div>`;
-  }
-  if (item.rewards) {
-    detailFields += `<div class="detail-sep"></div><div class="detail-label">Rewards</div>${rewardsHtml(item.rewards)}`;
-  }
+  if (item.passives)  detailFields += `<div class="detail-sep"></div><div class="detail-label">Passives</div><div class="detail-value">${esc(item.passives)}</div>`;
+  if (item.rewards)   detailFields += `<div class="detail-sep"></div><div class="detail-label">Rewards</div>${rewardsHtml(item.rewards)}`;
   detailFields += missBlock(item);
   detailFields += ignBtn(item.ign_url);
 
-  // Primary display name: for lost gestrals and paint cages, use location as name
   const displayName = item.name || item.location || '—';
   const displaySub  = item.name ? (item.location || '') : (item.how_to_find ? item.how_to_find.slice(0, 60) + (item.how_to_find.length > 60 ? '…' : '') : '');
 
@@ -292,18 +305,19 @@ function renderStandardItem(item, catId) {
     </div>
     <div class="item-detail">${detailFields}</div>`;
 
-  // Toggle checkbox
   el.querySelector('[data-toggle]').addEventListener('click', e => {
     e.stopPropagation();
     toggleItem(item.id);
-    updateItemToggleUI(el, item.id, catId);
-    updateSectionProgress(catId);
-    updateHeaderProgress();
+    const btn = el.querySelector('[data-toggle]');
+    const nowDone = isCompleted(item.id);
+    btn.className = `toggle ${nowDone ? 'on' : ''}`;
+    btn.textContent = nowDone ? '✓' : '○';
+    el.classList.toggle('completed', nowDone);
+    updateCategoryProgress(catId);
+    refreshHomeIfVisible();
   });
 
-  // Expand/collapse
   el.addEventListener('click', () => toggleExpand(el));
-
   return el;
 }
 
@@ -311,7 +325,7 @@ function renderPictoItem(item) {
   const st = getPictoState(item.id);
   const el = document.createElement('div');
   el.className = `item${st !== 'none' ? ' completed' : ''}`;
-  el.dataset.id = item.id;
+  el.dataset.id  = item.id;
   el.dataset.cat = PICTO_ID;
 
   const detailFields = `
@@ -328,8 +342,8 @@ function renderPictoItem(item) {
   el.innerHTML = `
     <div class="item-row">
       <div class="toggle-group">
-        <div class="toggle-p ${st === 'collected' || st === 'lumina' ? 'collected' : ''}" data-picto-c="${item.id}" title="Collected">${st === 'collected' || st === 'lumina' ? '✓' : '○'}</div>
-        <div class="toggle-p ${st === 'lumina' ? 'lumina' : ''}" data-picto-l="${item.id}" title="Lumina Unlocked">${st === 'lumina' ? '★' : 'L'}</div>
+        <div class="toggle-p ${st === 'collected' || st === 'lumina' ? 'collected' : ''}" data-picto-c="${item.id}">${st === 'collected' || st === 'lumina' ? '✓' : '○'}</div>
+        <div class="toggle-p ${st === 'lumina' ? 'lumina' : ''}" data-picto-l="${item.id}">${st === 'lumina' ? '★' : 'L'}</div>
       </div>
       <div class="item-info">
         <div class="item-name">${esc(item.name)}</div>
@@ -341,30 +355,28 @@ function renderPictoItem(item) {
     </div>
     <div class="item-detail">${detailFields}</div>`;
 
-  // Collected toggle
-  el.querySelector(`[data-picto-c]`).addEventListener('click', e => {
+  el.querySelector('[data-picto-c]').addEventListener('click', e => {
     e.stopPropagation();
     const cur = getPictoState(item.id);
-    if (cur === 'none') state.pictos[item.id] = 'collected';
+    if (cur === 'none')      state.pictos[item.id] = 'collected';
     else if (cur === 'collected') state.pictos[item.id] = 'lumina';
-    else { delete state.pictos[item.id]; } // lumina → none resets both
+    else                     delete state.pictos[item.id];
     saveState();
     refreshPictoItem(el, item);
-    updateSectionProgress(PICTO_ID);
-    updateHeaderProgress();
+    updateCategoryProgress(PICTO_ID);
+    refreshHomeIfVisible();
   });
 
-  // Lumina toggle
-  el.querySelector(`[data-picto-l]`).addEventListener('click', e => {
+  el.querySelector('[data-picto-l]').addEventListener('click', e => {
     e.stopPropagation();
     const cur = getPictoState(item.id);
-    if (cur === 'lumina') state.pictos[item.id] = 'collected'; // lumina → collected
+    if (cur === 'lumina')    state.pictos[item.id] = 'collected';
     else if (cur === 'collected') state.pictos[item.id] = 'lumina';
-    else state.pictos[item.id] = 'collected'; // none → collected first
+    else                     state.pictos[item.id] = 'collected';
     saveState();
     refreshPictoItem(el, item);
-    updateSectionProgress(PICTO_ID);
-    updateHeaderProgress();
+    updateCategoryProgress(PICTO_ID);
+    refreshHomeIfVisible();
   });
 
   el.addEventListener('click', () => toggleExpand(el));
@@ -375,8 +387,6 @@ function renderTowerStageGroup(stage, trials) {
   const allDone = trials.every(t => isCompleted(t.id));
   const el = document.createElement('div');
   el.className = `item stage-row${allDone ? ' completed' : ''}`;
-  el.dataset.stage = stage;
-  el.dataset.cat = TOWER_ID;
 
   const trialsHtml = trials.map(t => `
     <div>
@@ -396,87 +406,61 @@ function renderTowerStageGroup(stage, trials) {
     </div>
     <div class="item-detail">${trialsHtml}</div>`;
 
-  el.querySelector(`[data-stage]`).addEventListener('click', e => {
+  el.querySelector('[data-stage]').addEventListener('click', e => {
     e.stopPropagation();
-    // Toggle all trials in this stage
     const newVal = !allDone;
-    trials.forEach(t => {
-      if (newVal) state.completed[t.id] = true;
-      else delete state.completed[t.id];
-    });
+    trials.forEach(t => { if (newVal) state.completed[t.id] = true; else delete state.completed[t.id]; });
     saveState();
-    // Re-render this stage
     const newEl = renderTowerStageGroup(stage, trials);
     el.replaceWith(newEl);
-    updateSectionProgress(TOWER_ID);
-    updateHeaderProgress();
+    updateCategoryProgress(TOWER_ID);
+    refreshHomeIfVisible();
   });
 
   el.addEventListener('click', () => toggleExpand(el));
   return el;
 }
 
-// ── EXPAND / COLLAPSE ─────────────────────────────────────────
+// ── EXPAND ───────────────────────────────────────────────────
 function toggleExpand(el) {
   const isOpen = el.classList.contains('expanded');
-  // Close all others in same section
-  const section = el.closest('.category-section');
-  if (section) section.querySelectorAll('.item.expanded').forEach(e => e.classList.remove('expanded'));
+  document.querySelectorAll('.item.expanded').forEach(e => e.classList.remove('expanded'));
   if (!isOpen) el.classList.add('expanded');
 }
 
-// ── UI UPDATE HELPERS ─────────────────────────────────────────
-function updateItemToggleUI(el, id, catId) {
-  const done = isCompleted(id);
-  const btn = el.querySelector('[data-toggle]');
-  if (btn) { btn.className = `toggle ${done ? 'on' : ''}`; btn.textContent = done ? '✓' : '○'; }
-  el.classList.toggle('completed', done);
+// ── REFRESH HOME PROGRESS (when on home view) ─────────────────
+async function refreshHomeIfVisible() {
+  const homeVisible = !document.getElementById('view-home').classList.contains('hidden');
+  if (!homeVisible) return;
+  const overall = await computeOverallProgress();
+  document.getElementById('home-overall-fill').style.width = `${overall.pct}%`;
+  document.getElementById('home-overall-pct').textContent  = `${overall.pct}%`;
+  document.getElementById('home-overall-label').textContent = `${overall.done} / ${overall.total} completed`;
+  // Update category card counts
+  document.querySelectorAll('.home-cat-card').forEach((card, i) => {
+    const cat  = categories[i];
+    if (!cat) return;
+    const data = dataCache[cat.id];
+    if (!data) return;
+    const p = computeProgress(cat.id, data.items);
+    const fill  = card.querySelector('.home-cat-fill');
+    const count = card.querySelector('.home-cat-count');
+    if (fill)  fill.style.width = `${p.pct}%`;
+    if (count) count.textContent = `${p.done} / ${p.total}`;
+  });
 }
 
-function refreshPictoItem(el, item) {
-  const st = getPictoState(item.id);
-  const cBtn = el.querySelector(`[data-picto-c]`);
-  const lBtn = el.querySelector(`[data-picto-l]`);
-  if (cBtn) {
-    cBtn.className = `toggle-p ${st === 'collected' || st === 'lumina' ? 'collected' : ''}`;
-    cBtn.textContent = st === 'collected' || st === 'lumina' ? '✓' : '○';
-  }
-  if (lBtn) {
-    lBtn.className = `toggle-p ${st === 'lumina' ? 'lumina' : ''}`;
-    lBtn.textContent = st === 'lumina' ? '★' : 'L';
-  }
-  el.classList.toggle('completed', st !== 'none');
-}
-
-function updateSectionProgress(catId) {
-  const section = document.getElementById(`section-${catId}`);
-  if (!section) return;
-  const data = dataCache[catId];
-  if (!data) return;
-  const p = computeProgress(catId, data.items);
-  const fill = section.querySelector('.progress-fill');
-  const pct  = section.querySelector('.progress-pct');
-  const cnt  = section.querySelector('.cat-count');
-  if (fill) fill.style.width = `${p.pct}%`;
-  if (pct)  pct.textContent = `${p.pct}%`;
-  if (cnt)  cnt.textContent = `${p.done} / ${p.total}`;
-}
-
-// ── SECTION RENDERING ─────────────────────────────────────────
+// ── SECTION RENDERER ──────────────────────────────────────────
 async function renderSection(cat) {
-  const data = await loadCategoryData(cat.id);
+  const data  = await loadCategoryData(cat.id);
   if (!data) return null;
-
   const items = data.items;
-  const p = computeProgress(cat.id, items);
+  const p     = computeProgress(cat.id, items);
 
   const section = document.createElement('section');
   section.className = 'category-section';
-  section.id = `section-${cat.id}`;
 
-  // Section header
   section.innerHTML = `
-    <div class="category-anchor" id="anchor-${cat.id}"></div>
     <div class="category-header">
       <div class="cat-rule-l"></div>
       <div class="cat-title">${esc(cat.name)}</div>
@@ -492,173 +476,115 @@ async function renderSection(cat) {
   const container = section.querySelector('.items-container');
 
   if (cat.id === TOWER_ID) {
-    renderTowerSection(items, container);
+    const stageMap = {};
+    items.forEach(it => { if (!stageMap[it.stage]) stageMap[it.stage] = []; stageMap[it.stage].push(it); });
+    Object.keys(stageMap).sort((a,b) => +a - +b).forEach(s => container.appendChild(renderTowerStageGroup(+s, stageMap[s])));
   } else if (cat.id === PICTO_ID) {
-    renderPictoSection(items, container, section);
+    items.forEach(item => container.appendChild(renderPictoItem(item)));
   } else if (CHAR_CATEGORIES.has(cat.id)) {
-    renderCharSection(cat.id, items, container, section);
-  } else {
-    items.forEach(item => {
-      const el = renderStandardItem(item, cat.id);
-      container.appendChild(el);
+    const chars = [...new Set(items.map(it => it.character).filter(Boolean))];
+    const hasFilterTabs = true; // all character categories use filter tabs
+
+    // Jump links only for categories without filter tabs
+    if (chars.length > 1 && !hasFilterTabs) {
+      const jumps = document.createElement('div');
+      jumps.className = 'char-jumps';
+      chars.forEach(ch => {
+        const btn = document.createElement('button');
+        btn.className = 'char-jump-btn';
+        btn.textContent = ch;
+        // Use scrollIntoView instead of href to avoid triggering the hash router
+        btn.addEventListener('click', () => {
+          const target = document.getElementById(`char-${cat.id}-${ch.replace(/\s+/g,'-')}`);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        jumps.appendChild(btn);
+      });
+      section.querySelector('.progress-row').insertAdjacentElement('afterend', jumps);
+    }
+    if (chars.length > 1) {
+      const tabs = document.createElement('div');
+      tabs.className = 'char-filter-tabs';
+      const allTab = document.createElement('button');
+      allTab.className = 'char-tab active'; allTab.textContent = 'All'; allTab.dataset.char = 'all';
+      tabs.appendChild(allTab);
+      chars.forEach(ch => {
+        const tab = document.createElement('button');
+        tab.className = 'char-tab'; tab.textContent = ch; tab.dataset.char = ch;
+        tabs.appendChild(tab);
+      });
+      tabs.addEventListener('click', e => {
+        const btn = e.target.closest('.char-tab');
+        if (!btn) return;
+        tabs.querySelectorAll('.char-tab').forEach(t => t.classList.remove('active'));
+        btn.classList.add('active');
+        const sel = btn.dataset.char;
+        container.querySelectorAll('.char-subheader').forEach(h => { h.style.display = (sel === 'all' || h.dataset.char === sel) ? '' : 'none'; });
+        container.querySelectorAll('.item').forEach(el => { el.style.display = (sel === 'all' || el.dataset.char === sel) ? '' : 'none'; });
+      });
+      const jumpsEl = section.querySelector('.char-jumps');
+      (jumpsEl || section.querySelector('.progress-row')).insertAdjacentElement('afterend', tabs);
+    }
+    chars.forEach(ch => {
+      const sub = document.createElement('div');
+      sub.className = 'char-subheader';
+      sub.id = `char-${cat.id}-${ch.replace(/\s+/g,'-')}`;
+      sub.dataset.char = ch;
+      sub.textContent = ch;
+      container.appendChild(sub);
+      items.filter(it => it.character === ch).forEach(item => {
+        const el = renderStandardItem(item, cat.id);
+        el.dataset.char = ch;
+        container.appendChild(el);
+      });
     });
+  } else {
+    items.forEach(item => container.appendChild(renderStandardItem(item, cat.id)));
   }
 
   return section;
 }
 
-function renderTowerSection(items, container) {
-  const stageMap = {};
-  items.forEach(it => {
-    if (!stageMap[it.stage]) stageMap[it.stage] = [];
-    stageMap[it.stage].push(it);
-  });
-  Object.keys(stageMap).sort((a,b) => +a - +b).forEach(stage => {
-    container.appendChild(renderTowerStageGroup(+stage, stageMap[stage]));
-  });
-}
-
-function renderPictoSection(items, container, section) {
-  // No character filter for pictos, just render all
-  items.forEach(item => {
-    const el = renderPictoItem(item);
-    container.appendChild(el);
-  });
-  applyFilters(section, PICTO_ID);
-}
-
-function renderCharSection(catId, items, container, section) {
-  const chars = [...new Set(items.map(it => it.character).filter(Boolean))];
-
-  // Jump links
-  if (chars.length > 1) {
-    const jumps = document.createElement('div');
-    jumps.className = 'char-jumps';
-    chars.forEach(ch => {
-      const btn = document.createElement('a');
-      btn.className = 'char-jump-btn';
-      btn.textContent = ch;
-      btn.href = `#char-${catId}-${ch.replace(/\s+/g, '-')}`;
-      jumps.appendChild(btn);
-    });
-    const progressRow = section.querySelector('.progress-row');
-    progressRow.insertAdjacentElement('afterend', jumps);
+// ── FILTERS ───────────────────────────────────────────────────
+function itemPassesFilter(item, catId) {
+  const { status, missable } = state.filters;
+  if (missable === 'only' && !item.missable) return false;
+  if (status === 'done') {
+    return catId === PICTO_ID ? getPictoState(item.id) !== 'none' : isCompleted(item.id);
   }
-
-  // Character filter tabs for weapons and monoco-skills
-  if (catId === 'weapons' || catId === 'monoco-skills') {
-    const tabs = document.createElement('div');
-    tabs.className = 'char-filter-tabs';
-    const allTab = document.createElement('button');
-    allTab.className = 'char-tab active';
-    allTab.textContent = 'All';
-    allTab.dataset.char = 'all';
-    tabs.appendChild(allTab);
-    chars.forEach(ch => {
-      const tab = document.createElement('button');
-      tab.className = 'char-tab';
-      tab.textContent = ch;
-      tab.dataset.char = ch;
-      tabs.appendChild(tab);
-    });
-    tabs.addEventListener('click', e => {
-      const btn = e.target.closest('.char-tab');
-      if (!btn) return;
-      tabs.querySelectorAll('.char-tab').forEach(t => t.classList.remove('active'));
-      btn.classList.add('active');
-      const sel = btn.dataset.char;
-      container.querySelectorAll('.char-subheader').forEach(h => {
-        h.style.display = (sel === 'all' || h.dataset.char === sel) ? '' : 'none';
-      });
-      container.querySelectorAll('.item').forEach(el => {
-        const itChar = el.dataset.char || '';
-        el.style.display = (sel === 'all' || itChar === sel) ? '' : 'none';
-      });
-    });
-    const jumpsEl = section.querySelector('.char-jumps');
-    if (jumpsEl) jumpsEl.insertAdjacentElement('afterend', tabs);
-    else {
-      const progressRow = section.querySelector('.progress-row');
-      progressRow.insertAdjacentElement('afterend', tabs);
-    }
+  if (status === 'remaining') {
+    return catId === PICTO_ID ? getPictoState(item.id) === 'none' : !isCompleted(item.id);
   }
-
-  chars.forEach(ch => {
-    const subheader = document.createElement('div');
-    subheader.className = 'char-subheader';
-    subheader.id = `char-${catId}-${ch.replace(/\s+/g, '-')}`;
-    subheader.dataset.char = ch;
-    subheader.textContent = ch;
-    subheader.style.scrollMarginTop = 'calc(var(--header-h) + 8px)';
-    container.appendChild(subheader);
-
-    items.filter(it => it.character === ch).forEach(item => {
-      const el = renderStandardItem(item, catId);
-      el.dataset.char = ch;
-      container.appendChild(el);
-    });
-  });
-
-  applyFilters(section, catId);
+  return true;
 }
 
-// ── FILTER APPLICATION ────────────────────────────────────────
 function applyFilters(section, catId) {
-  const items = section.querySelectorAll('.item');
-  let anyVisible = false;
-  items.forEach(el => {
-    const id = el.dataset.id;
-    if (!id) return;
+  if (!section) return;
+  section.querySelectorAll('.item').forEach(el => {
+    const id   = el.dataset.id;
     const data = dataCache[catId];
-    if (!data) return;
+    if (!data || !id) return;
     const item = data.items.find(it => it.id === id);
     if (!item) return;
-    const visible = itemPassesFilter(item, catId);
-    el.classList.toggle('hidden', !visible);
-    if (visible) anyVisible = true;
+    el.classList.toggle('hidden', !itemPassesFilter(item, catId));
   });
 }
 
-function applyAllFilters() {
-  const main = document.getElementById('main-scroll');
-  main.querySelectorAll('.category-section').forEach(section => {
-    const catId = section.id.replace('section-', '');
-    applyFilters(section, catId);
-  });
-}
-
-// ── MAIN RENDER ───────────────────────────────────────────────
-async function renderAll() {
-  const main = document.getElementById('main-scroll');
-  main.innerHTML = '<div class="empty-state">Loading…</div>';
-
-  await loadCategories();
-  main.innerHTML = '';
-
-  for (const cat of categories) {
-    const section = await renderSection(cat);
-    if (section) main.appendChild(section);
-  }
-
-  updateHeaderProgress();
-}
-
-// ── FILTER PANEL WIRING ───────────────────────────────────────
 function initFilterPanel() {
   const panel = document.getElementById('filter-panel');
   panel.querySelectorAll('.pill').forEach(pill => {
     pill.addEventListener('click', () => {
-      const filterKey = pill.dataset.filter;
-      const value = pill.dataset.value;
-      // Deactivate siblings
-      panel.querySelectorAll(`.pill[data-filter="${filterKey}"]`).forEach(p => p.classList.remove('active'));
+      const key = pill.dataset.filter;
+      panel.querySelectorAll(`.pill[data-filter="${key}"]`).forEach(p => p.classList.remove('active'));
       pill.classList.add('active');
-      state.filters[filterKey] = value;
+      state.filters[key] = pill.dataset.value;
       saveState();
-      applyAllFilters();
+      const hash = window.location.hash.replace('#', '');
+      const section = document.querySelector('.category-section');
+      if (section && hash) applyFilters(section, hash);
     });
   });
-  // Restore active pills from state
+  // Restore saved filter pills
   Object.entries(state.filters).forEach(([key, val]) => {
     const pill = panel.querySelector(`.pill[data-filter="${key}"][data-value="${val}"]`);
     if (pill) {
@@ -668,16 +594,34 @@ function initFilterPanel() {
   });
 }
 
+function refreshPictoItem(el, item) {
+  const st   = getPictoState(item.id);
+  const cBtn = el.querySelector('[data-picto-c]');
+  const lBtn = el.querySelector('[data-picto-l]');
+  if (cBtn) { cBtn.className = `toggle-p ${st === 'collected' || st === 'lumina' ? 'collected' : ''}`; cBtn.textContent = (st === 'collected' || st === 'lumina') ? '✓' : '○'; }
+  if (lBtn) { lBtn.className = `toggle-p ${st === 'lumina' ? 'lumina' : ''}`; lBtn.textContent = st === 'lumina' ? '★' : 'L'; }
+  el.classList.toggle('completed', st !== 'none');
+}
+
 // ── BOOT ──────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', async () => {
-  // Button wiring
-  document.getElementById('btn-categories').addEventListener('click', openOverlay);
-  document.getElementById('btn-close-overlay').addEventListener('click', closeOverlay);
+  await loadCategories();
+
+  // Back button
+  document.getElementById('btn-back').addEventListener('click', goHome);
+
+  // Filter toggle
   document.getElementById('btn-filter').addEventListener('click', () => {
     document.getElementById('filter-panel').classList.toggle('open');
   });
+
+  // Export
   document.getElementById('btn-export').addEventListener('click', exportProgress);
 
+  // Filter pills
   initFilterPanel();
-  await renderAll();
+
+  // Hash routing
+  window.addEventListener('hashchange', route);
+  await route();
 });
