@@ -6,7 +6,7 @@
     {
       "id": "w-000",
       "name": "Abysseram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Continent",
       "how_to_find": "Defeat the Bourgeon south of Stone Wave Cliffs Defeat the Bourgeon on the left side of the Eveque bosses' area",
       "damage_type": "Physical",
@@ -20,7 +20,7 @@
     {
       "id": "w-001",
       "name": "Baguette",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Lumiere (Prologue, ng+)",
       "how_to_find": "After you get down on the street and have talked to Sophie, you can come across a bakery as you go through the streets of Lumiere, if you have a Festival Token from the previous playthrough, interact with the bakery with Gustave to get the weapon",
       "damage_type": "Void",
@@ -34,7 +34,7 @@
     {
       "id": "w-002",
       "name": "Blodam",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Continent",
       "how_to_find": "Defeat the Chromatic Reaper Cultist on the island east to Coastal Cave",
       "damage_type": "Light",
@@ -48,7 +48,7 @@
     {
       "id": "w-003",
       "name": "Chevalam",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Crimson Forest",
       "how_to_find": "Defeat the Chromatic Gold Chevaliere",
       "damage_type": "Physical",
@@ -62,7 +62,7 @@
     {
       "id": "w-004",
       "name": "Confuso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Visages",
       "how_to_find": "At the Joyful Vale section, you can find a loot beam in an area on the left side of the mask being guarded by a Contorsionniste. Defeat the enemy to pick up Confuso",
       "damage_type": "Light",
@@ -76,7 +76,7 @@
     {
       "id": "w-005",
       "name": "Contorso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Chosen Path",
       "how_to_find": "Acquired as a drop reward for defeating the Contortionniste enemy, encountered by interacting with the third painting on the right",
       "damage_type": "Lightning",
@@ -90,7 +90,7 @@
     {
       "id": "w-006",
       "name": "Corpeso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Dark Shores",
       "how_to_find": "Can drop from the Noir enemies encountered in Dark Shores. Requires Esquie's swim or fly ability to reach the location",
       "damage_type": "Fire",
@@ -104,7 +104,7 @@
     {
       "id": "w-007",
       "name": "Cruleram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Flying Waters",
       "how_to_find": "Can drop from the Cruler enemy upon defeating it for the first time Can be purchased from a Bruler blacksmith in Coastal Cave for 19795 Chroma Defeat the Cruler behind the Eveque bosses Defeat the Chromatic Cruler within the Night Totem",
       "damage_type": "Ice",
@@ -118,7 +118,7 @@
     {
       "id": "w-008",
       "name": "Cultam",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Monoco's Station",
       "how_to_find": "Sold by the Grandis Merchant. Acquire the Eternal Ice by defeating the Gargant in Frozen Hearts",
       "damage_type": "Dark",
@@ -132,7 +132,7 @@
     {
       "id": "w-009",
       "name": "Danseso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Old Lumiere",
       "how_to_find": "Defeat the Chromatic Danseuse",
       "damage_type": "Fire",
@@ -146,7 +146,7 @@
     {
       "id": "w-010",
       "name": "Delaram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Stone Wave Cliffs",
       "how_to_find": "Obtained from a Paint Cage",
       "damage_type": "Light",
@@ -160,7 +160,7 @@
     {
       "id": "w-011",
       "name": "Demonam",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Gestral Village",
       "how_to_find": "Sold by Jujubree for 4002 Chroma",
       "damage_type": "Light",
@@ -174,7 +174,7 @@
     {
       "id": "w-012",
       "name": "Dreameso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Monolith",
       "how_to_find": "Defeat the Clair Obscur in Tainted Lumiere",
       "damage_type": "Physical",
@@ -188,7 +188,7 @@
     {
       "id": "w-013",
       "name": "Dualiso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Forgotten Battlefield",
       "how_to_find": "Defeat the Dualliste Defeat the Dualliste",
       "damage_type": "Lightning",
@@ -202,7 +202,7 @@
     {
       "id": "w-014",
       "name": "Gaulteram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Continent",
       "how_to_find": "Defeat the Bourgeon south of Stone Wave Cliffs Drop from the first Gault enemy you encounter Sold by Cribappa for 30704 Chroma",
       "damage_type": "Earth",
@@ -216,7 +216,7 @@
     {
       "id": "w-015",
       "name": "Gesam",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Flying Manor",
       "how_to_find": "Sold by Fusoka for 81500 Chroma",
       "damage_type": "Physical",
@@ -230,7 +230,7 @@
     {
       "id": "w-016",
       "name": "Glaceso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Continent",
       "how_to_find": "Drop reward for initially defeating a group of enemies near The Carousel",
       "damage_type": "Ice",
@@ -244,7 +244,7 @@
     {
       "id": "w-017",
       "name": "Lanceram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Spring Meadows",
       "how_to_find": "Drops from a Lancelier enemy encountered just past the Meadows Corridor flag Can be purchased from a Cruler blacksmith for 21275 Chroma Drops from a Hexga encountered behind the Dualliste",
       "damage_type": "Physical",
@@ -258,7 +258,7 @@
     {
       "id": "w-018",
       "name": "Liteso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Lumiere (Act III)",
       "how_to_find": "Defeat the Lumiere Citizen in the Central Plaza",
       "damage_type": "Physical",
@@ -272,7 +272,7 @@
     {
       "id": "w-019",
       "name": "Noahram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Default",
       "how_to_find": "Starting weapon for Gustave",
       "damage_type": "Physical",
@@ -286,7 +286,7 @@
     {
       "id": "w-020",
       "name": "Nosaram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Renoir's Drafts",
       "how_to_find": "Can be purchased from Gour for 107471 Chroma",
       "damage_type": "Physical",
@@ -300,7 +300,7 @@
     {
       "id": "w-021",
       "name": "Sakaram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Ancient Sanctuary",
       "how_to_find": "Drops from defeating the first Robust Sakapatate you encounter Defeat Golgra as Gustave/Verso Defeat the Chromatic Robust Sakapatate",
       "damage_type": "Physical",
@@ -314,7 +314,7 @@
     {
       "id": "w-022",
       "name": "Seeram",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Coastal Cave",
       "how_to_find": "Can be purchased from a Cruler blacksmith for 21275 Chroma",
       "damage_type": "Light",
@@ -328,7 +328,7 @@
     {
       "id": "w-023",
       "name": "Simoso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Abyss",
       "how_to_find": "Defeat Simon",
       "damage_type": "Light",
@@ -342,7 +342,7 @@
     {
       "id": "w-024",
       "name": "Sireso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Sirene",
       "how_to_find": "Defeat the Chromatic Greatsword Cultist",
       "damage_type": "Physical",
@@ -356,7 +356,7 @@
     {
       "id": "w-025",
       "name": "Tireso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "The Reacher",
       "how_to_find": "Can be purchased from Eragol for 51635 Chroma",
       "damage_type": "Earth",
@@ -370,7 +370,7 @@
     {
       "id": "w-026",
       "name": "Verleso",
-      "character": "",
+      "character": "Gustave/Verso",
       "location": "Default",
       "how_to_find": "Starting weapon for Verso",
       "damage_type": "Physical",

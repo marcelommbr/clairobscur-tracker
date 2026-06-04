@@ -608,6 +608,9 @@ def convert_tint_upgrades():
     save("tint-upgrades.json", {"id": "tint-upgrades", "name": "Tint Upgrades", "ign_url": IGN_CATEGORY_URLS["tint-upgrades"], "items": items})
 
 # ── WEAPONS ───────────────────────────────────────────────────────────────────
+WEAPON_SKIP = {"Weapon", "Location", "How to Find", "Collected?", "Damage Type",
+               "Max Damage", "Scaling (S/A)", "Passives", "You have found"}
+
 def convert_weapons():
     df = pd.read_excel(SRC, sheet_name="Weapons", header=None)
     items = []
@@ -619,7 +622,7 @@ def convert_weapons():
             items.append(current.copy())
 
     for i, row in df.iterrows():
-        if i < 2: continue
+        if i < 1: continue  # skip only the totals row (row 0)
         name        = clean(row[0])
         loc         = clean(row[2])
         how         = clean(row[4])
@@ -630,8 +633,11 @@ def convert_weapons():
         passives    = clean(row[17]) + " " + clean(row[18])
         passives    = passives.strip()
 
-        # Character header (e.g. "Gustave/Verso", "Lune", etc.)
-        if name and not loc and not how and not dmg_type and name not in ("Weapon", "Location", "How to Find", "Collected?", "Damage Type", "Max Damage", "Scaling (S/A)", "Passives"):
+        # Skip the column-header row
+        if name in WEAPON_SKIP: continue
+
+        # Character header row: has a name, no location, no how_to_find, no damage_type
+        if name and not loc and not how and not dmg_type:
             flush(); current = None
             current_character = name
             continue
