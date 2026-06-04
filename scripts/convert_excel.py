@@ -123,47 +123,122 @@ def clean(val):
     return str(val).strip().replace("\n", " ").replace("\\n", " ")
 
 # ── BOSS REWARDS LOOKUP ───────────────────────────────────────
-# Source: CHECKLISTS.md research + IGN/PowerPyx guides
-BOSS_REWARDS = {
-    # Named/Secret bosses
-    "Alicia":           "Painted Me Haircut, Lithum Weapon, Resplendent Chroma Catalysts",
-    "Clea":             "Clea's Life Pictos, Perfect Chroma Catalyst, Grandiose Chroma Catalysts",
-    "Simon":            "Simoso Weapon, Perfect Chroma Catalysts, 50× Colour of Lumina",
-    "Grosse Tete":      "Warming Up Pictos, Resplendent Chroma Catalyst",
-    "Sprong":           "Cheater Pictos, Grandiose Chroma Catalysts",
-    "Serpenphare":      "Energy Master Pictos, Perfect Chroma Catalyst, Grandiose Chroma Catalyst",
-    "Golgra":           "EXP, rare items",
-    "Painted Love":     "Resplendent Chroma Catalysts, Colour of Lumina",
-    # Chromatic bosses (general pattern)
-    "_chromatic":       "Resplendent Chroma Catalyst, Colour of Lumina",
-    # Gestral Arena bosses
-    "Chromatic Catapult Sakapatate": "Resplendent Chroma Catalyst, Colour of Lumina",
-    "Chromatic Ranger Sakapatate":   "Resplendent Chroma Catalyst, Colour of Lumina",
-    "Chromatic Robust Sakapatate":   "Resplendent Chroma Catalyst, Colour of Lumina",
-    # World bosses / Elemental Eveques
-    "Thunder Eveque":   "Grandiose Chroma Catalysts, Colour of Lumina",
-    "Flame Eveque":     "Grandiose Chroma Catalysts, Colour of Lumina",
-    # Other notable
-    "Glaise":           "Resplendent Chroma Catalyst, Colour of Lumina",
-    "Grown Bourgeon":   "Colour of Lumina, Chroma Catalysts",
+# Sources: Fextralife wiki, ScreenRant chromatic list, IGN/PowerPyx
+# Main boss rewards (story bosses)
+MAIN_BOSS_REWARDS = {
+    "Eveque":               "Cleansing Tint, Chroma Catalyst ×3, Recoat",
+    "Goblu":                "Shape of Health, Polished Chroma Catalyst, Chroma Catalyst ×3, Recoat",
+    "The Curator":          "Story fight — no loot drop",
+    "Ultimate Sakapatate":  "Breaker Pictos, Polished Chroma Catalyst ×3",
+    "Sciel":                "Story fight — no loot drop",
+    "Francois":             "Augmented First Strike Pictos",
+    "Lampmaster":           "At Death's Door Pictos, Shape of Life, Polished Chroma Catalyst ×3, Recoat",
+    "Dualliste":            "Dualiso Weapon, Combo Attack I Pictos, Polished Chroma Catalyst ×3",
+    "Monoco":               "Story fight — Resplendent Chroma Catalyst ×3, Recoat",
+    "Stalact":              "Polished Chroma Catalyst",
+    "Jovial Moissonneuse":  "Chapelim Weapon (Lune), Resplendent Chroma Catalyst",
+    "Seething Boucheclier": "Clierum Weapon (Maelle), Resplendent Chroma Catalyst",
+    "Sorrowful Chapelier":  "Boucharo Weapon (Monoco), Resplendent Chroma Catalyst",
+    "Visages":              "Immaculate Pictos, Resplendent Chroma Catalyst ×6, Recoat",
+    "Mask Keeper":          "Immaculate Pictos, Resplendent Chroma Catalyst ×6, Recoat",
+    "Tisseur":              "Tissenum Weapon, Anti-Charm Pictos, Resplendent Chroma Catalyst ×3",
+    "Glissando":            "Sirene Outfit (Lune), Resplendent Chroma Catalyst",
+    "Sirene":               "Tisseron Weapon, Energising Turn Pictos, Resplendent Chroma Catalyst ×3, Recoat",
+    "Gargant":              "Resplendent Chroma Catalyst ×3",
+    "The Paintress":        "Painted Power Weapon, Resplendent Chroma Catalyst ×3, Recoat",
+    "Creation":             "Faster Than Strong Pictos, Resplendent Chroma Catalyst",
+    "Renoir":               "Melarum Weapon, Renoir's Suit Outfit (Verso), Second Chance Pictos, Resplendent Chroma Catalyst ×3",
 }
 
-def get_boss_rewards(name):
+# Optional boss rewards (sourced from Fextralife wiki + ScreenRant chromatic list)
+OPTIONAL_BOSS_REWARDS = {
+    # Secret / named bosses
+    "Alicia":               "Painted Me Haircut (Maelle), Lithum Weapon, Resplendent Chroma Catalyst ×3",
+    "Clea":                 "Clea's Life Pictos, Perfect Chroma Catalyst, Grandiose Chroma Catalyst ×3",
+    "Simon":                "Simoso Weapon, Colour of Lumina ×50, Perfect Chroma Catalyst ×2",
+    "Grosse Tete":          "Warming Up Pictos, Resplendent Chroma Catalyst",
+    "Sprong":               "Cheater Weapon, Grandiose Chroma Catalyst ×3",
+    "Serpenphare":          "Energy Master Pictos, Perfect Chroma Catalyst, Grandiose Chroma Catalyst ×3",
+    "Golgra":               "Grandiose Chroma Catalyst ×3, Character weapons (Maelle/Lune/Sciel/Monoco/Verso)",
+    "Painted Love":         "Clair Outfit (Verso), Music Record: Clea, Perfect Chroma Catalyst, Colour of Lumina ×5",
+    "Clair Obscur":         "Dreameso Weapon, Resplendent Chroma Catalyst ×2, Colour of Lumina ×5",
+    # Elemental Eveques
+    "Flame Eveque":         "Kralim Weapon, Grandiose Chroma Catalyst ×6, Colour of Lumina ×5",
+    "Frost Eveque":         "Energising Gradient Pictos, Resplendent Chroma Catalyst ×2, Colour of Lumina ×5",
+    "Thunder Eveque":       "Breaking Death Pictos, Grandiose Chroma Catalyst ×2, Colour of Lumina ×5",
+    # Other named optional bosses
+    "Glaise":               "Energising Attack I Pictos, Plenum Weapon, Polished Chroma Catalyst ×3",
+    "Grown Bourgeon":       "Colour of Lumina ×5, Polished Chroma Catalyst",
+    "Bourgeon":             "Augmented Counter I Pictos, Abysseram Weapon, Polished Chroma Catalyst",
+    "Scavenger":            "Scaverim Weapon, Resplendent Chroma Catalyst ×3",
+    "Contorsionniste":      "Resplendent Chroma Catalyst, Recoat",
+    "Benisseur":            "Powerful On Shell Pictos",
+    "Rocher":               "Rock Crystal (Quest Item)",
+    "Matthieu the Colossus":"Chroma, EXP",
+    "Dominique Giant Feet": "Chroma, EXP",
+    "Blanche":              "10× or 100× Colour of Lumina (depends on Nevron quest choices)",
+    "Giant Sappling":       "Colour of Lumina, Chroma Catalysts",
+    "Bertard Big Hands":    "Grandiose Chroma Catalyst, Colour of Lumina",
+    "Julien Tiny Head":     "Grandiose Chroma Catalyst, Colour of Lumina",
+    "Jar":                  "Polished Chroma Catalyst, Colour of Lumina",
+    # Chromatic bosses (from ScreenRant complete list)
+    "Chromatic Abbest":              "First Offensive Pictos",
+    "Chromatic Aberration":          "Longer Burn Pictos, Brumaro Weapon (Monoco)",
+    "Chromatic Ballet":              "Blizzon Weapon",
+    "Chromatic Benisseur":           "Benisim Weapon (Lune)",
+    "Chromatic Boucheclier":         "Facesum Weapon",
+    "Chromatic Bourgeon":            "Bourgelon Weapon",
+    "Chromatic Braseleur":           "Braselim Weapon",
+    "Chromatic Bruler":              "Powerful Revive Pictos",
+    "Chromatic Catapult Sakapatate": "Trebuchim Weapon",
+    "Chromatic Ceramic Chevaliere":  "Grandiose Chroma Catalyst ×2, Colour of Lumina ×5",
+    "Chromatic Chalier":             "Chalium Weapon",
+    "Chromatic Chapelier":           "Shielding Death Pictos, Minason Weapon",
+    "Chromatic Clair Obscur":        "Combo Attack III Pictos",
+    "Chromatic Creation":            "Perfect Chroma Catalyst",
+    "Chromatic Cruler":              "Cruleram Weapon, Quick Break Pictos",
+    "Chromatic Danseuse":            "Revive Paradox Pictos, Danseso Weapon",
+    "Chromatic Demineur":            "Angerim Weapon",
+    "Chromatic Echassier":           "Augmented Counter III Pictos",
+    "Chromatic Eveque":              "Grandiose Chroma Catalyst ×2, Colour of Lumina ×5",
+    "Chromatic Gault":               "Tainted Pictos",
+    "Chromatic Glaise":              "Urnaro Weapon",
+    "Chromatic Glissando":           "Choralim Weapon",
+    "Chromatic Goblu":               "Gobluson Weapon",
+    "Chromatic Gold Chevaliere":     "Perilous Parry Pictos, Chevalam Weapon",
+    "Chromatic Greatsword Cultist":  "Sireso Weapon",
+    "Chromatic Hexga":               "Energising Revive Pictos, Confident Pictos",
+    "Chromatic Jar":                 "Jarum Weapon",
+    "Chromatic Lancelier":           "Augmented Attack Pictos, Lanceram Weapon",
+    "Chromatic Luster":              "Lusteson Weapon, Energising Parry Pictos",
+    "Chromatic Moissonneuse":        "Moisson Weapon",
+    "Chromatic Orphelin":            "Kralim Weapon",
+    "Chromatic Petank":              "Anti-Stun Pictos",
+    "Chromatic Portier":             "Anti-Blight Pictos",
+    "Chromatic Ramasseur":           "Augmented Counter II Pictos",
+    "Chromatic Ranger Sakapatate":   "Grandiose Chroma Catalyst, Colour of Lumina",
+    "Chromatic Reaper Cultist":      "Blodam Weapon",
+    "Chromatic Robust Sakapatate":   "Sakaram Weapon",
+    "Chromatic Steel Chevaliere":    "Grandiose Chroma Catalyst ×2, Colour of Lumina ×5",
+    "Chromatic Troubadour":          "Troubadim Weapon",
+    "Chromatic Veilleur":            "Energising Burn Pictos",
+}
+
+def get_boss_rewards(name, is_main=False):
     """Return rewards string for a boss by name."""
-    # Exact match first
-    if name in BOSS_REWARDS:
-        return BOSS_REWARDS[name]
-    # Partial match for named bosses (e.g. "Grosse Tete (The Continent)")
-    for key, val in BOSS_REWARDS.items():
-        if key.startswith('_'):
-            continue
-        if key.lower() in name.lower():
+    lookup = MAIN_BOSS_REWARDS if is_main else OPTIONAL_BOSS_REWARDS
+    # Exact match
+    if name in lookup:
+        return lookup[name]
+    # Partial match (handles names like "Grosse Tete (Boss)")
+    name_lower = name.lower()
+    for key, val in lookup.items():
+        if key.lower() in name_lower or name_lower in key.lower():
             return val
-    # Chromatic bosses fallback
-    if "chromatic" in name.lower():
-        return BOSS_REWARDS["_chromatic"]
-    # Generic fallback for all bosses
-    return "EXP, Chroma Catalysts, Colour of Lumina"
+    # Chromatic fallback
+    if "chromatic" in name_lower:
+        return "Character Weapon, Resplendent Chroma Catalyst, Colour of Lumina"
+    return "Chroma Catalysts, Colour of Lumina"
 
 def save(filename, data):
     path = os.path.join(OUT, filename)
@@ -201,7 +276,7 @@ def convert_bosses():
                 "id": slug("bm", "bm", len(main_items)),
                 "name": name_m,
                 "location": loc_m,
-                "rewards": get_boss_rewards(name_m),
+                "rewards": get_boss_rewards(name_m, is_main=True),
                 "missable": is_missable(name_m, loc_m),
                 "act": extract_act(name_m, loc_m),
                 "ign_url": IGN_CATEGORY_URLS["bosses-main"],
